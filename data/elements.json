@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "elements": [
+    {
+      "id": "aero",
+      "name": {
+        "en": "Aero"
+      }
+    },
+    {
+      "id": "electro",
+      "name": {
+        "en": "Electro"
+      }
+    },
+    {
+      "id": "fusion",
+      "name": {
+        "en": "Fusion"
+      }
+    },
+    {
+      "id": "glacio",
+      "name": {
+        "en": "Glacio"
+      }
+    },
+    {
+      "id": "havoc",
+      "name": {
+        "en": "Havoc"
+      }
+    },
+    {
+      "id": "spectro",
+      "name": {
+        "en": "Spectro"
+      }
+    }
+  ]
+}

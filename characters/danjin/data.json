@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "danjin",
+  "name": {
+    "en": "Danjin"
+  },
+  "rarity": 4,
+  "element": "havoc",
+  "weapon_type": "sword",
+  "source": {
+    "site": "Prydwen.gg",
+    "verified_at": "2026-08-28",
+    "page_last_updated": "2026-08-20"
+  }
+}

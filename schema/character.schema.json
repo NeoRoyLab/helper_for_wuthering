@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/NeoRoyLab/helper_for_wuthering/main/schema/character.schema.json",
+  "title": "Wuthering Waves character core record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "rarity",
+    "element",
+    "weapon_type",
+    "source"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ru": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uk": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "rarity": {
+      "type": "integer",
+      "enum": [
+        4,
+        5
+      ]
+    },
+    "element": {
+      "type": "string",
+      "enum": [
+        "aero",
+        "electro",
+        "fusion",
+        "glacio",
+        "havoc",
+        "spectro"
+      ]
+    },
+    "weapon_type": {
+      "type": "string",
+      "enum": [
+        "broadblade",
+        "gauntlets",
+        "pistols",
+        "rectifier",
+        "sword"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "site",
+        "verified_at",
+        "page_last_updated"
+      ],
+      "properties": {
+        "site": {
+          "type": "string",
+          "const": "Prydwen.gg"
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "page_last_updated": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  }
+}

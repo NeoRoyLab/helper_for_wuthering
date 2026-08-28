@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "taoqi",
+  "name": {
+    "en": "Taoqi"
+  },
+  "rarity": 4,
+  "element": "havoc",
+  "weapon_type": "broadblade",
+  "source": {
+    "site": "Prydwen.gg",
+    "verified_at": "2026-08-28",
+    "page_last_updated": "2026-08-20"
+  }
+}

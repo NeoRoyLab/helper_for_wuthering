@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "weapon_types": [
+    {
+      "id": "broadblade",
+      "name": {
+        "en": "Broadblade"
+      }
+    },
+    {
+      "id": "gauntlets",
+      "name": {
+        "en": "Gauntlets"
+      }
+    },
+    {
+      "id": "pistols",
+      "name": {
+        "en": "Pistols"
+      }
+    },
+    {
+      "id": "rectifier",
+      "name": {
+        "en": "Rectifier"
+      }
+    },
+    {
+      "id": "sword",
+      "name": {
+        "en": "Sword"
+      }
+    }
+  ]
+}
