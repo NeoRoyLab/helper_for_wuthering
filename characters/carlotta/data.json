@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "glacio",
   "weapon_type": "pistols",
+  "profile": {
+    "description": {
+      "en": "She is the second daughter of the esteemed Montelli Family of Rinascita, embodying innate nobility and a refined appreciation for art. She wields unparalleled intelligence, confidence, cunning, and an ambition to elevate Ragunna City to new heights. Her determination extends to her work of maintaining her family\u0027s interests, as well as eliminating those standing in the way of them."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 12450.0,
+      "attack": 462.5,
+      "defense": 1197.76
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Carlotta",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 96615,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

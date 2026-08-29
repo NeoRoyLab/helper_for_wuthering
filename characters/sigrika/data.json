@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "aero",
   "weapon_type": "gauntlets",
+  "profile": {
+    "description": {
+      "en": "She is a student in the Preparatory Program at Startorch Academy and a member of its Birding Fan Club as well as a Solsworn from the Roya Tribe. Although she shoulders the heavy responsibility of being a Heliodic Six Successor, she is an overwhelmingly kind and gentle woman dedicated to helping her classmates through their struggles."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10775.0,
+      "attack": 437.5,
+      "defense": 1136.65
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Sigrika",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 136636,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

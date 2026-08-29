@@ -7,6 +7,25 @@
   "rarity": 4,
   "element": "havoc",
   "weapon_type": "sword",
+  "profile": {
+    "description": {
+      "en": "She is a member of the Midnight Rangers and hunts down thieves and bandits in order to bring them to justice."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 9437.5,
+      "attack": 262.5,
+      "defense": 1148.87
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Danjin",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 92937,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

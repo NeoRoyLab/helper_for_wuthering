@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "spectro",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is an Acolyte of the Order of the Deep. A young woman of quiet devotion and compassionate, nurturing nature, she upholds the teachings of her faith with unwavering diligence. Raised her entire life as a devout Acolyte, she extends her heartfelt kindness to everyone she meets with her good graces and unquestionable reverence to Sentinel Imperator."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10825.0,
+      "attack": 412.5,
+      "defense": 1258.87
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Phoebe",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 96617,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

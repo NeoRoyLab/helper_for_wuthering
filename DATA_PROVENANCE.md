@@ -6,16 +6,20 @@
 - Roster page verified on 2026-08-28 and displayed 60 character cards.
 - Character Convene Draw artwork: [Wuthering Waves Fandom wiki](https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Wiki),
   verified through its MediaWiki API on 2026-08-29.
+- Character profile descriptions: the introductory profile text on each Wuthering Waves Wiki
+  character page, verified through exact page revisions on 2026-08-30.
+- Character Level 90 HP, ATK, and DEF: the Wuthering Waves Wiki
+  `Module:Resonator Ascensions and Stats/data` revision recorded in
+  `manifests/character_profiles.json`, verified on 2026-08-30.
 - Per-character build ordering: the visible Build tab of each
   [Prydwen character guide](https://www.prydwen.gg/wuthering-waves/characters), verified on 2026-08-29.
 - Weapon names, rarity, type, and icon PNGs; Echo Set names, piece bonuses, and icon PNGs:
   [Wuthering Waves Fandom wiki](https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Wiki),
   verified through exact page revisions and file metadata on 2026-08-29.
 
-Character records contain the source site, verification date, the source page's displayed
-last-updated date, and an optional repository-relative `convene_draw` path. Per-character source
-URLs are intentionally omitted to keep runtime records compact. Exact wiki filenames, dimensions,
-and SHA-256 hashes are recorded in `manifests/character_images.json`.
+Character records contain source metadata for the original core fields, exact wiki page and module
+revisions for profile fields, and an optional repository-relative `convene_draw` path. Exact wiki
+filenames, dimensions, and SHA-256 hashes are recorded in `manifests/character_images.json`.
 
 ## Authored transformations
 
@@ -43,15 +47,24 @@ The following values are repository conventions created for the application, not
     `echo_set_source_name` so the mapping is auditable.
 12. Wiki page lookup removes `#` only for the three titles `Broadblade#41`, `Rectifier#25`, and
     `Gauntlets#21D`, because MediaWiki treats `#` as a fragment; the user-facing weapon names retain it.
+13. Profile descriptions use the wiki's introductory profile paragraph rather than the promotional
+    Official Introduction section. Links, emphasis, references, HTML comments, and line breaks are
+    removed mechanically, and whitespace is collapsed. The visible text parameter is retained for
+    the wiki `W`, `Extra Effect`, `Rubi`, and `Quest` templates. Wording is not translated or rewritten.
+14. The four Rover variants share the descriptive paragraph from the main Rover wiki page. Their
+    Level 90 stats remain variant-specific.
+15. Level 90 stats are deterministically calculated from the wiki data module with the same published
+    multipliers used by its table renderer: `12.5` for HP and ATK and `12.222` for DEF, rounded to two
+    decimal places. This calculation is application-generated; the base values and formula are wiki data.
 
-No machine translation or manually authored translation is included. No character description
-was copied or rewritten.
+No machine translation, manually authored translation, generated description, or rewritten profile
+text is included.
 
 ## Known source limitations
 
-Prydwen listed Hsin, Jingran, and Suoming with core identity data while their detailed skill,
-stat, material, build, and team sections were explicitly unavailable. Version 1 stores only the
-same core fields for every character, so those missing detailed sections are not fabricated.
+The verified wiki pages did not publish a profile description for Jingran or Suoming. The verified
+wiki stats module did not publish complete base HP, ATK, and DEF for Buling, Hsin, Jingran, Lucilla,
+Lucy, Rebecca, or Suoming. Those fields are omitted rather than estimated or copied from another site.
 
 Future enrichment must cite a source per added field group and must not silently fill missing
 values with guesses, generated prose, or unofficial translations.

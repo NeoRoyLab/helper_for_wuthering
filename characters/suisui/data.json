@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "glacio",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "Born into a noble family of Mingting, she is the brilliant young director of the Zhaoming Commerce Guild."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 16712.5,
+      "attack": 287.5,
+      "defense": 1099.98
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Suisui",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 137053,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

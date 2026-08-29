@@ -7,6 +7,19 @@
   "rarity": 4,
   "element": "electro",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is a Black Shores Consultant, known as the \"Spiritchaser Taoist,\" who wanders far and wide investigating and sharing the strange and mysterious. She is a master of fortune-telling, feng shui, and other arts of divination. To cover the expenses in her travels, she sells talismans and offers her divination services, which she thinks of as a sort of guidance for those in need."
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Buling",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 97061,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "spectro",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is known as \"the Second Instance,\" the Guardian of the Black Shores, and is a mythical entity composed of Sonoro Spheres and high-purity Remnant Energy crystals with the power to guide the Tethys System and control the stars themselves, only appearing during times of crisis to aid the true leader of the Black Shores. Even among the organization\u0027s guests and members, she remains an incredibly enigmatic figure."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 16712.5,
+      "attack": 287.5,
+      "defense": 1099.98
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Shorekeeper",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 101177,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

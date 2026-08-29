@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "havoc",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is a particularly powerful Resonator and a former Overseer of the Fractsidus. Her forte can manipulate and transfigure the frequencies of humans, Echoes, and Tacet Discords alike. A life filled with unexpected suffering, grief, and betrayal led this former musician to align with the Fractsidus, in which she seeks to rekindle a past from which she was the sole survivor. After working with the Fractsidus for a long time, she made a promise with the leader, the Grand Architect to complete one final task. Following its completion in Dawn Breaks on Dark Tides, she left the organization to find her own path. After completing Dreamcatchers in the Secret Gardens, she can be found in the Lost Beyond."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10775.0,
+      "attack": 437.5,
+      "defense": 1136.65
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Phrolova",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 99099,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

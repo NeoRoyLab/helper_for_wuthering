@@ -10,10 +10,15 @@ function Read-Json([string] $path) {
 $master = Read-Json (Join-Path $root 'manifest.json')
 $manifest = Read-Json (Join-Path $root 'manifests\characters.json')
 $imageManifest = Read-Json (Join-Path $root 'manifests\character_images.json')
+$profileManifest = Read-Json (Join-Path $root 'manifests\character_profiles.json')
 if ($master.schema_version -ne 1) { throw 'Unexpected master schema version.' }
 if ($manifest.schema_version -ne 1) { throw 'Unexpected character manifest schema version.' }
 if ($manifest.characters.Count -ne 60) { throw "Expected 60 ids, got $($manifest.characters.Count)." }
 if (($manifest.characters | Sort-Object -Unique).Count -ne 60) { throw 'Duplicate manifest ids.' }
+$characterEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
+if ($null -eq $characterEntry -or $characterEntry.version -ne 3 -or $characterEntry.count -ne 60) {
+    throw 'The master manifest characters entry is missing or invalid.'
+}
 
 $elements = @('aero', 'electro', 'fusion', 'glacio', 'havoc', 'spectro')
 $weapons = @('broadblade', 'gauntlets', 'pistols', 'rectifier', 'sword')
@@ -26,6 +31,24 @@ foreach ($image in $imageManifest.images) {
 }
 if ($imageById.Count -ne $expectedImageCount) { throw "Expected $expectedImageCount images, got $($imageById.Count)." }
 if ($imageManifest.unavailable.Count -ne $expectedUnavailableCount) { throw "Expected $expectedUnavailableCount unavailable entries." }
+$expectedMissingDescriptions = @('jingran', 'suoming')
+$expectedMissingStats = @('buling', 'hsin', 'jingran', 'lucilla', 'lucy', 'rebecca', 'suoming')
+if ($profileManifest.schema_version -ne 1 -or
+    $profileManifest.source_site -cne 'Wuthering Waves Wiki' -or
+    $profileManifest.verified_at -cne '2026-08-30' -or
+    $profileManifest.stats_module_revision_id -le 0 -or
+    $profileManifest.profiles.Count -ne 60 -or
+    $profileManifest.unavailable.Count -ne 7) {
+    throw 'Invalid character profile manifest metadata.'
+}
+if (@(Compare-Object $expectedMissingStats @($profileManifest.unavailable.id)).Count -ne 0) {
+    throw 'Character profile gaps are not documented exactly.'
+}
+$profileById = @{}
+foreach ($profileIndex in $profileManifest.profiles) {
+    if ($profileById.ContainsKey([string]$profileIndex.id)) { throw "Duplicate profile id: $($profileIndex.id)" }
+    $profileById[[string]$profileIndex.id] = $profileIndex
+}
 foreach ($id in $manifest.characters) {
     if ($id -cnotmatch '^[a-z0-9]+(?:_[a-z0-9]+)*$') { throw "Invalid id: $id" }
     $path = Join-Path $root "characters\$id\data.json"
@@ -38,6 +61,39 @@ foreach ($id in $manifest.characters) {
     if ($record.weapon_type -notin $weapons) { throw "Invalid weapon: $id" }
     if ($record.source.site -cne 'Prydwen.gg') { throw "Invalid source: $id" }
     if ($record.source.verified_at -cne '2026-08-28') { throw "Invalid verification date: $id" }
+
+    if (-not $profileById.ContainsKey($id)) { throw "Profile manifest omitted character: $id" }
+    $profileIndex = $profileById[$id]
+    $hasDescription = $null -ne $record.profile -and
+        -not [string]::IsNullOrWhiteSpace([string]$record.profile.description.en)
+    $hasStats = $null -ne $record.profile -and $null -ne $record.profile.max_level_stats
+    if ($hasDescription -ne [bool]$profileIndex.has_description -or
+        $hasStats -ne [bool]$profileIndex.has_max_level_stats) {
+        throw "Profile availability mismatch: $id"
+    }
+    if (($id -in $expectedMissingDescriptions) -eq $hasDescription) {
+        throw "Unexpected description availability: $id"
+    }
+    if (($id -in $expectedMissingStats) -eq $hasStats) {
+        throw "Unexpected Level 90 stat availability: $id"
+    }
+    if ($hasDescription -and [string]$record.profile.description.en -match '\[\[|\]\]|\{\{|\}\}|<[^>]+>') {
+        throw "Wiki markup remains in profile description: $id"
+    }
+    if ($hasStats -and ($record.profile.max_level_stats.level -ne 90 -or
+        $record.profile.max_level_stats.hp -le 0 -or
+        $record.profile.max_level_stats.attack -le 0 -or
+        $record.profile.max_level_stats.defense -le 0)) {
+        throw "Invalid Level 90 stats: $id"
+    }
+    if ($null -ne $record.profile -and ($record.profile.source.site -cne 'Wuthering Waves Wiki' -or
+        $record.profile.source.verified_at -cne '2026-08-30' -or
+        $record.profile.source.overview_revision_id -le 0 -or
+        $record.profile.source.stats_module_revision_id -ne $profileManifest.stats_module_revision_id -or
+        [string]::IsNullOrWhiteSpace([string]$record.profile.source.page_url) -or
+        [string]::IsNullOrWhiteSpace([string]$record.profile.source.stats_module_url))) {
+        throw "Invalid wiki profile provenance: $id"
+    }
 
     if ($imageById.ContainsKey($id)) {
         $image = $imageById[$id]
@@ -62,6 +118,14 @@ foreach ($id in $manifest.characters) {
     elseif ($null -ne $record.convene_draw) {
         throw "Unexpected Convene Draw path for unavailable entry: $id"
     }
+}
+
+$aalto = Read-Json (Join-Path $root 'characters\aalto\data.json')
+if ($aalto.profile.max_level_stats.hp -ne 9850 -or
+    $aalto.profile.max_level_stats.attack -ne 262.5 -or
+    $aalto.profile.max_level_stats.defense -ne 1075.54 -or
+    $aalto.profile.description.en -cne 'He is an information broker from the New Federation and a Consultant of the Black Shores.') {
+    throw 'Aalto profile does not match the verified wiki values.'
 }
 
 $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter data.json -File -Recurse)
@@ -204,4 +268,4 @@ if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 72 -or $echoSetFiles.Cou
     throw 'Unexpected generated guide content file count.'
 }
 
-"Validated 60 character records, $expectedImageCount character PNGs, 57 guides, 72 wiki weapon records, 29 wiki Echo Sets, 101 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."
+"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $expectedImageCount character PNGs, 57 guides, 72 wiki weapon records, 29 wiki Echo Sets, 101 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."

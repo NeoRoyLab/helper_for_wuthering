@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "fusion",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is a student from Startorch Academy\u0027s Department of Voidmatters with a sardonic nihilism, who secretly serves as an agent for the Fractsidus. Despite being created by Schwarzloch for the purpose of becoming the Resonator of the Threnodian Aleph-1, she harbors deep-seated fear and resentment towards the Fractsidus and her creator. No matter the price, even her own existence, she is determined to use her \"gift\" to protect those dearest to her."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 11025.0,
+      "attack": 425.0,
+      "defense": 1148.87
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Denia",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 137395,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

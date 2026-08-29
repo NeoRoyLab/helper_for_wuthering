@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "havoc",
   "weapon_type": "broadblade",
+  "profile": {
+    "description": {
+      "en": "Chisa is a conscientious, level-headed student from the Startorch Academy. To her, everything can be broken down, analyzed, and resolved, with the exception of human bonding. Bonds can be severed, but this fragility is what makes them precious."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10775.0,
+      "attack": 437.5,
+      "defense": 1136.65
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Chisa",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 102761,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

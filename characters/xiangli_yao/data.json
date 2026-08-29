@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "electro",
   "weapon_type": "gauntlets",
+  "profile": {
+    "description": {
+      "en": "He is the Principal Investigator in charge of the academics at Huaxu Academy\u0027s Jinzhou Campus. He is the Academy\u0027s youngest multi-disciplinary scientist, and an expert in the research of Automata Mechanics."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10625.0,
+      "attack": 425.0,
+      "defense": 1222.20
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Xiangli_Yao",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 101748,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "spectro",
   "weapon_type": "pistols",
+  "profile": {
+    "description": {
+      "en": "She is a Preparatory Program student at Startorch Academy and a free spirit who lives every day to its fullest. Before attending Startorch, she was a mercenary from the Lawless Zone in the New Federation. In order to escape from the Lawless Zone and gain her freedom, she stole the identity of the real Lynae — a Fractsidus operative, who was attending Startorch Academy as a spy."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 12237.5,
+      "attack": 375.0,
+      "defense": 1197.76
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lynae",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 136637,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

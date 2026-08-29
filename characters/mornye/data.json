@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "fusion",
   "weapon_type": "broadblade",
+  "profile": {
+    "description": {
+      "en": "She is a researcher for the Spacetrek Collective and a professor for Exostrider Engineering at Startorch Academy. She was a student at Startorch Academy and an acquaintance of Rover 20 years before the Void Storm hit Lahai-Roi. With an unwavering dream to chart the course of humanity\u0027s exploration of the world beyond Solaris, she plays a key role in the technological developments of Lahai-Roi as a project head of the Spacetrek Collective Research Institute."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 15375.0,
+      "attack": 287.5,
+      "defense": 1356.64
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Mornye",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 136639,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

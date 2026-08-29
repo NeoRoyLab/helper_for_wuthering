@@ -7,6 +7,25 @@
   "rarity": 4,
   "element": "electro",
   "weapon_type": "broadblade",
+  "profile": {
+    "description": {
+      "en": "She is a navigator at Lollo Logistics and leader of a transport squad team."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 8500.0,
+      "attack": 337.5,
+      "defense": 879.98
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lumi",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 99245,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

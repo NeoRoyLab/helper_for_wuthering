@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "aero",
   "weapon_type": "pistols",
+  "profile": {
+    "description": {
+      "en": "She is a free-spirited, romantic, sincere, and whimsical bard wandering Rinascita in search of inspiration. A passionate musician, poet, and storyteller for both commoners as well as the Divinity, Ciaccona aims to spread her talents, truths, and discoveries of the world around her to all those daring enough to listen."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 11612.5,
+      "attack": 475.0,
+      "defense": 1197.76
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Ciaccona",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 96621,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

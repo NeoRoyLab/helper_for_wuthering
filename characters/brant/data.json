@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "fusion",
   "weapon_type": "sword",
+  "profile": {
+    "description": {
+      "en": "He is the captain of the Troupe of Fools, exuding a carefree, easygoing charm and charisma, unbound by convention. However, beneath his flamboyant persona lies a kind heart deeply devoted to ensuring his crew\u0027s safety and freedom. He views the world as one of unlimited possibilities and encourages this same optimism in the public through his spectacular performances."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 11675.0,
+      "attack": 375.0,
+      "defense": 1307.75
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Brant",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 99400,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

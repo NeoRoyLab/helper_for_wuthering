@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "aero",
   "weapon_type": "sword",
+  "profile": {
+    "description": {
+      "en": "Former senior agent of Mingting\u0027s Internal Security Agency, he is a swordsman of cool resilience and absolute integrity, wandering Huanglong alone and seeks not fame nor high office, but mastery of swordsmanship and a life guided by high morals. He was framed by the Grand Architect for the murder of his master, and is now a fugitive throughout all of Huanglong."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 12237.5,
+      "attack": 375.0,
+      "defense": 1197.76
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Qiuyuan",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 95380,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

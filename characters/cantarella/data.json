@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "havoc",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is the thirty-sixth matriarch of the Fisalia family, and the former Blessed Maiden of Imperator. Her elegant, composed demeanor and captivating beauty conceal a dark and disturbing past, of which she is steadfastly searching for the means to liberate herself and her lineage."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 11600.0,
+      "attack": 400.0,
+      "defense": 1099.98
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Cantarella",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 96619,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

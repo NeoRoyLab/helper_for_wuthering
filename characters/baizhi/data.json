@@ -7,6 +7,25 @@
   "rarity": 4,
   "element": "glacio",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is a researcher in Remnant Ecoacoustics at Huaxu Academy. Baizhi\u0027s once unfulfilled wish has now manifested as her loyal companion. The Remnant Creature You\u0027tan is her source of healing powers, and a lifelong research focus."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 12812.5,
+      "attack": 212.5,
+      "defense": 1002.20
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Baizhi",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 92922,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

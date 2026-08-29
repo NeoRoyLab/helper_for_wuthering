@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "havoc",
   "weapon_type": "gauntlets",
+  "profile": {
+    "description": {
+      "en": "She is a gifted improvisational comedian and the First Mate of the Troupe of Fools. While bashful and introverted, she, alongside Pero, her closest companion, possesses a repertoire of tools and talents to protect and nurture her friends and newfound family."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 12250.0,
+      "attack": 375.0,
+      "defense": 1197.76
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Roccia",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 103572,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

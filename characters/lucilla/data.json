@@ -7,6 +7,19 @@
   "rarity": 5,
   "element": "glacio",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is the president and the head of Startorch Academy. She was the former chief editor for the New Federation\u0027s top academic journal and an associate of Mortefi."
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lucilla",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 99389,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

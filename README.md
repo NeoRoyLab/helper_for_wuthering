@@ -4,7 +4,7 @@ Versioned cloud content for the Helper for Wuthering application.
 
 ## Current scope
 
-The current local content set contains the version 2 character roster and version 1 guides:
+The current local content set contains the version 3 character roster and version 1 guides:
 
 - 60 character records;
 - English display name;
@@ -12,14 +12,16 @@ The current local content set contains the version 2 character roster and versio
 - element;
 - weapon type;
 - exact 404x560 PNG Convene Draw artwork where that asset exists on the supplied wiki;
-- per-record source and verification date.
+- 58 English profile descriptions from exact wiki page revisions;
+- 53 Level 90 HP, ATK, and DEF stat blocks from the wiki stats module;
+- per-field-group source and verification metadata;
 - 57 character guide records with Prydwen weapon and Echo Set ordering;
 - 72 normalized weapon records and exact wiki PNG icons;
 - 29 normalized Echo Set records, exact wiki piece-bonus text, and exact wiki PNG icons;
 - explicit source URLs, source page dates/revisions, hashes, and three documented guide gaps.
 
-The repository intentionally does not contain Unity project files. Character descriptions,
-stats, skills, materials, recommendation prose, and translations are not part of this version.
+The repository intentionally does not contain Unity project files. Skills, materials,
+recommendation prose, and translations are not part of this version.
 
 ## Layout
 
@@ -27,6 +29,7 @@ stats, skills, materials, recommendation prose, and translations are not part of
 manifest.json
 manifests/characters.json
 manifests/character_images.json
+manifests/character_profiles.json
 manifests/guides.json
 manifests/guide_assets.json
 characters/<id>/data.json
@@ -44,6 +47,7 @@ schema/weapon.schema.json
 schema/echo_set.schema.json
 tools/validate_content.ps1
 tools/sync_convene_draws.ps1
+tools/sync_character_profiles.ps1
 tools/sync_guides.ps1
 tools/prydwen_guide_snapshot.json
 ```

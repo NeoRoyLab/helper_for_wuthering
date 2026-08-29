@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "electro",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "Once an outstanding Patroller who was suspended from her duties at the Public Security Bureau, Yinlin now pursues hidden evils in secrecy."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 11000.0,
+      "attack": 400.0,
+      "defense": 1283.31
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yinlin",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 100537,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

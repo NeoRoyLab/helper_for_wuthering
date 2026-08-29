@@ -7,6 +7,25 @@
   "rarity": 4,
   "element": "aero",
   "weapon_type": "pistols",
+  "profile": {
+    "description": {
+      "en": "He is an information broker from the New Federation and a Consultant of the Black Shores."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 9850.0,
+      "attack": 262.5,
+      "defense": 1075.54
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Aalto",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 101912,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

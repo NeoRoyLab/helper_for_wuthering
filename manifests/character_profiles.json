@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "source_site": "Wuthering Waves Wiki",
+  "verified_at": "2026-08-30",
+  "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+  "stats_module_revision_id": 137192,
+  "profiles": [
+    {
+      "id": "aalto",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Aalto",
+      "overview_revision_id": 101912,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "aemeath",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Aemeath",
+      "overview_revision_id": 136632,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "augusta",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Augusta",
+      "overview_revision_id": 99574,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "baizhi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Baizhi",
+      "overview_revision_id": 92922,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "brant",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Brant",
+      "overview_revision_id": 99400,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "buling",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Buling",
+      "overview_revision_id": 97061,
+      "has_description": true,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "calcharo",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Calcharo",
+      "overview_revision_id": 99398,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "camellya",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Camellya",
+      "overview_revision_id": 96614,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "cantarella",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Cantarella",
+      "overview_revision_id": 96619,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "carlotta",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Carlotta",
+      "overview_revision_id": 96615,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "cartethyia",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Cartethyia",
+      "overview_revision_id": 99513,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "changli",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Changli",
+      "overview_revision_id": 100700,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "chisa",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Chisa",
+      "overview_revision_id": 102761,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "chixia",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Chixia",
+      "overview_revision_id": 99239,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "ciaccona",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Ciaccona",
+      "overview_revision_id": 96621,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "danjin",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Danjin",
+      "overview_revision_id": 92937,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "denia",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Denia",
+      "overview_revision_id": 137395,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "encore",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Encore",
+      "overview_revision_id": 103593,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "galbrena",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Galbrena",
+      "overview_revision_id": 135376,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "hiyuki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Hiyuki",
+      "overview_revision_id": 136638,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "hsin",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Hsin",
+      "overview_revision_id": 139277,
+      "has_description": true,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "iuno",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Iuno",
+      "overview_revision_id": 99397,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "jianxin",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Jianxin",
+      "overview_revision_id": 92941,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "jingran",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Jingran",
+      "overview_revision_id": 137364,
+      "has_description": false,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "jinhsi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Jinhsi",
+      "overview_revision_id": 101013,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "jiyan",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Jiyan",
+      "overview_revision_id": 136877,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "lingyang",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lingyang",
+      "overview_revision_id": 92944,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "lucilla",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lucilla",
+      "overview_revision_id": 99389,
+      "has_description": true,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "lucy",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lucy",
+      "overview_revision_id": 97407,
+      "has_description": true,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "lumi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lumi",
+      "overview_revision_id": 99245,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "lupa",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lupa",
+      "overview_revision_id": 137570,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "luuk_herssen",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Luuk_Herssen",
+      "overview_revision_id": 137549,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "lynae",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Lynae",
+      "overview_revision_id": 136637,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "mornye",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Mornye",
+      "overview_revision_id": 136639,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "mortefi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Mortefi",
+      "overview_revision_id": 99232,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "phoebe",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Phoebe",
+      "overview_revision_id": 96617,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "phrolova",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Phrolova",
+      "overview_revision_id": 99099,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "qingxiao",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Qingxiao",
+      "overview_revision_id": 137342,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "qiuyuan",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Qiuyuan",
+      "overview_revision_id": 95380,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "rebecca",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Rebecca",
+      "overview_revision_id": 136878,
+      "has_description": true,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "roccia",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Roccia",
+      "overview_revision_id": 103572,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "rover_aero",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Rover",
+      "overview_revision_id": 136366,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "rover_electro",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Rover",
+      "overview_revision_id": 136366,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "rover_havoc",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Rover",
+      "overview_revision_id": 136366,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "rover_spectro",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Rover",
+      "overview_revision_id": 136366,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "sanhua",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Sanhua",
+      "overview_revision_id": 99853,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "sigrika",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Sigrika",
+      "overview_revision_id": 136636,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "suisui",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Suisui",
+      "overview_revision_id": 137053,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "suoming",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Suoming",
+      "overview_revision_id": 139279,
+      "has_description": false,
+      "has_max_level_stats": false
+    },
+    {
+      "id": "taoqi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Taoqi",
+      "overview_revision_id": 92959,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "the_shorekeeper",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Shorekeeper",
+      "overview_revision_id": 101177,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "verina",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Verina",
+      "overview_revision_id": 99244,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "xiangli_yao",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Xiangli_Yao",
+      "overview_revision_id": 101748,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "yangyang",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yangyang",
+      "overview_revision_id": 101909,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "yangyang_xuanling",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yangyang%3A_Xuanling",
+      "overview_revision_id": 135480,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "yinlin",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yinlin",
+      "overview_revision_id": 100537,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "youhu",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Youhu",
+      "overview_revision_id": 99243,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "yuanwu",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yuanwu",
+      "overview_revision_id": 92965,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "zani",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Zani",
+      "overview_revision_id": 96620,
+      "has_description": true,
+      "has_max_level_stats": true
+    },
+    {
+      "id": "zhezhi",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Zhezhi",
+      "overview_revision_id": 99236,
+      "has_description": true,
+      "has_max_level_stats": true
+    }
+  ],
+  "unavailable": [
+    {
+      "id": "buling",
+      "missing": [
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "hsin",
+      "missing": [
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "jingran",
+      "missing": [
+        "description",
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "lucilla",
+      "missing": [
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "lucy",
+      "missing": [
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "rebecca",
+      "missing": [
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    },
+    {
+      "id": "suoming",
+      "missing": [
+        "description",
+        "max_level_stats"
+      ],
+      "reason": "The listed field was not published in the verified wiki source."
+    }
+  ]
+}

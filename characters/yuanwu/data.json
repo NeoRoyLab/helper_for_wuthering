@@ -7,6 +7,25 @@
   "rarity": 4,
   "element": "electro",
   "weapon_type": "gauntlets",
+  "profile": {
+    "description": {
+      "en": "He owns a boxing gym where he teaches martial arts and health management, and is well-respected in the community for his cordial demeanor and pleasant temperament."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 8525.0,
+      "attack": 225.0,
+      "defense": 1637.75
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Yuanwu",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 92965,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

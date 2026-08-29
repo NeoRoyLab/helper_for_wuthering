@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "havoc",
   "weapon_type": "sword",
+  "profile": {
+    "description": {
+      "en": "She is a Bloom Bearer of the Black Shores, and handles the combat-oriented germination tests given to new candidates. However, she refuses all sense of responsibility, delighting in satiating her unquenchable thirst for battle and personal amusement. In pursuit of the thrill of a fight, she gleefully abandons the risks to her life and the people around her."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10325.0,
+      "attack": 450.0,
+      "defense": 1161.09
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Camellya",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 96614,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

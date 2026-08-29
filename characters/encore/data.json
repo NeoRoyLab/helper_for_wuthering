@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "fusion",
   "weapon_type": "rectifier",
+  "profile": {
+    "description": {
+      "en": "She is from the New Federation and a Consultant of the Black Shores. With her vivid imagination, her Wooly companions, Cosmos and Cloudy, and a penchant for crafting fairy tales, she is responsible for finding new clients for the Black Shores alongside her fellow Consultant and brother figure Aalto."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10512.5,
+      "attack": 425.0,
+      "defense": 1246.64
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Encore",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 103593,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",

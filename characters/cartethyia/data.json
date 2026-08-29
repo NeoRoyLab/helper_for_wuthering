@@ -7,6 +7,25 @@
   "rarity": 5,
   "element": "aero",
   "weapon_type": "sword",
+  "profile": {
+    "description": {
+      "en": "Throughout Rinascita, she is revered as Fleurdelys, the \"Blessed Maiden,\" and in some accounts, \"The Martyred Maiden.\" As a key figure in the region’s history, she holds profound influence, with her connections to the Sentinel Imperator, the Threnodian Leviathan, and the Dark Tide. Her true desires, however, lie in freeing herself from the shackles of her titles and living out her days as a just and righteous wandering knight."
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 14800.0,
+      "attack": 312.5,
+      "defense": 611.10
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Cartethyia",
+      "verified_at": "2026-08-30",
+      "overview_revision_id": 99513,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 137192
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",
