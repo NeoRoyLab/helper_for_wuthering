@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "thunderbolt",
+  "name": {
+    "en": "Thunderbolt"
+  },
+  "rarity": 4,
+  "weapon_type": "pistols",
+  "icon": "weapons/thunderbolt/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Thunderbolt",
+    "verified_at": "2026-08-29",
+    "revision_id": 32093
+  }
+}

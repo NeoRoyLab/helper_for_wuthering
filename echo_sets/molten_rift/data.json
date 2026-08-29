@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "molten_rift",
+  "name": {
+    "en": "Molten Rift"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Fusion DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Fusion DMG +30% for 15s after releasing Resonance Skill."
+    }
+  ],
+  "icon": "echo_sets/molten_rift/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Molten_Rift",
+    "verified_at": "2026-08-29",
+    "revision_id": 85681
+  }
+}

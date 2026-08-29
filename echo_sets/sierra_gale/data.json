@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "sierra_gale",
+  "name": {
+    "en": "Sierra Gale"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Aero DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Aero DMG +30% for 15s after releasing Intro Skill."
+    }
+  ],
+  "icon": "echo_sets/sierra_gale/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Sierra_Gale",
+    "verified_at": "2026-08-29",
+    "revision_id": 85680
+  }
+}

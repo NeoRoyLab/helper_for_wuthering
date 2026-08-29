@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "void_thunder",
+  "name": {
+    "en": "Void Thunder"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Electro DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Electro DMG +15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
+    }
+  ],
+  "icon": "echo_sets/void_thunder/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Void_Thunder",
+    "verified_at": "2026-08-29",
+    "revision_id": 85682
+  }
+}

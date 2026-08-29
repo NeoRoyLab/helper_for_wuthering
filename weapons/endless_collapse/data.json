@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "endless_collapse",
+  "name": {
+    "en": "Endless Collapse"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/endless_collapse/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Endless_Collapse",
+    "verified_at": "2026-08-29",
+    "revision_id": 97935
+  }
+}

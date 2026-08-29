@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "dream_of_the_lost",
+  "name": {
+    "en": "Dream of the Lost"
+  },
+  "bonuses": [
+    {
+      "pieces": 3,
+      "text": "Holding 0 Resonance Energy increases Crit. Rate by 20% and grants 35% Echo Skill DMG Bonus."
+    }
+  ],
+  "icon": "echo_sets/dream_of_the_lost/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Dream_of_the_Lost",
+    "verified_at": "2026-08-29",
+    "revision_id": 85690
+  }
+}

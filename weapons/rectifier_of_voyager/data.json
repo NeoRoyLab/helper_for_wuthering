@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "rectifier_of_voyager",
+  "name": {
+    "en": "Rectifier of Voyager"
+  },
+  "rarity": 3,
+  "weapon_type": "rectifier",
+  "icon": "weapons/rectifier_of_voyager/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Rectifier_of_Voyager",
+    "verified_at": "2026-08-29",
+    "revision_id": 25459
+  }
+}

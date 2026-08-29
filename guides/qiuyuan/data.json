@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "qiuyuan",
+  "weapons": [
+    {
+      "content_id": "emerald_sentence",
+      "rank": 1
+    },
+    {
+      "content_id": "red_spring",
+      "rank": 1
+    },
+    {
+      "content_id": "blazing_brilliance",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_of_genesis",
+      "rank": 1
+    },
+    {
+      "content_id": "feather_edge",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "law_of_harmony",
+  "echo_set_source_name": "Law of Harmony",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/qiuyuan",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

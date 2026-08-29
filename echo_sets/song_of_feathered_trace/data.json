@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "song_of_feathered_trace",
+  "name": {
+    "en": "Song of Feathered Trace"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Energy Regen +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s. Upon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s."
+    }
+  ],
+  "icon": "echo_sets/song_of_feathered_trace/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Song_of_Feathered_Trace",
+    "verified_at": "2026-08-29",
+    "revision_id": 100822
+  }
+}

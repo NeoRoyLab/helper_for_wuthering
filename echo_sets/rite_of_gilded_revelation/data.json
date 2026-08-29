@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "rite_of_gilded_revelation",
+  "name": {
+    "en": "Rite of Gilded Revelation"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Spectro DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus."
+    }
+  ],
+  "icon": "echo_sets/rite_of_gilded_revelation/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Rite_of_Gilded_Revelation",
+    "verified_at": "2026-08-29",
+    "revision_id": 88629
+  }
+}

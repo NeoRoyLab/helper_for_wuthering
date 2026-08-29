@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "qingxiao",
+  "weapons": [
+    {
+      "content_id": "glint_of_clouds",
+      "rank": 1
+    },
+    {
+      "content_id": "red_spring",
+      "rank": 1
+    },
+    {
+      "content_id": "azure_oath",
+      "rank": 1
+    },
+    {
+      "content_id": "everbright_polestar",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_sentence",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "heart_of_evils_purge",
+  "echo_set_source_name": "Heart of Evil's Purge",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-25"
+  }
+}

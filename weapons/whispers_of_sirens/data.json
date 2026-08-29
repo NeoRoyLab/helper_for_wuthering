@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "whispers_of_sirens",
+  "name": {
+    "en": "Whispers of Sirens"
+  },
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "icon": "weapons/whispers_of_sirens/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Whispers_of_Sirens",
+    "verified_at": "2026-08-29",
+    "revision_id": 94749
+  }
+}

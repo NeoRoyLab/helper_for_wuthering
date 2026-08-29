@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "midnight_veil",
+  "name": {
+    "en": "Midnight Veil"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Havoc DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Triggering Outro Skill deals additional 480% Havoc DMG to surrounding enemies, considered Outro Skill DMG and grants the incoming Resonator 15% Havoc DMG Bonus for 15s."
+    }
+  ],
+  "icon": "echo_sets/midnight_veil/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Midnight_Veil",
+    "verified_at": "2026-08-29",
+    "revision_id": 95639
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "solsworn_ciphers",
+  "name": {
+    "en": "Solsworn Ciphers"
+  },
+  "rarity": 5,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/solsworn_ciphers/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Solsworn_Ciphers",
+    "verified_at": "2026-08-29",
+    "revision_id": 96196
+  }
+}

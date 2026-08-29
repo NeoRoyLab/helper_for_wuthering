@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "character_id": "mornye",
+  "weapons": [
+    {
+      "content_id": "starfield_calibrator",
+      "rank": 1
+    },
+    {
+      "content_id": "discord",
+      "rank": 5
+    },
+    {
+      "content_id": "broadblade_41",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "halo_of_starry_radiance",
+  "echo_set_source_name": "Halo of Starry Radiance",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/mornye",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

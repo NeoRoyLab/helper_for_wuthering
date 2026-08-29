@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "havoc_eclipse",
+  "name": {
+    "en": "Havoc Eclipse"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Havoc DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Havoc DMG +7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
+    }
+  ],
+  "icon": "echo_sets/havoc_eclipse/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Havoc_Eclipse",
+    "verified_at": "2026-08-29",
+    "revision_id": 85683
+  }
+}

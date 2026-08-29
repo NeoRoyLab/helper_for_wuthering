@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "abyss_surges",
+  "name": {
+    "en": "Abyss Surges"
+  },
+  "rarity": 5,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/abyss_surges/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Abyss_Surges",
+    "verified_at": "2026-08-29",
+    "revision_id": 97014
+  }
+}

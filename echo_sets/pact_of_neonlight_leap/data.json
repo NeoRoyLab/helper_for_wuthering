@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "pact_of_neonlight_leap",
+  "name": {
+    "en": "Pact of Neonlight Leap"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Spectro DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out."
+    }
+  ],
+  "icon": "echo_sets/pact_of_neonlight_leap/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Pact_of_Neonlight_Leap",
+    "verified_at": "2026-08-29",
+    "revision_id": 88636
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "amity_accord",
+  "name": {
+    "en": "Amity Accord"
+  },
+  "rarity": 4,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/amity_accord/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Amity_Accord",
+    "verified_at": "2026-08-29",
+    "revision_id": 45880
+  }
+}

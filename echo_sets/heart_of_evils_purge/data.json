@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "heart_of_evils_purge",
+  "name": {
+    "en": "Heart of Evil's Purge"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Aero DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
+    }
+  ],
+  "icon": "echo_sets/heart_of_evils_purge/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Heart_of_Evil%27s_Purge",
+    "verified_at": "2026-08-29",
+    "revision_id": 131391
+  }
+}

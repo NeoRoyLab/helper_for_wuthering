@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "aemeath",
+  "weapons": [
+    {
+      "content_id": "everbright_polestar",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_of_genesis",
+      "rank": 1
+    },
+    {
+      "content_id": "red_spring",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_sentence",
+      "rank": 1
+    },
+    {
+      "content_id": "blazing_brilliance",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "trailblazing_star",
+  "echo_set_source_name": "Trailblazing Star",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

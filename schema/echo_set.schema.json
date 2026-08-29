@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/NeoRoyLab/helper_for_wuthering/main/schema/echo_set.schema.json",
+  "title": "Wuthering Waves wiki Echo Set content record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "name", "bonuses", "icon", "source"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": { "en": { "type": "string", "minLength": 1 } }
+    },
+    "bonuses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pieces", "text"],
+        "properties": {
+          "pieces": { "type": "integer", "enum": [1, 2, 3, 5] },
+          "text": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "icon": { "type": "string", "pattern": "^echo_sets/[a-z0-9]+(?:_[a-z0-9]+)*/icon\\.png$" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["site", "page_url", "verified_at", "revision_id"],
+      "properties": {
+        "site": { "type": "string", "const": "Wuthering Waves Wiki" },
+        "page_url": { "type": "string", "pattern": "^https://wutheringwaves\\.fandom\\.com/wiki/" },
+        "verified_at": { "type": "string", "format": "date" },
+        "revision_id": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

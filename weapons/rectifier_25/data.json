@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "rectifier_25",
+  "name": {
+    "en": "Rectifier#25"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/rectifier_25/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Rectifier25",
+    "verified_at": "2026-08-29",
+    "revision_id": 31969
+  }
+}

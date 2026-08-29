@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "halo_of_starry_radiance",
+  "name": {
+    "en": "Halo of Starry Radiance"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Healing +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked."
+    }
+  ],
+  "icon": "echo_sets/halo_of_starry_radiance/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Halo_of_Starry_Radiance",
+    "verified_at": "2026-08-29",
+    "revision_id": 90645
+  }
+}

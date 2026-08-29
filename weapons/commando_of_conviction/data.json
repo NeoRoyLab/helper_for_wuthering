@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "commando_of_conviction",
+  "name": {
+    "en": "Commando of Conviction"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/commando_of_conviction/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Commando_of_Conviction",
+    "verified_at": "2026-08-29",
+    "revision_id": 25476
+  }
+}

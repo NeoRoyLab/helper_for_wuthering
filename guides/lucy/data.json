@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "lucy",
+  "weapons": [
+    {
+      "content_id": "spectral_trigger",
+      "rank": 1
+    },
+    {
+      "content_id": "lux_and_umbra",
+      "rank": 1
+    },
+    {
+      "content_id": "skull_thrasher",
+      "rank": 1
+    },
+    {
+      "content_id": "phasic_homogenizer",
+      "rank": 1
+    },
+    {
+      "content_id": "the_last_dance",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "shadow_of_shattered_dreams",
+  "echo_set_source_name": "Shadow of Shattered Dreams",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lucy",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

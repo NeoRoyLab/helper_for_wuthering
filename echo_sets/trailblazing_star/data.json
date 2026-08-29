@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "trailblazing_star",
+  "name": {
+    "en": "Trailblazing Star"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Fusion DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting Fusion Burst or Tune Rupture - Shifting on enemies increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s."
+    }
+  ],
+  "icon": "echo_sets/trailblazing_star/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Trailblazing_Star",
+    "verified_at": "2026-08-29",
+    "revision_id": 131407
+  }
+}

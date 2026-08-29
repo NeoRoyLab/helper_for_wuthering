@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "lynae",
+  "weapons": [
+    {
+      "content_id": "spectrum_blaster",
+      "rank": 1
+    },
+    {
+      "content_id": "static_mist",
+      "rank": 1
+    },
+    {
+      "content_id": "phasic_homogenizer",
+      "rank": 1
+    },
+    {
+      "content_id": "the_last_dance",
+      "rank": 1
+    },
+    {
+      "content_id": "lux_and_umbra",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "pact_of_neonlight_leap",
+  "echo_set_source_name": "Pact of Neonlight Leap",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lynae",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

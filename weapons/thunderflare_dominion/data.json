@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "thunderflare_dominion",
+  "name": {
+    "en": "Thunderflare Dominion"
+  },
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "icon": "weapons/thunderflare_dominion/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Thunderflare_Dominion",
+    "verified_at": "2026-08-29",
+    "revision_id": 94297
+  }
+}

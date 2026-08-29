@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "lumingloss",
+  "name": {
+    "en": "Lumingloss"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/lumingloss/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lumingloss",
+    "verified_at": "2026-08-29",
+    "revision_id": 31887
+  }
+}

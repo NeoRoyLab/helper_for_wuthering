@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "shadow_of_shattered_dreams",
+  "name": {
+    "en": "Shadow of Shattered Dreams"
+  },
+  "bonuses": [
+    {
+      "pieces": 1,
+      "text": "Inflicting Hack - Shifting on the target increases Basic Attack and Heavy Attack DMG."
+    }
+  ],
+  "icon": "echo_sets/shadow_of_shattered_dreams/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Shadow_of_Shattered_Dreams",
+    "verified_at": "2026-08-29",
+    "revision_id": 131346
+  }
+}

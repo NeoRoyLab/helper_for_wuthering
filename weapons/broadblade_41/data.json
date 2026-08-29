@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "broadblade_41",
+  "name": {
+    "en": "Broadblade#41"
+  },
+  "rarity": 4,
+  "weapon_type": "broadblade",
+  "icon": "weapons/broadblade_41/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Broadblade41",
+    "verified_at": "2026-08-29",
+    "revision_id": 31645
+  }
+}

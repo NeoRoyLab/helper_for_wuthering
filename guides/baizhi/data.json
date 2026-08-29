@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "baizhi",
+  "weapons": [
+    {
+      "content_id": "stellar_symphony",
+      "rank": 1
+    },
+    {
+      "content_id": "variation",
+      "rank": 5
+    },
+    {
+      "content_id": "call_of_the_abyss",
+      "rank": 5
+    },
+    {
+      "content_id": "rectifier_of_voyager",
+      "rank": 5
+    },
+    {
+      "content_id": "rectifier_25",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "rejuvenating_glow",
+  "echo_set_source_name": "Rejuvenating Glow",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/baizhi",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

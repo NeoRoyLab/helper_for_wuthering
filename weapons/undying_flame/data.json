@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "undying_flame",
+  "name": {
+    "en": "Undying Flame"
+  },
+  "rarity": 4,
+  "weapon_type": "pistols",
+  "icon": "weapons/undying_flame/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Undying_Flame",
+    "verified_at": "2026-08-29",
+    "revision_id": 32120
+  }
+}

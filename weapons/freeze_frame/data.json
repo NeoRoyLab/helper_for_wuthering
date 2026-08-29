@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "freeze_frame",
+  "name": {
+    "en": "Freeze Frame"
+  },
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "icon": "weapons/freeze_frame/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Freeze_Frame",
+    "verified_at": "2026-08-29",
+    "revision_id": 101666
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "character_id": "suisui",
+  "weapons": [
+    {
+      "content_id": "firstlights_herald",
+      "rank": 1
+    },
+    {
+      "content_id": "stellar_symphony",
+      "rank": 1
+    },
+    {
+      "content_id": "variation",
+      "rank": 5
+    },
+    {
+      "content_id": "call_of_the_abyss",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "song_of_feathered_trace",
+  "echo_set_source_name": "Song of Feathered Trace",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/suisui",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

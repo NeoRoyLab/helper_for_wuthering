@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "celestial_light",
+  "name": {
+    "en": "Celestial Light"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Spectro DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Spectro DMG +30% for 15s after releasing Intro Skill."
+    }
+  ],
+  "icon": "echo_sets/celestial_light/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Celestial_Light",
+    "verified_at": "2026-08-29",
+    "revision_id": 85696
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "the_last_dance",
+  "name": {
+    "en": "The Last Dance"
+  },
+  "rarity": 5,
+  "weapon_type": "pistols",
+  "icon": "weapons/the_last_dance/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/The_Last_Dance",
+    "verified_at": "2026-08-29",
+    "revision_id": 95607
+  }
+}

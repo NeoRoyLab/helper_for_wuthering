@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "stringmaster",
+  "name": {
+    "en": "Stringmaster"
+  },
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "icon": "weapons/stringmaster/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Stringmaster",
+    "verified_at": "2026-08-29",
+    "revision_id": 87137
+  }
+}

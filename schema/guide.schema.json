@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/NeoRoyLab/helper_for_wuthering/main/schema/guide.schema.json",
+  "title": "Wuthering Waves character guide recommendation record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "character_id", "weapons", "echo_set_id", "echo_set_source_name", "source"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "character_id": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+    "weapons": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["content_id", "rank"],
+        "properties": {
+          "content_id": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+          "rank": { "type": "integer", "minimum": 1, "maximum": 5 }
+        }
+      }
+    },
+    "echo_set_id": { "type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" },
+    "echo_set_source_name": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["site", "page_url", "verified_at", "page_last_updated"],
+      "properties": {
+        "site": { "type": "string", "const": "Prydwen.gg" },
+        "page_url": { "type": "string", "pattern": "^https://www\\.prydwen\\.gg/wuthering-waves/characters/" },
+        "verified_at": { "type": "string", "format": "date" },
+        "page_last_updated": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

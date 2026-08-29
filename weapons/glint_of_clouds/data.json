@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "glint_of_clouds",
+  "name": {
+    "en": "Glint of Clouds"
+  },
+  "rarity": 5,
+  "weapon_type": "sword",
+  "icon": "weapons/glint_of_clouds/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Glint_of_Clouds",
+    "verified_at": "2026-08-29",
+    "revision_id": 137586
+  }
+}

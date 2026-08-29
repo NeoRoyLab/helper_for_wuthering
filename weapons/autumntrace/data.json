@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "autumntrace",
+  "name": {
+    "en": "Autumntrace"
+  },
+  "rarity": 4,
+  "weapon_type": "broadblade",
+  "icon": "weapons/autumntrace/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Autumntrace",
+    "verified_at": "2026-08-29",
+    "revision_id": 31623
+  }
+}

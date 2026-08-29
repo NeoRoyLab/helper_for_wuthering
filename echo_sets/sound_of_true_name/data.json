@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "sound_of_true_name",
+  "name": {
+    "en": "Sound of True Name"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Aero DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s."
+    }
+  ],
+  "icon": "echo_sets/sound_of_true_name/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Sound_of_True_Name",
+    "verified_at": "2026-08-29",
+    "revision_id": 93254
+  }
+}

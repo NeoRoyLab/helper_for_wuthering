@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "aalto",
+  "weapons": [
+    {
+      "content_id": "the_last_dance",
+      "rank": 1
+    },
+    {
+      "content_id": "woodland_aria",
+      "rank": 1
+    },
+    {
+      "content_id": "static_mist",
+      "rank": 1
+    },
+    {
+      "content_id": "relativistic_jet",
+      "rank": 5
+    },
+    {
+      "content_id": "undying_flame",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "sierra_gale",
+  "echo_set_source_name": "Sierra Gale",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/aalto",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

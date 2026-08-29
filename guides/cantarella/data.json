@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "cantarella",
+  "weapons": [
+    {
+      "content_id": "whispers_of_sirens",
+      "rank": 1
+    },
+    {
+      "content_id": "rime_draped_sprouts",
+      "rank": 1
+    },
+    {
+      "content_id": "stringmaster",
+      "rank": 1
+    },
+    {
+      "content_id": "lethean_elegy",
+      "rank": 1
+    },
+    {
+      "content_id": "luminous_hymn",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "midnight_veil",
+  "echo_set_source_name": "Midnight Veil",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/cantarella",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

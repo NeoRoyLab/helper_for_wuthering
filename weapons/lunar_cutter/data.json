@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "lunar_cutter",
+  "name": {
+    "en": "Lunar Cutter"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/lunar_cutter/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lunar_Cutter",
+    "verified_at": "2026-08-29",
+    "revision_id": 31888
+  }
+}

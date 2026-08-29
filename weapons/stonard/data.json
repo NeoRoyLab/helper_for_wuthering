@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "stonard",
+  "name": {
+    "en": "Stonard"
+  },
+  "rarity": 4,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/stonard/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Stonard",
+    "verified_at": "2026-08-29",
+    "revision_id": 32055
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "call_of_the_abyss",
+  "name": {
+    "en": "Call of the Abyss"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/call_of_the_abyss/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Call_of_the_Abyss",
+    "verified_at": "2026-08-29",
+    "revision_id": 68736
+  }
+}

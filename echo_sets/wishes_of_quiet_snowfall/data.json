@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "wishes_of_quiet_snowfall",
+  "name": {
+    "en": "Wishes of Quiet Snowfall"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Glacio DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting Glacio Chafe on enemies increases Glacio DMG dealt by 10% for 15s. The Resonator gains the Snowfall effect for 15s, which can be triggered once every 25s. While Snowfall is active: - Dealing Resonance Liberation DMG removes Snowfall and increases the Resonator's Crit. Rate by 25% for 6s. While the effect is active, dealing Resonance Liberation DMG extends its duration by 4s, triggered once every 0.5s, up to 6 times. - Casting Outro Skill removes Snowfall and grants 25% Glacio DMG Bonus to the incoming Resonator for 15s. When Snowfall is removed, only one of the effects above can be triggered."
+    }
+  ],
+  "icon": "echo_sets/wishes_of_quiet_snowfall/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Wishes_of_Quiet_Snowfall",
+    "verified_at": "2026-08-29",
+    "revision_id": 97338
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "starfield_calibrator",
+  "name": {
+    "en": "Starfield Calibrator"
+  },
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "icon": "weapons/starfield_calibrator/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Starfield_Calibrator",
+    "verified_at": "2026-08-29",
+    "revision_id": 95029
+  }
+}

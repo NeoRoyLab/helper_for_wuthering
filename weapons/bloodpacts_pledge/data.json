@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "bloodpacts_pledge",
+  "name": {
+    "en": "Bloodpact's Pledge"
+  },
+  "rarity": 5,
+  "weapon_type": "sword",
+  "icon": "weapons/bloodpacts_pledge/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Bloodpact%27s_Pledge",
+    "verified_at": "2026-08-29",
+    "revision_id": 94675
+  }
+}

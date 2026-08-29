@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "eternal_radiance",
+  "name": {
+    "en": "Eternal Radiance"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Spectro DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting enemies with Spectro Frazzle increases Crit. Rate by 20% for 15s. Attacking enemies with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
+    }
+  ],
+  "icon": "echo_sets/eternal_radiance/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Eternal_Radiance",
+    "verified_at": "2026-08-29",
+    "revision_id": 85687
+  }
+}

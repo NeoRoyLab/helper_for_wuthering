@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "frosty_resolve",
+  "name": {
+    "en": "Frosty Resolve"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Resonance Skill DMG +12%."
+    },
+    {
+      "pieces": 5,
+      "text": "Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times."
+    }
+  ],
+  "icon": "echo_sets/frosty_resolve/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Frosty_Resolve",
+    "verified_at": "2026-08-29",
+    "revision_id": 85684
+  }
+}

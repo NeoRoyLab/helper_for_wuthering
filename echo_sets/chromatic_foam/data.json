@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "chromatic_foam",
+  "name": {
+    "en": "Chromatic Foam"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Fusion DMG +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10% Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s."
+    }
+  ],
+  "icon": "echo_sets/chromatic_foam/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Chromatic_Foam",
+    "verified_at": "2026-08-29",
+    "revision_id": 95043
+  }
+}

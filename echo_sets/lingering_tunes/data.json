@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "lingering_tunes",
+  "name": {
+    "en": "Lingering Tunes"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "ATK +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 stacks. Outro Skill DMG +60%."
+    }
+  ],
+  "icon": "echo_sets/lingering_tunes/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lingering_Tunes",
+    "verified_at": "2026-08-29",
+    "revision_id": 85698
+  }
+}

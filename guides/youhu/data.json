@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "character_id": "youhu",
+  "weapons": [
+    {
+      "content_id": "marcato",
+      "rank": 5
+    },
+    {
+      "content_id": "gauntlets_21d",
+      "rank": 5
+    },
+    {
+      "content_id": "abyss_surges",
+      "rank": 1
+    },
+    {
+      "content_id": "celestial_spiral",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "rejuvenating_glow",
+  "echo_set_source_name": "Rejuvenating Glow",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/youhu",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

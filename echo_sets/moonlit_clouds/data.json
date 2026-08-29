@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "moonlit_clouds",
+  "name": {
+    "en": "Moonlit Clouds"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Energy Regen +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
+    }
+  ],
+  "icon": "echo_sets/moonlit_clouds/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Moonlit_Clouds",
+    "verified_at": "2026-08-29",
+    "revision_id": 71257
+  }
+}

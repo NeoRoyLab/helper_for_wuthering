@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "yangyang_xuanling",
+  "weapons": [
+    {
+      "content_id": "azure_oath",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_sentence",
+      "rank": 1
+    },
+    {
+      "content_id": "red_spring",
+      "rank": 1
+    },
+    {
+      "content_id": "everbright_polestar",
+      "rank": 1
+    },
+    {
+      "content_id": "frostburn",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "song_of_feathered_trace",
+  "echo_set_source_name": "Song of Feathered Trace",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/yangyang-xuanling",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

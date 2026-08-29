@@ -5,6 +5,11 @@
       "key": "characters",
       "version": 2,
       "count": 60
+    },
+    {
+      "key": "guides",
+      "version": 1,
+      "count": 57
     }
   ]
 }

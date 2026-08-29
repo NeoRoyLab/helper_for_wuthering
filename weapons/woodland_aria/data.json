@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "woodland_aria",
+  "name": {
+    "en": "Woodland Aria"
+  },
+  "rarity": 5,
+  "weapon_type": "pistols",
+  "icon": "weapons/woodland_aria/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Woodland_Aria",
+    "verified_at": "2026-08-29",
+    "revision_id": 96812
+  }
+}

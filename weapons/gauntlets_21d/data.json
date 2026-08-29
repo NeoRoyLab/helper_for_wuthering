@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "gauntlets_21d",
+  "name": {
+    "en": "Gauntlets#21D"
+  },
+  "rarity": 4,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/gauntlets_21d/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Gauntlets21D",
+    "verified_at": "2026-08-29",
+    "revision_id": 31775
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "flaming_clawprint",
+  "name": {
+    "en": "Flaming Clawprint"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Fusion DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Casting Resonance Liberation grants all Resonators in the team 15% Fusion DMG Bonus and the caster 20% Resonance Liberation DMG Bonus, lasting for 35s."
+    }
+  ],
+  "icon": "echo_sets/flaming_clawprint/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Flaming_Clawprint",
+    "verified_at": "2026-08-29",
+    "revision_id": 85700
+  }
+}

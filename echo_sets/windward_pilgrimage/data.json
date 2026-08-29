@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "windward_pilgrimage",
+  "name": {
+    "en": "Windward Pilgrimage"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Aero DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
+    }
+  ],
+  "icon": "echo_sets/windward_pilgrimage/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Windward_Pilgrimage",
+    "verified_at": "2026-08-29",
+    "revision_id": 85689
+  }
+}

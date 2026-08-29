@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "originite_type_iv",
+  "name": {
+    "en": "Originite: Type IV"
+  },
+  "rarity": 3,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/originite_type_iv/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_IV",
+    "verified_at": "2026-08-29",
+    "revision_id": 60964
+  }
+}

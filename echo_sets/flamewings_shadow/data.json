@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "flamewings_shadow",
+  "name": {
+    "en": "Flamewing's Shadow"
+  },
+  "bonuses": [
+    {
+      "pieces": 3,
+      "text": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by 20% for 6s. While both effects are active, gain 16% Fusion DMG Bonus."
+    }
+  ],
+  "icon": "echo_sets/flamewings_shadow/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Flamewing%27s_Shadow",
+    "verified_at": "2026-08-29",
+    "revision_id": 85693
+  }
+}

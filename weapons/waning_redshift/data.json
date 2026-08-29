@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "waning_redshift",
+  "name": {
+    "en": "Waning Redshift"
+  },
+  "rarity": 4,
+  "weapon_type": "broadblade",
+  "icon": "weapons/waning_redshift/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Waning_Redshift",
+    "verified_at": "2026-08-29",
+    "revision_id": 97931
+  }
+}

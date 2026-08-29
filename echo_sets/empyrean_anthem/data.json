@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "empyrean_anthem",
+  "name": {
+    "en": "Empyrean Anthem"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Energy Regen +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
+    }
+  ],
+  "icon": "echo_sets/empyrean_anthem/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Empyrean_Anthem",
+    "verified_at": "2026-08-29",
+    "revision_id": 85686
+  }
+}

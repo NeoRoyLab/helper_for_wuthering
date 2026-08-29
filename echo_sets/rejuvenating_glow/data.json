@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "rejuvenating_glow",
+  "name": {
+    "en": "Rejuvenating Glow"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Healing Bonus +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Increases the ATK of all party members by 15% for 30s upon healing allies."
+    }
+  ],
+  "icon": "echo_sets/rejuvenating_glow/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Rejuvenating_Glow",
+    "verified_at": "2026-08-29",
+    "revision_id": 87342
+  }
+}

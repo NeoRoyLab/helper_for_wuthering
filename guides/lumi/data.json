@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "lumi",
+  "weapons": [
+    {
+      "content_id": "ages_of_harvest",
+      "rank": 1
+    },
+    {
+      "content_id": "verdant_summit",
+      "rank": 1
+    },
+    {
+      "content_id": "lustrous_razor",
+      "rank": 1
+    },
+    {
+      "content_id": "autumntrace",
+      "rank": 5
+    },
+    {
+      "content_id": "waning_redshift",
+      "rank": 5
+    }
+  ],
+  "echo_set_id": "moonlit_clouds",
+  "echo_set_source_name": "Moonlit Clouds",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lumi",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}

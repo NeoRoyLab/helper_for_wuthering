@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "feather_edge",
+  "name": {
+    "en": "Feather Edge"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/feather_edge/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Feather_Edge",
+    "verified_at": "2026-08-29",
+    "revision_id": 97940
+  }
+}

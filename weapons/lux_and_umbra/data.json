@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "lux_and_umbra",
+  "name": {
+    "en": "Lux & Umbra"
+  },
+  "rarity": 5,
+  "weapon_type": "pistols",
+  "icon": "weapons/lux_and_umbra/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lux_%26_Umbra",
+    "verified_at": "2026-08-29",
+    "revision_id": 98763
+  }
+}

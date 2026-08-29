@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "luuk_herssen",
+  "weapons": [
+    {
+      "content_id": "daybreakers_spine",
+      "rank": 1
+    },
+    {
+      "content_id": "pulsation_bracer",
+      "rank": 1
+    },
+    {
+      "content_id": "blazing_justice",
+      "rank": 1
+    },
+    {
+      "content_id": "moongazers_sigil",
+      "rank": 1
+    },
+    {
+      "content_id": "veritys_handle",
+      "rank": 1
+    }
+  ],
+  "echo_set_id": "rite_of_gilded_revelation",
+  "echo_set_source_name": "Rite of Gilded Revelation",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
+    "verified_at": "2026-08-29",
+    "page_last_updated": "2026-08-20"
+  }
+}
