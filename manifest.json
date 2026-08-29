@@ -3,7 +3,7 @@
   "manifests": [
     {
       "key": "characters",
-      "version": 1,
+      "version": 2,
       "count": 60
     }
   ]

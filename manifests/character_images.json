@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "source_site": "Wuthering Waves Wiki",
+  "verified_at": "2026-08-29",
+  "images": [
+    {
+      "id": "aalto",
+      "path": "characters/aalto/convene_draw.png",
+      "wiki_file": "Aalto Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "de0f646990d91f6e59888d7d65c37e49065582c386b4458c00a67cd2af5ef434"
+    },
+    {
+      "id": "aemeath",
+      "path": "characters/aemeath/convene_draw.png",
+      "wiki_file": "Aemeath Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "5be4547bdf3b13f371dceadf279647930481a5fbb1b154fe232b77da3282455b"
+    },
+    {
+      "id": "augusta",
+      "path": "characters/augusta/convene_draw.png",
+      "wiki_file": "Augusta Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "1f8e9920583b56e672c52235cb0854d820057660001d9004a224650d2fc342ed"
+    },
+    {
+      "id": "baizhi",
+      "path": "characters/baizhi/convene_draw.png",
+      "wiki_file": "Baizhi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "b0e319fd23f3a4adeda843199a0e4c7fe71c2a8ae89d382feaed66c2092d13ed"
+    },
+    {
+      "id": "brant",
+      "path": "characters/brant/convene_draw.png",
+      "wiki_file": "Brant Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "f30bce822555382399632cccd38b5abb65dfd758a9255017dfa509496cabd1c6"
+    },
+    {
+      "id": "buling",
+      "path": "characters/buling/convene_draw.png",
+      "wiki_file": "Buling Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "777076b3bdb09a0df7e481b9e6c617905765658a8ae8436682d963c390e83db9"
+    },
+    {
+      "id": "calcharo",
+      "path": "characters/calcharo/convene_draw.png",
+      "wiki_file": "Calcharo Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "e34e13fd5179ff706e970ac500d4bf57c52a75da8d49fa47a6ff1facc0932e9a"
+    },
+    {
+      "id": "camellya",
+      "path": "characters/camellya/convene_draw.png",
+      "wiki_file": "Camellya Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "7d31a3563b0652b57fe5835577d479de8c5d152279c7535a73e150d4a43c21b5"
+    },
+    {
+      "id": "cantarella",
+      "path": "characters/cantarella/convene_draw.png",
+      "wiki_file": "Cantarella Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "df6041615aa1ff2507958206b938b1f3b72164abcc1e5feedaf2ffbcb85e365c"
+    },
+    {
+      "id": "carlotta",
+      "path": "characters/carlotta/convene_draw.png",
+      "wiki_file": "Carlotta Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "36fde3fc7e72e427d918c44dad994eb16ebc4e405fd4bdd22fd56daa1662a0fd"
+    },
+    {
+      "id": "cartethyia",
+      "path": "characters/cartethyia/convene_draw.png",
+      "wiki_file": "Cartethyia Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "2b1a9e13d66835b41532f28d0f718c3fa366f6638f22258ed6f348fae29ef3fc"
+    },
+    {
+      "id": "changli",
+      "path": "characters/changli/convene_draw.png",
+      "wiki_file": "Changli Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "176e497a2c34179c066e49e2070bbeb3de844de120b0551b37c141939f94f3ef"
+    },
+    {
+      "id": "chisa",
+      "path": "characters/chisa/convene_draw.png",
+      "wiki_file": "Chisa Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "58ca87930bb6bf68ab0a02a70bf817b558811399c1943b6cdadaf2f17b0635f1"
+    },
+    {
+      "id": "chixia",
+      "path": "characters/chixia/convene_draw.png",
+      "wiki_file": "Chixia Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "d3b5c8d2f6063f61cfe463cb2dd34d7b16063d7df61aa00ced2627a3bbf4dd93"
+    },
+    {
+      "id": "ciaccona",
+      "path": "characters/ciaccona/convene_draw.png",
+      "wiki_file": "Ciaccona Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "ba6004c78ed44123020b5d70759dd0c9f3dacc54d9c064fc0921a0d0f2615cd1"
+    },
+    {
+      "id": "danjin",
+      "path": "characters/danjin/convene_draw.png",
+      "wiki_file": "Danjin Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "4694853374a7c2caa748c733cd6dbd8ed4a4710b8d73b1afe532a10fa9ff4e04"
+    },
+    {
+      "id": "denia",
+      "path": "characters/denia/convene_draw.png",
+      "wiki_file": "Denia Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "b2dd2e24511aa9500dbc4cc1f8f079fbee66e8d1be2bd650929039370dfbb14c"
+    },
+    {
+      "id": "encore",
+      "path": "characters/encore/convene_draw.png",
+      "wiki_file": "Encore Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "9faa5f77d75ba858c54e496fcfe4ab1d8e49087508abc994d55c1260aebd89cd"
+    },
+    {
+      "id": "galbrena",
+      "path": "characters/galbrena/convene_draw.png",
+      "wiki_file": "Galbrena Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "db5f26f2443b33ea0931cbfef43120298e82a17ea12af360058c6f95876b0cc6"
+    },
+    {
+      "id": "hiyuki",
+      "path": "characters/hiyuki/convene_draw.png",
+      "wiki_file": "Hiyuki Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "ef64685e8b0a4c2caf6dc419cfa7ea0613c1e594a09eab0e02c0dcd87438d8fc"
+    },
+    {
+      "id": "iuno",
+      "path": "characters/iuno/convene_draw.png",
+      "wiki_file": "Iuno Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "fe740fc54ee2543dc461511ba95cb79e933e92aa2e729ad0e17067dbd9aea47c"
+    },
+    {
+      "id": "jianxin",
+      "path": "characters/jianxin/convene_draw.png",
+      "wiki_file": "Jianxin Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "81a37bc989a85bed8322b64716025f4575b37d746cb5915774f36d31bdb874ae"
+    },
+    {
+      "id": "jinhsi",
+      "path": "characters/jinhsi/convene_draw.png",
+      "wiki_file": "Jinhsi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "42a4966d7ad99db67c993885c53a1ad62391dd3f1af9d30fec1c8a9069eadd5d"
+    },
+    {
+      "id": "jiyan",
+      "path": "characters/jiyan/convene_draw.png",
+      "wiki_file": "Jiyan Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "7a8c8f748833cc5497596d1533d985ad1043a9939ffa8656ad56887c277ecfe6"
+    },
+    {
+      "id": "lingyang",
+      "path": "characters/lingyang/convene_draw.png",
+      "wiki_file": "Lingyang Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "549756a7473f38a3f3c59b51764fef44b052672af408b0b2f32495932d5447f7"
+    },
+    {
+      "id": "lucilla",
+      "path": "characters/lucilla/convene_draw.png",
+      "wiki_file": "Lucilla Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "7b388427882e9364d56dce6ba64725f1bce71893e1ff8bbbec3c4ddc2261cc45"
+    },
+    {
+      "id": "lucy",
+      "path": "characters/lucy/convene_draw.png",
+      "wiki_file": "Lucy Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "1a4e41c3761dfa07564bbd2c31746c7db6cb3377bddde9079c5153d1c1033bd1"
+    },
+    {
+      "id": "lumi",
+      "path": "characters/lumi/convene_draw.png",
+      "wiki_file": "Lumi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "028b578cdab8f83be9da422093e8ca9248171cafad11b45e9f66429ce11dba2d"
+    },
+    {
+      "id": "lupa",
+      "path": "characters/lupa/convene_draw.png",
+      "wiki_file": "Lupa Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "1f1d98c80c5a7f2e4295efc551c7afef4e93d13bcd58cb5298fda35d0d8c0393"
+    },
+    {
+      "id": "luuk_herssen",
+      "path": "characters/luuk_herssen/convene_draw.png",
+      "wiki_file": "Luuk Herssen Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "0d08ce8b18c498a2dd14a7783f63009110bfa19a3f6360b573c1e89bda4d10ed"
+    },
+    {
+      "id": "lynae",
+      "path": "characters/lynae/convene_draw.png",
+      "wiki_file": "Lynae Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "eae869238107777a830f5e93f77b8393f1e467b127ba5b990d0e905b803afa5d"
+    },
+    {
+      "id": "mornye",
+      "path": "characters/mornye/convene_draw.png",
+      "wiki_file": "Mornye Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "f2783928e8ab13fceacddca6430813776fd06422d89a431602b68750f7ad37d2"
+    },
+    {
+      "id": "mortefi",
+      "path": "characters/mortefi/convene_draw.png",
+      "wiki_file": "Mortefi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "0c3066b19f73756daa08d607d9372fc247486506b3d2f2e1a519dac21f4dc877"
+    },
+    {
+      "id": "phoebe",
+      "path": "characters/phoebe/convene_draw.png",
+      "wiki_file": "Phoebe Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "1d63c62fcf69a5442f32034d84bf104c40e14270f47dee62e76e864ede12fcab"
+    },
+    {
+      "id": "phrolova",
+      "path": "characters/phrolova/convene_draw.png",
+      "wiki_file": "Phrolova Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "c9807fbf030b8f13be6a87759665b694bd39b8c59d916df26533eb482e9d0ebb"
+    },
+    {
+      "id": "qingxiao",
+      "path": "characters/qingxiao/convene_draw.png",
+      "wiki_file": "Qingxiao Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "10d3e716467463e10c50aab1122eb83fae6d84a0504449d57820182e4076c91d"
+    },
+    {
+      "id": "qiuyuan",
+      "path": "characters/qiuyuan/convene_draw.png",
+      "wiki_file": "Qiuyuan Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "91eb88b10190cf248783a018deae4b32e5ce8c6b9bbfad39d2b10281a8dbea99"
+    },
+    {
+      "id": "rebecca",
+      "path": "characters/rebecca/convene_draw.png",
+      "wiki_file": "Rebecca Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "8daf8553c508c349f5b5de484169d21fb7a02bbb6bd6694d1339d7e2459f303e"
+    },
+    {
+      "id": "roccia",
+      "path": "characters/roccia/convene_draw.png",
+      "wiki_file": "Roccia Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "4b698d4f6037259d54b612a5bc49003402f1054af2858ce16bb4a7a2020bda6f"
+    },
+    {
+      "id": "sanhua",
+      "path": "characters/sanhua/convene_draw.png",
+      "wiki_file": "Sanhua Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "66c99a3f78a33258f204bf844ebdbccfcb2541aba0d7d492ad5e289cff9bf286"
+    },
+    {
+      "id": "sigrika",
+      "path": "characters/sigrika/convene_draw.png",
+      "wiki_file": "Sigrika Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "8a7eaf90c08b28208629c9c82cd521030a22841f46dcb9211933fadef4773694"
+    },
+    {
+      "id": "suisui",
+      "path": "characters/suisui/convene_draw.png",
+      "wiki_file": "Suisui Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "5a85436412a670772c922786a57ce2ac6794a89342a1f7b97f6792eb11344893"
+    },
+    {
+      "id": "taoqi",
+      "path": "characters/taoqi/convene_draw.png",
+      "wiki_file": "Taoqi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "4c3432a8973f3fa9e5d2a7d1ad1263729c80f9f05c9b8d9c9b5edb8adf95238f"
+    },
+    {
+      "id": "the_shorekeeper",
+      "path": "characters/the_shorekeeper/convene_draw.png",
+      "wiki_file": "Shorekeeper Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "c41137937d2b364c6b20e44f4fd33d376a02b675bd1ac73bb8f7faa25ea060c8"
+    },
+    {
+      "id": "verina",
+      "path": "characters/verina/convene_draw.png",
+      "wiki_file": "Verina Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "d73d5e5d64b8f5b330b7cd2d995d293624de5a8b688dbea3c52c6efbd32c658b"
+    },
+    {
+      "id": "xiangli_yao",
+      "path": "characters/xiangli_yao/convene_draw.png",
+      "wiki_file": "Xiangli Yao Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "16daafd6e820bb0da5b6c19e83df399585e8a3921a1476f29b1275355a3517f7"
+    },
+    {
+      "id": "yangyang",
+      "path": "characters/yangyang/convene_draw.png",
+      "wiki_file": "Yangyang Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "d52083a5979a449bf56259c9d59d74d087ffaf6e12dd0196c5b36e37619adf5e"
+    },
+    {
+      "id": "yangyang_xuanling",
+      "path": "characters/yangyang_xuanling/convene_draw.png",
+      "wiki_file": "Yangyang Xuanling Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "e08f205689ce6302e0dfce65cb8333675075ff83148bf35ca08299f7813ecdba"
+    },
+    {
+      "id": "yinlin",
+      "path": "characters/yinlin/convene_draw.png",
+      "wiki_file": "Yinlin Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "ec48c2c4bf1f38ea676ef222c20dccba2b0fe35ce686d4554ada181e0710004c"
+    },
+    {
+      "id": "youhu",
+      "path": "characters/youhu/convene_draw.png",
+      "wiki_file": "Youhu Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "feffe619449c2550a0864b64379f916ac96a430f14ab394fe426f0a4ba3f1d72"
+    },
+    {
+      "id": "yuanwu",
+      "path": "characters/yuanwu/convene_draw.png",
+      "wiki_file": "Yuanwu Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "8040dbd2f0d923b700790402108dc77dd86a546d704722607a7b046efd810d5d"
+    },
+    {
+      "id": "zani",
+      "path": "characters/zani/convene_draw.png",
+      "wiki_file": "Zani Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "72ba5821f5fdd5c6a367b7042f42df68d94b1f6f1a08847a2cb7b0ee390e3ff3"
+    },
+    {
+      "id": "zhezhi",
+      "path": "characters/zhezhi/convene_draw.png",
+      "wiki_file": "Zhezhi Convene Draw.png",
+      "width": 404,
+      "height": 560,
+      "sha256": "dbb898c71bed4d1222a560d07e2c649695f00c7823618fdab601006f0de6d5c4"
+    }
+  ],
+  "unavailable": [
+    {
+      "id": "hsin",
+      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
+    },
+    {
+      "id": "jingran",
+      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
+    },
+    {
+      "id": "rover_aero",
+      "reason": "The wiki does not list a Rover character Convene Draw file."
+    },
+    {
+      "id": "rover_electro",
+      "reason": "The wiki does not list a Rover character Convene Draw file."
+    },
+    {
+      "id": "rover_havoc",
+      "reason": "The wiki does not list a Rover character Convene Draw file."
+    },
+    {
+      "id": "rover_spectro",
+      "reason": "The wiki does not list a Rover character Convene Draw file."
+    },
+    {
+      "id": "suoming",
+      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
+    }
+  ]
+}

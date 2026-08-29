@@ -71,6 +71,13 @@
         "sword"
       ]
     },
+    "convene_draw": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^characters/[a-z0-9]+(?:_[a-z0-9]+)*/convene_draw\\.png$"
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,
