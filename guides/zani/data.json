@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "zani",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "eternal_radiance",
-  "echo_set_source_name": "Eternal Radiance",
+  "echo_sets": [
+    {
+      "content_id": "eternal_radiance",
+      "source_name": "Eternal Radiance",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "capitaneus",
+  "primary_echo_source_name": "Capitaneus",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/zani",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

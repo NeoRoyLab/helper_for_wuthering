@@ -14,7 +14,9 @@ function Write-Json([string] $path, [object] $value) {
 }
 
 function Get-StableId([string] $value) {
-    $normalized = $value.ToLowerInvariant().Replace('&', ' and ').Replace("'", '')
+    $normalized = $value.Normalize([Text.NormalizationForm]::FormD)
+    $normalized = [regex]::Replace($normalized, '\p{Mn}', '').Normalize([Text.NormalizationForm]::FormC)
+    $normalized = $normalized.ToLowerInvariant().Replace('&', ' and ').Replace("'", '')
     $normalized = [regex]::Replace($normalized, '[^a-z0-9]+', '_').Trim('_')
     if ($normalized -cnotmatch '^[a-z0-9]+(?:_[a-z0-9]+)*$') {
         throw "Could not create a stable id for '$value'."
@@ -90,7 +92,7 @@ function Get-WikiPages([string[]] $titles) {
     return $result
 }
 
-function Get-WikiImageInfo([string[]] $fileNames) {
+function Get-WikiImageInfo([string[]] $fileNames, [bool] $allowMissing = $false) {
     $result = @{}
     $titles = @($fileNames | ForEach-Object { 'File:' + $_ })
     for ($start = 0; $start -lt $titles.Count; $start += 40) {
@@ -100,6 +102,7 @@ function Get-WikiImageInfo([string[]] $fileNames) {
         $response = Invoke-WikiApi "action=query&format=json&formatversion=2&redirects=1&prop=imageinfo&iiprop=url%7Csize%7Cmime&titles=$encoded"
         foreach ($page in $response.query.pages) {
             if ($page.missing -or $null -eq $page.imageinfo -or $page.imageinfo.Count -ne 1) {
+                if ($allowMissing) { continue }
                 throw "Wiki image is missing: $($page.title)"
             }
             $result[[string]$page.title] = $page.imageinfo[0]
@@ -113,7 +116,7 @@ function Get-WikiImageInfo([string[]] $fileNames) {
         }
     }
     foreach ($title in $titles) {
-        if (-not $result.ContainsKey($title)) { throw "Wiki response omitted image: $title" }
+        if (-not $result.ContainsKey($title) -and -not $allowMissing) { throw "Wiki response omitted image: $title" }
     }
     return $result
 }
@@ -128,7 +131,7 @@ function Get-EchoSetWikiName([string] $prydwenName) {
 }
 
 $snapshot = Read-Json $snapshotPath
-if ($snapshot.schema_version -ne 1 -or $snapshot.guides.Count -ne 57) {
+if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 57) {
     throw 'Unexpected Prydwen guide snapshot.'
 }
 
@@ -137,24 +140,29 @@ $characterIds = @($characterManifest.characters)
 foreach ($guide in $snapshot.guides) {
     if ($guide.id -notin $characterIds) { throw "Unknown character guide id: $($guide.id)" }
     if ($guide.weapons.Count -lt 1 -or $guide.weapons.Count -gt 5) { throw "Invalid weapon count: $($guide.id)" }
-    if ([string]::IsNullOrWhiteSpace($guide.echo_set)) { throw "Missing Echo Set: $($guide.id)" }
+    if ($guide.echo_sets.Count -lt 1 -or $guide.main_stats.Count -ne 5 -or
+        [string]::IsNullOrWhiteSpace($guide.substats)) { throw "Incomplete build recommendations: $($guide.id)" }
 }
 
 $weaponNames = @($snapshot.guides | ForEach-Object { $_.weapons | ForEach-Object { [string]$_[0] } } | Sort-Object -Unique)
-$echoSetNames = @($snapshot.guides | ForEach-Object { [string]$_.echo_set } | Sort-Object -Unique)
-if ($weaponNames.Count -ne 72 -or $echoSetNames.Count -ne 29) {
+$echoSetNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { [string]$_.name } } | Sort-Object -Unique)
+$echoNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { $_.main_echoes } } | Sort-Object -Unique)
+if ($weaponNames.Count -ne 72 -or $echoSetNames.Count -ne 33 -or $echoNames.Count -ne 44) {
     throw "Unexpected content counts: $($weaponNames.Count) weapons, $($echoSetNames.Count) Echo Sets."
 }
 
-Write-Host "Reading $($weaponNames.Count) weapon pages and $($echoSetNames.Count) Echo Set pages from the wiki API..."
+Write-Host "Reading $($weaponNames.Count) weapon pages, $($echoSetNames.Count) Echo Set pages, and $($echoNames.Count) Echo pages from the wiki API..."
 $weaponPageTitles = @($weaponNames | ForEach-Object { $_.Replace('#', '') })
 $weaponPages = Get-WikiPages $weaponPageTitles
 $echoSetPageTitles = @($echoSetNames | ForEach-Object { Get-EchoSetWikiName $_ })
 $echoSetPages = Get-WikiPages $echoSetPageTitles
+$echoPages = Get-WikiPages $echoNames
 
 $weaponContent = @{}
 $echoSetContent = @{}
+$echoContent = @{}
 $imageFileNames = New-Object System.Collections.Generic.List[string]
+$echoImageFileNames = New-Object System.Collections.Generic.List[string]
 
 foreach ($requestedName in $weaponNames) {
     $wikiLookupTitle = $requestedName.Replace('#', '')
@@ -178,6 +186,27 @@ foreach ($requestedName in $weaponNames) {
         name = $canonicalName
         rarity = [int]$rarityText
         weapon_type = $weaponType.ToLowerInvariant()
+        image_file = $image
+        page_title = [string]$page.title
+        revision_id = [int]$page.revisions[0].revid
+    }
+}
+
+foreach ($requestedName in $echoNames) {
+    $page = $echoPages[$requestedName]
+    $wikitext = [string]$page.revisions[0].slots.main.content
+    $canonicalName = Convert-WikiTextToPlain (Get-TemplateValue $wikitext 'name')
+    $image = Get-TemplateValue $wikitext 'image'
+    if ([string]::IsNullOrWhiteSpace($canonicalName)) { $canonicalName = [string]$page.title }
+    if ($canonicalName -cne $requestedName -or [string]::IsNullOrWhiteSpace($image)) {
+        throw "Incomplete or mismatched Echo infobox: '$requestedName' vs '$canonicalName'"
+    }
+    $id = Get-StableId $canonicalName
+    if ($echoContent.ContainsKey($id)) { throw "Duplicate Echo id: $id" }
+    $echoImageFileNames.Add($image)
+    $echoContent[$id] = [PSCustomObject][ordered]@{
+        id = $id
+        name = $canonicalName
         image_file = $image
         page_title = [string]$page.title
         revision_id = [int]$page.revisions[0].revid
@@ -219,6 +248,9 @@ foreach ($requestedName in $echoSetNames) {
 }
 
 $imageInfo = Get-WikiImageInfo @($imageFileNames | Sort-Object -Unique)
+$optionalEchoImageInfo = Get-WikiImageInfo @($echoImageFileNames | Sort-Object -Unique) $true
+foreach ($key in $optionalEchoImageInfo.Keys) { $imageInfo[$key] = $optionalEchoImageInfo[$key] }
+$totalImageCount = $imageInfo.Count
 $assetManifest = New-Object System.Collections.Generic.List[object]
 $downloaded = 0
 
@@ -260,7 +292,7 @@ foreach ($weapon in @($weaponContent.Values | Sort-Object id)) {
         sha256 = $sha256
     })
     $downloaded++
-    if ($downloaded % 10 -eq 0) { Write-Host "Downloaded $downloaded/$($imageFileNames.Count) wiki PNG assets..." }
+    if ($downloaded % 10 -eq 0) { Write-Host "Downloaded $downloaded/$totalImageCount wiki PNG assets..." }
 }
 
 foreach ($echoSet in @($echoSetContent.Values | Sort-Object id)) {
@@ -300,7 +332,52 @@ foreach ($echoSet in @($echoSetContent.Values | Sort-Object id)) {
         sha256 = $sha256
     })
     $downloaded++
-    if ($downloaded % 10 -eq 0) { Write-Host "Downloaded $downloaded/$($imageFileNames.Count) wiki PNG assets..." }
+    if ($downloaded % 10 -eq 0) { Write-Host "Downloaded $downloaded/$totalImageCount wiki PNG assets..." }
+}
+
+foreach ($echo in @($echoContent.Values | Sort-Object id)) {
+    $relativeIconPath = "echoes/$($echo.id)/icon.png"
+    $target = Join-Path $root ($relativeIconPath.Replace('/', '\'))
+    $info = $imageInfo['File:' + $echo.image_file]
+    $hasIcon = $null -ne $info
+    if ($hasIcon -and $info.mime -cne 'image/png') { throw "Echo wiki asset is not PNG: $($echo.name)" }
+    if ($hasIcon) {
+        [System.IO.Directory]::CreateDirectory([System.IO.Path]::GetDirectoryName($target)) | Out-Null
+    }
+    $downloadUrl = [string]$info.url + $(if ([string]$info.url -match '\?') { '&format=original' } else { '?format=original' })
+    if ($hasIcon) {
+        & curl.exe -L --fail --silent --show-error --output $target $downloadUrl
+        if ($LASTEXITCODE -ne 0) { throw "Echo icon download failed: $($echo.name)" }
+        $bytes = [System.IO.File]::ReadAllBytes($target)
+        $dimensions = Get-PngDimensions $bytes
+        $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash.ToLowerInvariant()
+    }
+    $record = [PSCustomObject][ordered]@{
+        schema_version = 1
+        id = $echo.id
+        name = [PSCustomObject][ordered]@{ en = $echo.name }
+        icon = $(if ($hasIcon) { $relativeIconPath } else { $null })
+        source = [PSCustomObject][ordered]@{
+            site = 'Wuthering Waves Wiki'
+            page_url = Get-WikiPageUrl $echo.page_title
+            verified_at = [string]$snapshot.verified_at
+            revision_id = $echo.revision_id
+        }
+    }
+    Write-Json (Join-Path $root "echoes\$($echo.id)\data.json") $record
+    if ($hasIcon) {
+        $assetManifest.Add([PSCustomObject][ordered]@{
+            kind = 'echo'
+            id = $echo.id
+            path = $relativeIconPath
+            wiki_file = $echo.image_file
+            width = $dimensions.width
+            height = $dimensions.height
+            sha256 = $sha256
+        })
+    }
+    $downloaded++
+    if ($downloaded % 10 -eq 0) { Write-Host "Downloaded $downloaded/$totalImageCount wiki PNG assets..." }
 }
 
 $guideIds = New-Object System.Collections.Generic.List[string]
@@ -314,16 +391,31 @@ foreach ($guide in $snapshot.guides) {
             rank = [int]$weaponRecommendation[1]
         })
     }
-    $echoSetWikiName = Get-EchoSetWikiName ([string]$guide.echo_set)
-    $echoSetId = Get-StableId $echoSetWikiName
-    if (-not $echoSetContent.ContainsKey($echoSetId)) { throw "Unknown Echo Set content id: $echoSetId" }
+    $echoSetRefs = New-Object System.Collections.Generic.List[object]
+    foreach ($recommendation in $guide.echo_sets) {
+        $echoSetWikiName = Get-EchoSetWikiName ([string]$recommendation.name)
+        $echoSetId = Get-StableId $echoSetWikiName
+        if (-not $echoSetContent.ContainsKey($echoSetId)) { throw "Unknown Echo Set content id: $echoSetId" }
+        $echoSetRefs.Add([PSCustomObject][ordered]@{
+            content_id = $echoSetId
+            source_name = [string]$recommendation.name
+            rank = $(if ($null -eq $recommendation.rank) { 0 } else { [int]$recommendation.rank })
+            special = [bool]$recommendation.special
+        })
+    }
+    $primaryEchoName = [string]$guide.echo_sets[0].main_echoes[0]
+    $primaryEchoId = Get-StableId $primaryEchoName
+    if (-not $echoContent.ContainsKey($primaryEchoId)) { throw "Unknown primary Echo content id: $primaryEchoId" }
     $sourceSlug = ([string]$guide.id).Replace('_', '-')
     $record = [PSCustomObject][ordered]@{
-        schema_version = 1
+        schema_version = 2
         character_id = [string]$guide.id
         weapons = $weaponRefs.ToArray()
-        echo_set_id = $echoSetId
-        echo_set_source_name = [string]$guide.echo_set
+        echo_sets = $echoSetRefs.ToArray()
+        primary_echo_id = $primaryEchoId
+        primary_echo_source_name = $primaryEchoName
+        main_stats = @($guide.main_stats)
+        substats = [string]$guide.substats
         source = [PSCustomObject][ordered]@{
             site = 'Prydwen.gg'
             page_url = "https://www.prydwen.gg/wuthering-waves/characters/$sourceSlug"
@@ -340,6 +432,7 @@ $guideManifest = [PSCustomObject][ordered]@{
     guides = $guideIds.ToArray()
     weapons = @($weaponContent.Keys | Sort-Object)
     echo_sets = @($echoSetContent.Keys | Sort-Object)
+    echoes = @($echoContent.Keys | Sort-Object)
     unavailable = @($snapshot.unavailable)
 }
 Write-Json (Join-Path $root 'manifests\guides.json') $guideManifest
@@ -357,8 +450,8 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 1; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 2; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 
-"Created $($guideIds.Count) character guides, $($weaponContent.Count) wiki weapon records, $($echoSetContent.Count) wiki Echo Set records, and $($assetManifest.Count) exact PNG assets."
+"Created $($guideIds.Count) character guides, $($weaponContent.Count) wiki weapon records, $($echoSetContent.Count) wiki Echo Set records, $($echoContent.Count) wiki Echo records, and $($assetManifest.Count) exact PNG assets."

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "phrolova",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "dream_of_the_lost",
-  "echo_set_source_name": "Dream of the Lost",
+  "echo_sets": [
+    {
+      "content_id": "dream_of_the_lost",
+      "source_name": "Dream of the Lost",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "nightmare_hecate",
+  "primary_echo_source_name": "Nightmare: Hecate",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Havoc DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Havoc DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "CRIT RATE = CRIT DMG > ATK% > Skill DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/phrolova",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

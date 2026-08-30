@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nightmare_inferno_rider",
+  "name": {
+    "en": "Nightmare: Inferno Rider"
+  },
+  "icon": "echoes/nightmare_inferno_rider/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Inferno_Rider",
+    "verified_at": "2026-08-30",
+    "revision_id": 80556
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "yinlin",
   "weapons": [
     {
@@ -23,12 +23,55 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "moonlit_clouds",
-  "echo_set_source_name": "Moonlit Clouds",
+  "echo_sets": [
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "empyrean_anthem",
+      "source_name": "Empyrean Anthem",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "impermanence_heron",
+  "primary_echo_source_name": "Impermanence Heron",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Electro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Electro DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Resonance Skill DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/yinlin",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

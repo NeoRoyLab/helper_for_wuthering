@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "roccia",
   "weapons": [
     {
@@ -23,12 +23,49 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "midnight_veil",
-  "echo_set_source_name": "Midnight Veil",
+  "echo_sets": [
+    {
+      "content_id": "midnight_veil",
+      "source_name": "Midnight Veil",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 2,
+      "special": false
+    }
+  ],
+  "primary_echo_id": "nightmare_impermanence_heron",
+  "primary_echo_source_name": "Nightmare: Impermanence Heron",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Havoc DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Havoc DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate > CRIT DMG > ATK% > Heavy ATK DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/roccia",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

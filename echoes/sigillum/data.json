@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "sigillum",
+  "name": {
+    "en": "Sigillum"
+  },
+  "icon": "echoes/sigillum/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Sigillum",
+    "verified_at": "2026-08-30",
+    "revision_id": 137501
+  }
+}

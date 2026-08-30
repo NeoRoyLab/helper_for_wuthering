@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_denia",
+  "name": {
+    "en": "Reminiscence: Denia"
+  },
+  "icon": "echoes/reminiscence_denia/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Denia",
+    "verified_at": "2026-08-30",
+    "revision_id": 97351
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "qingxiao",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "heart_of_evils_purge",
-  "echo_set_source_name": "Heart of Evil's Purge",
+  "echo_sets": [
+    {
+      "content_id": "heart_of_evils_purge",
+      "source_name": "Heart of Evil's Purge",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "calamity_effigy",
+  "primary_echo_source_name": "Calamity Effigy",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Aero DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% ≥ Aero DMG"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy/Liberation/Basic DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/qingxiao",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-25"
   }
 }

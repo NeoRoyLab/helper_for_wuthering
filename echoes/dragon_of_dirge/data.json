@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "dragon_of_dirge",
+  "name": {
+    "en": "Dragon of Dirge"
+  },
+  "icon": "echoes/dragon_of_dirge/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Dragon_of_Dirge",
+    "verified_at": "2026-08-30",
+    "revision_id": 80639
+  }
+}

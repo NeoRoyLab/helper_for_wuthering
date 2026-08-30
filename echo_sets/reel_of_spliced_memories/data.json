@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "reel_of_spliced_memories",
+  "name": {
+    "en": "Reel of Spliced Memories"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "ATK +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting Tune Rupture - Shifting or Tune Strain - Shifting on enemies increases the Tune Break Boost of Resonators in the team by 20 for 30s. Effects of the same name do not stack."
+    }
+  ],
+  "icon": "echo_sets/reel_of_spliced_memories/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reel_of_Spliced_Memories",
+    "verified_at": "2026-08-30",
+    "revision_id": 131757
+  }
+}

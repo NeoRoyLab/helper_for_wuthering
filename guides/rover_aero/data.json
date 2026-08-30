@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "rover_aero",
   "weapons": [
     {
@@ -11,12 +11,49 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "rejuvenating_glow",
-  "echo_set_source_name": "Rejuvenating Glow",
+  "echo_sets": [
+    {
+      "content_id": "rejuvenating_glow",
+      "source_name": "Rejuvenating Glow",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "windward_pilgrimage",
+      "source_name": "Windward Pilgrimage",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "bell_borne_geochelone",
+  "primary_echo_source_name": "Bell-Borne Geochelone",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Aero DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Aero DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Skill DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/rover-aero",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "glommoth",
+  "name": {
+    "en": "Glommoth"
+  },
+  "icon": "echoes/glommoth/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Glommoth",
+    "verified_at": "2026-08-30",
+    "revision_id": 93527
+  }
+}

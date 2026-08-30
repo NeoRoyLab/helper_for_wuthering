@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "hyvatia",
+  "name": {
+    "en": "Hyvatia"
+  },
+  "icon": "echoes/hyvatia/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Hyvatia",
+    "verified_at": "2026-08-30",
+    "revision_id": 137505
+  }
+}

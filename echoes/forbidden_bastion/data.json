@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "forbidden_bastion",
+  "name": {
+    "en": "Forbidden Bastion"
+  },
+  "icon": "echoes/forbidden_bastion/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Forbidden_Bastion",
+    "verified_at": "2026-08-30",
+    "revision_id": 101116
+  }
+}

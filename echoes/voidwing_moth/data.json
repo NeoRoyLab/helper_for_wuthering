@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "voidwing_moth",
+  "name": {
+    "en": "Voidwing Moth"
+  },
+  "icon": "echoes/voidwing_moth/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Voidwing_Moth",
+    "verified_at": "2026-08-30",
+    "revision_id": 136474
+  }
+}

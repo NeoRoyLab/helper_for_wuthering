@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "sigrika",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "sound_of_true_name",
-  "echo_set_source_name": "Sound of True Name",
+  "echo_sets": [
+    {
+      "content_id": "sound_of_true_name",
+      "source_name": "Sound of True Name",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "nameless_explorer",
+  "primary_echo_source_name": "Nameless Explorer",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK%"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% > Energy Regen"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > Energy Regen (above 125% until 150%) > ATK% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/sigrika",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "taoqi",
   "weapons": [
     {
@@ -11,12 +11,49 @@
       "rank": 5
     }
   ],
-  "echo_set_id": "rejuvenating_glow",
-  "echo_set_source_name": "Rejuvenating Glow",
+  "echo_sets": [
+    {
+      "content_id": "rejuvenating_glow",
+      "source_name": "Rejuvenating Glow",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "fallacy_of_no_return",
+  "primary_echo_source_name": "Fallacy of No Return",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "DEF%"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen / Havoc DMG%"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen / Havoc DMG"
+    },
+    {
+      "cost": 1,
+      "value": "DEF%"
+    },
+    {
+      "cost": 1,
+      "value": "DEF%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > DEF",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/taoqi",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "tidebreaking_courage",
+  "name": {
+    "en": "Tidebreaking Courage"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Energy Regen +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Increase the Resonator's ATK by 15%. Reaching 250% Energy Regen increases all Attribute DMG by 30% for the Resonator."
+    }
+  ],
+  "icon": "echo_sets/tidebreaking_courage/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Tidebreaking_Courage",
+    "verified_at": "2026-08-30",
+    "revision_id": 85699
+  }
+}

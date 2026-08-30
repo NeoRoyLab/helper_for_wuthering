@@ -31,5 +31,7 @@
     "verified_at": "2026-08-28",
     "page_last_updated": "2026-08-20"
   },
-  "convene_draw": "characters/rover_spectro/convene_draw.png"
+  "convene_draw": null,
+  "icon": "characters/rover_spectro/icon.png",
+  "full_sprite": "characters/rover_spectro/full_sprite.png"
 }

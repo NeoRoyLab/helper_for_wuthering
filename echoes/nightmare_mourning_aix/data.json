@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nightmare_mourning_aix",
+  "name": {
+    "en": "Nightmare: Mourning Aix"
+  },
+  "icon": "echoes/nightmare_mourning_aix/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Mourning_Aix",
+    "verified_at": "2026-08-30",
+    "revision_id": 96585
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reactor_husk",
+  "name": {
+    "en": "Reactor Husk"
+  },
+  "icon": "echoes/reactor_husk/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reactor_Husk",
+    "verified_at": "2026-08-30",
+    "revision_id": 137494
+  }
+}

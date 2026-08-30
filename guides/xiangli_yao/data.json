@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "xiangli_yao",
   "weapons": [
     {
@@ -23,12 +23,49 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "void_thunder",
-  "echo_set_source_name": "Void Thunder",
+  "echo_sets": [
+    {
+      "content_id": "void_thunder",
+      "source_name": "Void Thunder",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "lingering_tunes",
+      "source_name": "Endless Resonance",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "nightmare_thundering_mephis",
+  "primary_echo_source_name": "Nightmare: Thundering Mephis",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Electro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% ≥ Electro DMG"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Liberation DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

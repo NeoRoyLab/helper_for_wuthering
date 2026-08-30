@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "mech_abomination",
+  "name": {
+    "en": "Mech Abomination"
+  },
+  "icon": "echoes/mech_abomination/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Mech_Abomination",
+    "verified_at": "2026-08-30",
+    "revision_id": 69145
+  }
+}

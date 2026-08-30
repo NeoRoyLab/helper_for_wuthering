@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "the_false_sovereign",
+  "name": {
+    "en": "The False Sovereign"
+  },
+  "icon": "echoes/the_false_sovereign/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/The_False_Sovereign",
+    "verified_at": "2026-08-30",
+    "revision_id": 93005
+  }
+}

@@ -1,1 +1,3711 @@
-{"schema_version":1,"verified_at":"2026-08-29","guides":[{"id":"aalto","page_last_updated":"2026-08-20","weapons":[["The Last Dance",1],["Woodland Aria",1],["Static Mist",1],["Relativistic Jet",5],["Undying Flame",5]],"echo_set":"Sierra Gale"},{"id":"aemeath","page_last_updated":"2026-08-20","weapons":[["Everbright Polestar",1],["Emerald of Genesis",1],["Red Spring",1],["Emerald Sentence",1],["Blazing Brilliance",1]],"echo_set":"Trailblazing Star"},{"id":"augusta","page_last_updated":"2026-08-20","weapons":[["Thunderflare Dominion",1],["Verdant Summit",1],["Ages of Harvest",1],["Wildfire Mark",1],["Radiance Cleaver",1]],"echo_set":"Crown of Valor"},{"id":"baizhi","page_last_updated":"2026-08-20","weapons":[["Stellar Symphony",1],["Variation",5],["Call of the Abyss",5],["Rectifier of Voyager",5],["Rectifier#25",5]],"echo_set":"Rejuvenating Glow"},{"id":"brant","page_last_updated":"2026-08-20","weapons":[["Unflickering Valor",1],["Laser Shearer",1],["Bloodpact's Pledge",5],["Red Spring",1],["Emerald of Genesis",1]],"echo_set":"Molten Rift"},{"id":"buling","page_last_updated":"2026-08-20","weapons":[["Stringmaster",1],["Lethean Elegy",1],["Rime-Draped Sprouts",1],["Luminous Hymn",1],["Cosmic Ripples",1]],"echo_set":"Rejuvenating Glow"},{"id":"calcharo","page_last_updated":"2026-08-20","weapons":[["Wildfire Mark",1],["Lustrous Razor",1],["Ages of Harvest",1],["Verdant Summit",1],["Autumntrace",5]],"echo_set":"Void Thunder"},{"id":"camellya","page_last_updated":"2026-08-20","weapons":[["Red Spring",1],["Emerald Sentence",1],["Frostburn",1],["Everbright Polestar",1],["Emerald of Genesis",1]],"echo_set":"Havoc Eclipse"},{"id":"cantarella","page_last_updated":"2026-08-20","weapons":[["Whispers of Sirens",1],["Rime-Draped Sprouts",1],["Stringmaster",1],["Lethean Elegy",1],["Luminous Hymn",1]],"echo_set":"Midnight Veil"},{"id":"carlotta","page_last_updated":"2026-08-20","weapons":[["The Last Dance",1],["Phasic Homogenizer",1],["Woodland Aria",1],["Static Mist",1],["Undying Flame",5]],"echo_set":"Frosty Resolve"},{"id":"cartethyia","page_last_updated":"2026-08-20","weapons":[["Defier's Thorn",1],["Red Spring",1],["Feather Edge",5],["Blazing Brilliance",1],["Emerald Sentence",1]],"echo_set":"Windward Pilgrimage"},{"id":"changli","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Emerald of Genesis",1],["Emerald Sentence",1],["Frostburn",1],["Red Spring",1]],"echo_set":"Molten Rift"},{"id":"chisa","page_last_updated":"2026-08-20","weapons":[["Kumokiri",1],["Wildfire Mark",1],["Ages of Harvest",1],["Verdant Summit",1],["Radiance Cleaver",1]],"echo_set":"Rejuvenating Glow"},{"id":"chixia","page_last_updated":"2026-08-20","weapons":[["The Last Dance",1],["Static Mist",1],["Thunderbolt",5],["Relativistic Jet",5],["Novaburst",5]],"echo_set":"Molten Rift"},{"id":"ciaccona","page_last_updated":"2026-08-20","weapons":[["Woodland Aria",1],["Phasic Homogenizer",1],["Lux & Umbra",1],["Spectrum Blaster",1],["The Last Dance",1]],"echo_set":"Gusts of Welkin"},{"id":"danjin","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Red Spring",1],["Emerald of Genesis",1],["Commando of Conviction",5],["Endless Collapse",5]],"echo_set":"Moonlit Clouds"},{"id":"denia","page_last_updated":"2026-08-20","weapons":[["Forged Dwarf Star",1],["Stringmaster",1],["Lethean Elegy",1],["Luminous Hymn",1],["Whispers of Sirens",1]],"echo_set":"Chromatic Foam"},{"id":"encore","page_last_updated":"2026-08-20","weapons":[["Stringmaster",1],["Rime-Draped Sprouts",1],["Whispers of Sirens",1],["Lethean Elegy",1],["Luminous Hymn",1]],"echo_set":"Molten Rift"},{"id":"galbrena","page_last_updated":"2026-08-20","weapons":[["Lux & Umbra",1],["Phasic Homogenizer",1],["The Last Dance",1],["Spectrum Blaster",1],["Static Mist",1]],"echo_set":"Flamewing's Shadow"},{"id":"hiyuki","page_last_updated":"2026-08-20","weapons":[["Frostburn",1],["Blazing Brilliance",1],["Emerald of Genesis",1],["Emerald Sentence",1],["Red Spring",1]],"echo_set":"Wishes of Quiet Snowfall"},{"id":"iuno","page_last_updated":"2026-08-20","weapons":[["Moongazer's Sigil",1],["Verity's Handle",1],["Blazing Justice",1],["Tragicomedy",1],["Pulsation Bracer",1]],"echo_set":"Crown of Valor"},{"id":"jianxin","page_last_updated":"2026-08-20","weapons":[["Verity's Handle",1],["Moongazer's Sigil",1],["Blazing Justice",1],["Tragicomedy",1],["Abyss Surges",1]],"echo_set":"Moonlit Clouds"},{"id":"jinhsi","page_last_updated":"2026-08-20","weapons":[["Ages of Harvest",1],["Kumokiri",1],["Wildfire Mark",1],["Verdant Summit",1],["Radiance Cleaver",1]],"echo_set":"Celestial Light"},{"id":"jiyan","page_last_updated":"2026-08-20","weapons":[["Verdant Summit",1],["Thunderflare Dominion",1],["Ages of Harvest",1],["Kumokiri",1],["Wildfire Mark",1]],"echo_set":"Windward Pilgrimage"},{"id":"lingyang","page_last_updated":"2026-08-20","weapons":[["Moongazer's Sigil",1],["Blazing Justice",1],["Verity's Handle",1],["Tragicomedy",1],["Abyss Surges",1]],"echo_set":"Endless Resonance"},{"id":"lucilla","page_last_updated":"2026-08-20","weapons":[["Freeze Frame",1],["Whispers of Sirens",1],["Stringmaster",1],["Lethean Elegy",1],["Rime-Draped Sprouts",1]],"echo_set":"Wishes of Quiet Snowfall"},{"id":"lucy","page_last_updated":"2026-08-20","weapons":[["Spectral Trigger",1],["Lux & Umbra",1],["Skull Thrasher",1],["Phasic Homogenizer",1],["The Last Dance",1]],"echo_set":"Shadow of Shattered Dreams"},{"id":"lumi","page_last_updated":"2026-08-20","weapons":[["Ages of Harvest",1],["Verdant Summit",1],["Lustrous Razor",1],["Autumntrace",5],["Waning Redshift",5]],"echo_set":"Moonlit Clouds"},{"id":"lupa","page_last_updated":"2026-08-20","weapons":[["Wildfire Mark",1],["Ages of Harvest",1],["Kumokiri",1],["Verdant Summit",1],["Thunderflare Dominion",1]],"echo_set":"Flaming Clawprint"},{"id":"luuk_herssen","page_last_updated":"2026-08-20","weapons":[["Daybreaker's Spine",1],["Pulsation Bracer",1],["Blazing Justice",1],["Moongazer's Sigil",1],["Verity's Handle",1]],"echo_set":"Rite of Gilded Revelation"},{"id":"lynae","page_last_updated":"2026-08-20","weapons":[["Spectrum Blaster",1],["Static Mist",1],["Phasic Homogenizer",1],["The Last Dance",1],["Lux & Umbra",1]],"echo_set":"Pact of Neonlight Leap"},{"id":"mornye","page_last_updated":"2026-08-20","weapons":[["Starfield Calibrator",1],["Discord",5],["Broadblade#41",5]],"echo_set":"Halo of Starry Radiance"},{"id":"mortefi","page_last_updated":"2026-08-20","weapons":[["Static Mist",1],["The Last Dance",1],["Relativistic Jet",5],["Novaburst",5],["Thunderbolt",5]],"echo_set":"Moonlit Clouds"},{"id":"phoebe","page_last_updated":"2026-08-20","weapons":[["Luminous Hymn",1],["Lethean Elegy",1],["Stringmaster",1],["Whispers of Sirens",1],["Rime-Draped Sprouts",1]],"echo_set":"Eternal Radiance"},{"id":"phrolova","page_last_updated":"2026-08-20","weapons":[["Lethean Elegy",1],["Stringmaster",1],["Whispers of Sirens",1],["Rime-Draped Sprouts",1],["Luminous Hymn",1]],"echo_set":"Dream of the Lost"},{"id":"qingxiao","page_last_updated":"2026-08-25","weapons":[["Glint of Clouds",1],["Red Spring",1],["Azure Oath",1],["Everbright Polestar",1],["Emerald Sentence",1]],"echo_set":"Heart of Evil's Purge"},{"id":"qiuyuan","page_last_updated":"2026-08-20","weapons":[["Emerald Sentence",1],["Red Spring",1],["Blazing Brilliance",1],["Emerald of Genesis",1],["Feather Edge",5]],"echo_set":"Law of Harmony"},{"id":"rebecca","page_last_updated":"2026-08-20","weapons":[["Skull Thrasher",1],["Spectrum Blaster",1],["Static Mist",1],["Phasic Homogenizer",1],["Woodland Aria",1]],"echo_set":"Moonlit Clouds"},{"id":"roccia","page_last_updated":"2026-08-20","weapons":[["Tragicomedy",1],["Solsworn Ciphers",1],["Blazing Justice",1],["Verity's Handle",1],["Pulsation Bracer",1]],"echo_set":"Midnight Veil"},{"id":"rover_aero","page_last_updated":"2026-08-20","weapons":[["Bloodpact's Pledge",5],["Bloodpact's Pledge",1]],"echo_set":"Rejuvenating Glow"},{"id":"rover_electro","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Red Spring",1],["Azure Oath",1],["Everbright Polestar",1],["Emerald of Genesis",1]],"echo_set":"Moonlit Clouds"},{"id":"rover_havoc","page_last_updated":"2026-08-20","weapons":[["Red Spring",1],["Blazing Brilliance",1],["Emerald of Genesis",1],["Somnoire Anchor",5],["Commando of Conviction",5]],"echo_set":"Havoc Eclipse"},{"id":"rover_spectro","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Emerald of Genesis",1],["Lunar Cutter",5],["Endless Collapse",5],["Commando of Conviction",5]],"echo_set":"Moonlit Clouds"},{"id":"sanhua","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Red Spring",1],["Emerald of Genesis",1],["Commando of Conviction",5],["Endless Collapse",5]],"echo_set":"Moonlit Clouds"},{"id":"sigrika","page_last_updated":"2026-08-20","weapons":[["Solsworn Ciphers",1],["Blazing Justice",1],["Pulsation Bracer",1],["Verity's Handle",1],["Moongazer's Sigil",1]],"echo_set":"Sound of True Name"},{"id":"suisui","page_last_updated":"2026-08-20","weapons":[["Firstlight's Herald",1],["Stellar Symphony",1],["Variation",5],["Call of the Abyss",5]],"echo_set":"Song of Feathered Trace"},{"id":"taoqi","page_last_updated":"2026-08-20","weapons":[["Discord",5],["Dauntless Evernight",5]],"echo_set":"Rejuvenating Glow"},{"id":"the_shorekeeper","page_last_updated":"2026-08-20","weapons":[["Stellar Symphony",1],["Variation",5],["Rectifier#25",5],["Call of the Abyss",5]],"echo_set":"Rejuvenating Glow"},{"id":"verina","page_last_updated":"2026-08-20","weapons":[["Variation",5],["Stellar Symphony",1],["Call of the Abyss",5],["Rectifier#25",5],["Rectifier of Voyager",5]],"echo_set":"Rejuvenating Glow"},{"id":"xiangli_yao","page_last_updated":"2026-08-20","weapons":[["Moongazer's Sigil",1],["Verity's Handle",1],["Blazing Justice",1],["Solsworn Ciphers",1],["Tragicomedy",1]],"echo_set":"Void Thunder"},{"id":"yangyang","page_last_updated":"2026-08-20","weapons":[["Blazing Brilliance",1],["Emerald of Genesis",1],["Lumingloss",5],["Endless Collapse",5],["Lunar Cutter",5]],"echo_set":"Moonlit Clouds"},{"id":"yangyang_xuanling","page_last_updated":"2026-08-20","weapons":[["Azure Oath",1],["Emerald Sentence",1],["Red Spring",1],["Everbright Polestar",1],["Frostburn",1]],"echo_set":"Song of Feathered Trace"},{"id":"yinlin","page_last_updated":"2026-08-20","weapons":[["Stringmaster",1],["Whispers of Sirens",1],["Rime-Draped Sprouts",1],["Lethean Elegy",1],["Cosmic Ripples",1]],"echo_set":"Moonlit Clouds"},{"id":"youhu","page_last_updated":"2026-08-20","weapons":[["Marcato",5],["Gauntlets#21D",5],["Abyss Surges",1],["Celestial Spiral",5]],"echo_set":"Rejuvenating Glow"},{"id":"yuanwu","page_last_updated":"2026-08-20","weapons":[["Verity's Handle",1],["Amity Accord",5],["Stonard",5],["Guardian Gauntlets",5],["Originite: Type IV",5]],"echo_set":"Rejuvenating Glow"},{"id":"zani","page_last_updated":"2026-08-20","weapons":[["Blazing Justice",1],["Tragicomedy",1],["Verity's Handle",1],["Pulsation Bracer",1],["Moongazer's Sigil",1]],"echo_set":"Eternal Radiance"},{"id":"zhezhi","page_last_updated":"2026-08-20","weapons":[["Rime-Draped Sprouts",1],["Whispers of Sirens",1],["Lethean Elegy",1],["Stringmaster",1],["Forged Dwarf Star",1]],"echo_set":"Empyrean Anthem"}],"unavailable":[{"id":"hsin","reason":"No build recommendations were displayed on the Prydwen character page on 2026-08-29."},{"id":"jingran","reason":"No build recommendations were displayed on the Prydwen character page on 2026-08-29."},{"id":"suoming","reason":"No build recommendations were displayed on the Prydwen character page on 2026-08-29."}]}
+{
+  "schema_version": 2,
+  "verified_at": "2026-08-30",
+  "guides": [
+    {
+      "id": "aalto",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Woodland Aria",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "Relativistic Jet",
+          5
+        ],
+        [
+          "Undying Flame",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Sierra Gale",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Nightmare: Feilian Beringal"
+          ]
+        },
+        {
+          "name": "Windward Pilgrimage",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Nightmare: Kelpie"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK ≥ Basic Attack DMG% > Resonance Skill DMG%"
+    },
+    {
+      "id": "aemeath",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Everbright Polestar",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Blazing Brilliance",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Trailblazing Star",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Sigillum"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% = Fusion DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > ATK% > Liberation DMG% > ATK"
+    },
+    {
+      "id": "augusta",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Thunderflare Dominion",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Wildfire Mark",
+          1
+        ],
+        [
+          "Radiance Cleaver",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Crown of Valor",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "The False Sovereign"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy Attack DMG% > ATK > Resonance Skill DMG%"
+    },
+    {
+      "id": "baizhi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Stellar Symphony",
+          1
+        ],
+        [
+          "Variation",
+          5
+        ],
+        [
+          "Call of the Abyss",
+          5
+        ],
+        [
+          "Rectifier of Voyager",
+          5
+        ],
+        [
+          "Rectifier#25",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "HP% / CRIT Rate"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > HP% > Flat HP"
+    },
+    {
+      "id": "brant",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Unflickering Valor",
+          1
+        ],
+        [
+          "Laser Shearer",
+          1
+        ],
+        [
+          "Bloodpact's Pledge",
+          5
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Molten Rift",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Inferno Rider"
+          ]
+        },
+        {
+          "name": "Tidebreaking Courage",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Dragon of Dirge"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Fusion DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until 250%) > CRIT Rate = CRIT DMG > Energy Regen (Above 250%) > Basic Attack DMG% > ATK% > ATK"
+    },
+    {
+      "id": "buling",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Luminous Hymn",
+          1
+        ],
+        [
+          "Cosmic Ripples",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "calcharo",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Wildfire Mark",
+          1
+        ],
+        [
+          "Lustrous Razor",
+          1
+        ],
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Autumntrace",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Void Thunder",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Thundering Mephis",
+            "Nightmare: Tempest Mephis"
+          ]
+        },
+        {
+          "name": "Endless Resonance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Mech Abomination"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Liberation DMG%"
+    },
+    {
+      "id": "camellya",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Frostburn",
+          1
+        ],
+        [
+          "Everbright Polestar",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Havoc Eclipse",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Crownless"
+          ]
+        },
+        {
+          "name": "Endless Resonance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Mech Abomination"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% ≥ Havoc DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Basic DMG% > ATK"
+    },
+    {
+      "id": "cantarella",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Luminous Hymn",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Midnight Veil",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Lorelei"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG > Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT RATE = CRIT DMG > ATK% > ATK = Basic ATK DMG%"
+    },
+    {
+      "id": "carlotta",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "Woodland Aria",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "Undying Flame",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Frosty Resolve",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Sentry Construct"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Resonance Skill DMG > ATK"
+    },
+    {
+      "id": "cartethyia",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Defier's Thorn",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Feather Edge",
+          5
+        ],
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Windward Pilgrimage",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence: Fleurdelys"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate"
+        },
+        {
+          "cost": 4,
+          "value": "CRIT DMG"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > HP% > Basic Attack DMG% = Liberation DMG% > HP"
+    },
+    {
+      "id": "changli",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Frostburn",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Molten Rift",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Inferno Rider"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% ≥ Fusion DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Resonance Skill DMG%"
+    },
+    {
+      "id": "chisa",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Kumokiri",
+          1
+        ],
+        [
+          "Wildfire Mark",
+          1
+        ],
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Radiance Cleaver",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return"
+          ]
+        },
+        {
+          "name": "Thread of Severed Fate",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Reminiscence: Threnodian - Leviathan"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Liberation DMG% > ATK"
+    },
+    {
+      "id": "chixia",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "Thunderbolt",
+          5
+        ],
+        [
+          "Relativistic Jet",
+          5
+        ],
+        [
+          "Novaburst",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Molten Rift",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Inferno Rider",
+            "Inferno Rider"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "ciaccona",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Woodland Aria",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "Lux & Umbra",
+          1
+        ],
+        [
+          "Spectrum Blaster",
+          1
+        ],
+        [
+          "The Last Dance",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Gusts of Welkin",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Kelpie"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Windward Pilgrimage",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Kelpie"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "danjin",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Commando of Conviction",
+          5
+        ],
+        [
+          "Endless Collapse",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Midnight Veil",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Lorelei",
+            "Nightmare: Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Havoc Eclipse",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Dreamless"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy DMG% > Resonance Skill DMG%"
+    },
+    {
+      "id": "denia",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Forged Dwarf Star",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Luminous Hymn",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Chromatic Foam",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence: Denia"
+          ]
+        },
+        {
+          "name": "Reel of Spliced Memories",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Voidwing Moth"
+          ]
+        },
+        {
+          "name": "Flaming Clawprint",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Lioness of Glory"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Liberation DMG% ≥ ATK% > ATK"
+    },
+    {
+      "id": "encore",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Luminous Hymn",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Molten Rift",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Inferno Rider",
+            "Inferno Rider"
+          ]
+        },
+        {
+          "name": "Flaming Clawprint",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Lioness of Glory"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Basic DMG% > Skill DMG%"
+    },
+    {
+      "id": "galbrena",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Lux & Umbra",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Spectrum Blaster",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Flamewing's Shadow",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Corrosaurus"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy Attack DMG%"
+    },
+    {
+      "id": "hiyuki",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Frostburn",
+          1
+        ],
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Wishes of Quiet Snowfall",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence: Threnodian - Voidborne Construct"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate (until 75%) > ATK% > Liberation DMG% > ATK"
+    },
+    {
+      "id": "iuno",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Moongazer's Sigil",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Tragicomedy",
+          1
+        ],
+        [
+          "Pulsation Bracer",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Crown of Valor",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Lady of the Sea"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Resonance Liberation DMG% ≥ ATK% > ATK"
+    },
+    {
+      "id": "jianxin",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Moongazer's Sigil",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Tragicomedy",
+          1
+        ],
+        [
+          "Abyss Surges",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG / Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Liberation DMG% > Heavy Attack DMG% > Basic Attack DMG%"
+    },
+    {
+      "id": "jinhsi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Kumokiri",
+          1
+        ],
+        [
+          "Wildfire Mark",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Radiance Cleaver",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Celestial Light",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Jué"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Resonance Skill DMG% > ATK"
+    },
+    {
+      "id": "jiyan",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Thunderflare Dominion",
+          1
+        ],
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Kumokiri",
+          1
+        ],
+        [
+          "Wildfire Mark",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Windward Pilgrimage",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Kelpie"
+          ]
+        },
+        {
+          "name": "Sierra Gale",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Feilian Beringal",
+            "Feilian Beringal"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% ≥ Aero DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Heavy DMG%"
+    },
+    {
+      "id": "lingyang",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Moongazer's Sigil",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Tragicomedy",
+          1
+        ],
+        [
+          "Abyss Surges",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Endless Resonance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Mech Abomination"
+          ]
+        },
+        {
+          "name": "Frosty Resolve",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Sentry Construct"
+          ]
+        },
+        {
+          "name": "Freezing Frost",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Lampylumen Myriad"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "lucilla",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Freeze Frame",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Wishes of Quiet Snowfall",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Glommoth"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Dream of the Lost",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Voidwing Moth",
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "CRIT Rate = CRIT DMG > ATK% > ATK = Basic DMG%"
+    },
+    {
+      "id": "lucy",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Spectral Trigger",
+          1
+        ],
+        [
+          "Lux & Umbra",
+          1
+        ],
+        [
+          "Skull Thrasher",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "The Last Dance",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Shadow of Shattered Dreams",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence - Nightmare: Adam Smasher"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Heavy DMG% > ATK"
+    },
+    {
+      "id": "lumi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Lustrous Razor",
+          1
+        ],
+        [
+          "Autumntrace",
+          5
+        ],
+        [
+          "Waning Redshift",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Void Thunder",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Thundering Mephis"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "lupa",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Wildfire Mark",
+          1
+        ],
+        [
+          "Ages of Harvest",
+          1
+        ],
+        [
+          "Kumokiri",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Thunderflare Dominion",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Flaming Clawprint",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Lioness of Glory"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Liberation ATK DMG%"
+    },
+    {
+      "id": "luuk_herssen",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Daybreaker's Spine",
+          1
+        ],
+        [
+          "Pulsation Bracer",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Moongazer's Sigil",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rite of Gilded Revelation",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Twin Nova: Nebulous Cannon"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% = Spectro DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > ATK% = Basic DMG% > ATK"
+    },
+    {
+      "id": "lynae",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Spectrum Blaster",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Lux & Umbra",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Pact of Neonlight Leap",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Hyvatia"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Basic Attack DMG%"
+    },
+    {
+      "id": "mornye",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Starfield Calibrator",
+          1
+        ],
+        [
+          "Discord",
+          5
+        ],
+        [
+          "Broadblade#41",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Halo of Starry Radiance",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Reactor Husk"
+          ]
+        },
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "DEF% > Healing Bonus"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Fusion DMG"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        }
+      ],
+      "substats": "Energy Regen (Until 260%) >>> Liberation DMG% > CRIT DMG > DEF% > CRIT Rate (until 20%) > ATK% > DEF > ATK"
+    },
+    {
+      "id": "mortefi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "The Last Dance",
+          1
+        ],
+        [
+          "Relativistic Jet",
+          5
+        ],
+        [
+          "Novaburst",
+          5
+        ],
+        [
+          "Thunderbolt",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Empyrean Anthem",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Hecate"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Fusion DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "phoebe",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Luminous Hymn",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Eternal Radiance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Mourning Aix",
+            "Capitaneus"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG = ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy ATK DMG%"
+    },
+    {
+      "id": "phrolova",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Luminous Hymn",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Dream of the Lost",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Hecate"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "CRIT RATE = CRIT DMG > ATK% > Skill DMG% > ATK"
+    },
+    {
+      "id": "qingxiao",
+      "page_last_updated": "2026-08-25",
+      "weapons": [
+        [
+          "Glint of Clouds",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Azure Oath",
+          1
+        ],
+        [
+          "Everbright Polestar",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Heart of Evil's Purge",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Calamity Effigy"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% ≥ Aero DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy/Liberation/Basic DMG%"
+    },
+    {
+      "id": "qiuyuan",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Feather Edge",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Law of Harmony",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Reminiscence: Fenrico",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Heavy Attack DMG% > ATK"
+    },
+    {
+      "id": "rebecca",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Skull Thrasher",
+          1
+        ],
+        [
+          "Spectrum Blaster",
+          1
+        ],
+        [
+          "Static Mist",
+          1
+        ],
+        [
+          "Phasic Homogenizer",
+          1
+        ],
+        [
+          "Woodland Aria",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Bell-Borne Geochelone",
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Shadow of Shattered Dreams",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence - Nightmare: Adam Smasher"
+          ]
+        },
+        {
+          "name": "Pact of Neonlight Leap",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Hyvatia"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Basic DMG% > ATK% > ATK"
+    },
+    {
+      "id": "roccia",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Tragicomedy",
+          1
+        ],
+        [
+          "Solsworn Ciphers",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Pulsation Bracer",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Midnight Veil",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Nightmare: Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate > CRIT DMG > ATK% > Heavy ATK DMG% > ATK"
+    },
+    {
+      "id": "rover_aero",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Bloodpact's Pledge",
+          5
+        ],
+        [
+          "Bloodpact's Pledge",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Windward Pilgrimage",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Reminiscence: Fleurdelys"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Skill DMG% > ATK"
+    },
+    {
+      "id": "rover_electro",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Azure Oath",
+          1
+        ],
+        [
+          "Everbright Polestar",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Skill DMG% = ATK > Liberation DMG%"
+    },
+    {
+      "id": "rover_havoc",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Somnoire Anchor",
+          5
+        ],
+        [
+          "Commando of Conviction",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Havoc Eclipse",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Dreamless"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Basic DMG% > Liberation DMG%"
+    },
+    {
+      "id": "rover_spectro",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Lunar Cutter",
+          5
+        ],
+        [
+          "Endless Collapse",
+          5
+        ],
+        [
+          "Commando of Conviction",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Eternal Radiance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Mourning Aix"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Skill DMG% > Liberation DMG%"
+    },
+    {
+      "id": "sanhua",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Commando of Conviction",
+          5
+        ],
+        [
+          "Endless Collapse",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "sigrika",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Solsworn Ciphers",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Pulsation Bracer",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Moongazer's Sigil",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Sound of True Name",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nameless Explorer"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK%"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% > Energy Regen"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > Energy Regen (above 125% until 150%) > ATK% > ATK"
+    },
+    {
+      "id": "suisui",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Firstlight's Herald",
+          1
+        ],
+        [
+          "Stellar Symphony",
+          1
+        ],
+        [
+          "Variation",
+          5
+        ],
+        [
+          "Call of the Abyss",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Song of Feathered Trace",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Forbidden Bastion"
+          ]
+        },
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        }
+      ],
+      "substats": "Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP"
+    },
+    {
+      "id": "taoqi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Discord",
+          5
+        ],
+        [
+          "Dauntless Evernight",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "DEF%"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Havoc DMG%"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Havoc DMG"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > DEF"
+    },
+    {
+      "id": "the_shorekeeper",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Stellar Symphony",
+          1
+        ],
+        [
+          "Variation",
+          5
+        ],
+        [
+          "Rectifier#25",
+          5
+        ],
+        [
+          "Call of the Abyss",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT DMG > HP%"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Spectro DMG"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        }
+      ],
+      "substats": "Energy Regen (Until 230%) > CRIT DMG ≥ Liberation DMG% > HP% > CRIT Rate > HP > ATK% = ATK"
+    },
+    {
+      "id": "verina",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Variation",
+          5
+        ],
+        [
+          "Stellar Symphony",
+          1
+        ],
+        [
+          "Call of the Abyss",
+          5
+        ],
+        [
+          "Rectifier#25",
+          5
+        ],
+        [
+          "Rectifier of Voyager",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate > ATK%"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Spectro DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "xiangli_yao",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Moongazer's Sigil",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Solsworn Ciphers",
+          1
+        ],
+        [
+          "Tragicomedy",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Void Thunder",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Thundering Mephis",
+            "Nightmare: Tempest Mephis"
+          ]
+        },
+        {
+          "name": "Endless Resonance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Mech Abomination"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% ≥ Electro DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Liberation DMG% > ATK"
+    },
+    {
+      "id": "yangyang",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Brilliance",
+          1
+        ],
+        [
+          "Emerald of Genesis",
+          1
+        ],
+        [
+          "Lumingloss",
+          5
+        ],
+        [
+          "Endless Collapse",
+          5
+        ],
+        [
+          "Lunar Cutter",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Sierra Gale",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Feilian Beringal",
+            "Feilian Beringal"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Aero DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Liberation DMG% > Basic DMG%"
+    },
+    {
+      "id": "yangyang_xuanling",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Azure Oath",
+          1
+        ],
+        [
+          "Emerald Sentence",
+          1
+        ],
+        [
+          "Red Spring",
+          1
+        ],
+        [
+          "Everbright Polestar",
+          1
+        ],
+        [
+          "Frostburn",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Song of Feathered Trace",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Thousand-Puppet Pavilion"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Havoc DMG"
+        },
+        {
+          "cost": 3,
+          "value": "ATK% = Havoc DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy DMG% ATK"
+    },
+    {
+      "id": "yinlin",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Cosmic Ripples",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Empyrean Anthem",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Tempest Mephis"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Resonance Skill DMG%"
+    },
+    {
+      "id": "youhu",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Marcato",
+          5
+        ],
+        [
+          "Gauntlets#21D",
+          5
+        ],
+        [
+          "Abyss Surges",
+          1
+        ],
+        [
+          "Celestial Spiral",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Glacio DMG%"
+        },
+        {
+          "cost": 3,
+          "value": "Energy Regen / Glacio DMG"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Skill DMG%"
+    },
+    {
+      "id": "yuanwu",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Amity Accord",
+          5
+        ],
+        [
+          "Stonard",
+          5
+        ],
+        [
+          "Guardian Gauntlets",
+          5
+        ],
+        [
+          "Originite: Type IV",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Rejuvenating Glow",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Fallacy of No Return",
+            "Bell-Borne Geochelone"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        },
+        {
+          "name": "Empyrean Anthem",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Nightmare: Tempest Mephis"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG > DEF%"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        },
+        {
+          "cost": 1,
+          "value": "DEF%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > DEF% > Flat DEF"
+    },
+    {
+      "id": "zani",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Blazing Justice",
+          1
+        ],
+        [
+          "Tragicomedy",
+          1
+        ],
+        [
+          "Verity's Handle",
+          1
+        ],
+        [
+          "Pulsation Bracer",
+          1
+        ],
+        [
+          "Moongazer's Sigil",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Eternal Radiance",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Capitaneus",
+            "Nightmare: Mourning Aix"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Spectro DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK"
+    },
+    {
+      "id": "zhezhi",
+      "page_last_updated": "2026-08-20",
+      "weapons": [
+        [
+          "Rime-Draped Sprouts",
+          1
+        ],
+        [
+          "Whispers of Sirens",
+          1
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Forged Dwarf Star",
+          1
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Empyrean Anthem",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Nightmare: Lampylumen Myriad"
+          ]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": 2,
+          "special": false,
+          "main_echoes": [
+            "Impermanence Heron"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Glacio DMG > ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Basic DMG% > Flat ATK"
+    }
+  ],
+  "unavailable": [
+    {
+      "id": "hsin",
+      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
+    },
+    {
+      "id": "jingran",
+      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
+    },
+    {
+      "id": "suoming",
+      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
+    }
+  ]
+}

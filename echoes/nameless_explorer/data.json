@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nameless_explorer",
+  "name": {
+    "en": "Nameless Explorer"
+  },
+  "icon": "echoes/nameless_explorer/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nameless_Explorer",
+    "verified_at": "2026-08-30",
+    "revision_id": 137499
+  }
+}

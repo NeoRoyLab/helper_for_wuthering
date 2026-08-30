@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "impermanence_heron",
+  "name": {
+    "en": "Impermanence Heron"
+  },
+  "icon": "echoes/impermanence_heron/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Impermanence_Heron",
+    "verified_at": "2026-08-30",
+    "revision_id": 78831
+  }
+}

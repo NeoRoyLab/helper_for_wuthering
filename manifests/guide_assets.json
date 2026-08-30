@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_site": "Wuthering Waves Wiki",
-  "verified_at": "2026-08-29",
+  "verified_at": "2026-08-30",
   "images": [
     {
       "kind": "weapon",
@@ -725,6 +725,15 @@
     },
     {
       "kind": "echo_set",
+      "id": "freezing_frost",
+      "path": "echo_sets/freezing_frost/icon.png",
+      "wiki_file": "Icon Freezing Frost.png",
+      "width": 158,
+      "height": 158,
+      "sha256": "30aaef206abb8f2c021248da3b03aeabc6ca7c90fe9d99add93ad710076bd507"
+    },
+    {
+      "kind": "echo_set",
       "id": "frosty_resolve",
       "path": "echo_sets/frosty_resolve/icon.png",
       "wiki_file": "Icon Frosty Resolve.png",
@@ -824,6 +833,15 @@
     },
     {
       "kind": "echo_set",
+      "id": "reel_of_spliced_memories",
+      "path": "echo_sets/reel_of_spliced_memories/icon.png",
+      "wiki_file": "Icon Reel of Spliced Memories.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "7a42535f625165ff7376bcfab9e382d2fb5c938f25e9f06c529af9389857fcd1"
+    },
+    {
+      "kind": "echo_set",
       "id": "rejuvenating_glow",
       "path": "echo_sets/rejuvenating_glow/icon.png",
       "wiki_file": "Icon Rejuvenating Glow.png",
@@ -878,6 +896,24 @@
     },
     {
       "kind": "echo_set",
+      "id": "thread_of_severed_fate",
+      "path": "echo_sets/thread_of_severed_fate/icon.png",
+      "wiki_file": "Icon Thread of Severed Fate.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "ea836a06e712fcd5b1924f07393e6c186d52d665fca86d0f82406cd18f49b104"
+    },
+    {
+      "kind": "echo_set",
+      "id": "tidebreaking_courage",
+      "path": "echo_sets/tidebreaking_courage/icon.png",
+      "wiki_file": "Icon Tidebreaking Courage.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "977de39d345bc0bb5c4069a4f1289bbed7620670d69212d3b3fd18b9956fbc49"
+    },
+    {
+      "kind": "echo_set",
       "id": "trailblazing_star",
       "path": "echo_sets/trailblazing_star/icon.png",
       "wiki_file": "Icon Trailblazing Star.png",
@@ -911,6 +947,384 @@
       "width": 128,
       "height": 128,
       "sha256": "d5faa2db7e2abfec127ced5ade386187b86eb3f95ab21230f3a115e311913057"
+    },
+    {
+      "kind": "echo",
+      "id": "bell_borne_geochelone",
+      "path": "echoes/bell_borne_geochelone/icon.png",
+      "wiki_file": "Bell-Borne Geochelone Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "588baeb573d599d4f1eb318e155267ad368187d627284284b16cd8a121a933fc"
+    },
+    {
+      "kind": "echo",
+      "id": "capitaneus",
+      "path": "echoes/capitaneus/icon.png",
+      "wiki_file": "Capitaneus Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0cd388535659c4ed4d6ef1dd8b192ffb5df2b7efea6baecc827f2f879f059433"
+    },
+    {
+      "kind": "echo",
+      "id": "corrosaurus",
+      "path": "echoes/corrosaurus/icon.png",
+      "wiki_file": "Corrosaurus Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "c7b952ff24d517c30db57050a935d09909a3482ddd647f1cf760855f1f431565"
+    },
+    {
+      "kind": "echo",
+      "id": "dragon_of_dirge",
+      "path": "echoes/dragon_of_dirge/icon.png",
+      "wiki_file": "Dragon of Dirge Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "392ec0f5808043eb66f038eccefa5d741f56e139bb6f47a1b65e58b30710f1c8"
+    },
+    {
+      "kind": "echo",
+      "id": "dreamless",
+      "path": "echoes/dreamless/icon.png",
+      "wiki_file": "Dreamless Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "309a3b565ef8207fa9286f46ae723c924eba10325b92c2a5016bb05488d88bb5"
+    },
+    {
+      "kind": "echo",
+      "id": "fallacy_of_no_return",
+      "path": "echoes/fallacy_of_no_return/icon.png",
+      "wiki_file": "Enemy Fallacy of No Return (Boss).png",
+      "width": 256,
+      "height": 256,
+      "sha256": "3889e8c7b4c39b13fd3ec611529af7cc966ee7830f03a467e2d005f062657bd1"
+    },
+    {
+      "kind": "echo",
+      "id": "feilian_beringal",
+      "path": "echoes/feilian_beringal/icon.png",
+      "wiki_file": "Feilian Beringal Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "d30c8648996edc3b79c185c868e4eda42ac1dacf0163a276ac2a33a4d2eb62c4"
+    },
+    {
+      "kind": "echo",
+      "id": "forbidden_bastion",
+      "path": "echoes/forbidden_bastion/icon.png",
+      "wiki_file": "Forbidden Bastion Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0d9f3ab8020193bca968036c40f2e9d7177925d938224cf8de9307a09da37e7a"
+    },
+    {
+      "kind": "echo",
+      "id": "glommoth",
+      "path": "echoes/glommoth/icon.png",
+      "wiki_file": "Glommoth Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "ebf9bdd772204451065c76c85c87bb486167705836069abc028e430fb5521eeb"
+    },
+    {
+      "kind": "echo",
+      "id": "hecate",
+      "path": "echoes/hecate/icon.png",
+      "wiki_file": "Hecate Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "7102d7070d171b4dca7975d223c4fc3ba5a6d326faaeb0a9fafb849a4ca1dc5f"
+    },
+    {
+      "kind": "echo",
+      "id": "hyvatia",
+      "path": "echoes/hyvatia/icon.png",
+      "wiki_file": "Hyvatia Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "bd3d033a33f39ba151aa22687b5049f9170e3733a9929405257d3d3bcc4698fb"
+    },
+    {
+      "kind": "echo",
+      "id": "impermanence_heron",
+      "path": "echoes/impermanence_heron/icon.png",
+      "wiki_file": "Enemy Impermanence Heron (Boss).png",
+      "width": 720,
+      "height": 720,
+      "sha256": "6d29fe102e2011d1de982f79c1b3ad93a8d8afde4b4999776542d9edb458e8ff"
+    },
+    {
+      "kind": "echo",
+      "id": "inferno_rider",
+      "path": "echoes/inferno_rider/icon.png",
+      "wiki_file": "Enemy Inferno Rider (Boss).png",
+      "width": 720,
+      "height": 720,
+      "sha256": "36f272107b396bc49f1b65213766f3cfe68eaa088e1de3a9473a414a376f3cbe"
+    },
+    {
+      "kind": "echo",
+      "id": "lady_of_the_sea",
+      "path": "echoes/lady_of_the_sea/icon.png",
+      "wiki_file": "Lady of the Sea Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "4279d91c4398b616a7048ed1044d7fb04e4e5f0c3438ac6054d8dcaad833b173"
+    },
+    {
+      "kind": "echo",
+      "id": "lampylumen_myriad",
+      "path": "echoes/lampylumen_myriad/icon.png",
+      "wiki_file": "Enemy Lampylumen Myriad (Boss).png",
+      "width": 720,
+      "height": 720,
+      "sha256": "765e20558d0dd7d17af75fc4bdf2b5f07a6b8ee660e035400bd475e6ff03b97b"
+    },
+    {
+      "kind": "echo",
+      "id": "lioness_of_glory",
+      "path": "echoes/lioness_of_glory/icon.png",
+      "wiki_file": "Lioness of Glory Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "1873365a27c3f4cdfad739d07428278dd7af30329a5ad06eba845a90ba9c47e6"
+    },
+    {
+      "kind": "echo",
+      "id": "lorelei",
+      "path": "echoes/lorelei/icon.png",
+      "wiki_file": "Lorelei Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "b971546e0b137882d32fb1f8e62eec5a598b1b5e8c82dd6787a6e260b898f2d3"
+    },
+    {
+      "kind": "echo",
+      "id": "mech_abomination",
+      "path": "echoes/mech_abomination/icon.png",
+      "wiki_file": "Mech Abomination Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "bd95d05269ef3b3bcff8a0441c0b29946a32f420369d399ab315b1ac38c0f40a"
+    },
+    {
+      "kind": "echo",
+      "id": "nameless_explorer",
+      "path": "echoes/nameless_explorer/icon.png",
+      "wiki_file": "Nameless Explorer Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "788c5cee5b85d97778c7d53987055ce8e4356886d1561377bb30aeadcdbaa109"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_crownless",
+      "path": "echoes/nightmare_crownless/icon.png",
+      "wiki_file": "Nightmare Crownless Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "85aa7b685af76d662e2dd5501e56042f17770c7eb829587bc593ce2bea2addc4"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_feilian_beringal",
+      "path": "echoes/nightmare_feilian_beringal/icon.png",
+      "wiki_file": "Nightmare Feilian Beringal Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "ef1dae3a7108340509891cdb718b69a54e460ddbcd22d4e6b6af288348adf29a"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_hecate",
+      "path": "echoes/nightmare_hecate/icon.png",
+      "wiki_file": "Nightmare Hecate Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "a3a6c1130af3b1f465eedb528eff7bf8b843f9b398e0791c944c91b8cab1277f"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_impermanence_heron",
+      "path": "echoes/nightmare_impermanence_heron/icon.png",
+      "wiki_file": "Nightmare Impermanence Heron Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "42c78caa84fd93ac4d8a4bac37aaa286e30c0c5eadb30e6573cc4db8dbecb777"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_inferno_rider",
+      "path": "echoes/nightmare_inferno_rider/icon.png",
+      "wiki_file": "Nightmare Inferno Rider Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "798f71f057341f90fdbeba7c9729b8c2ee544228278b01ce046c2dc2f31fdc0a"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_kelpie",
+      "path": "echoes/nightmare_kelpie/icon.png",
+      "wiki_file": "Nightmare Kelpie Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "53eeebbccbb97b0e9f61aa72933ecf881999b012035ba65a192764e4331f7f4f"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_lampylumen_myriad",
+      "path": "echoes/nightmare_lampylumen_myriad/icon.png",
+      "wiki_file": "Nightmare Lampylumen Myriad Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "351aaa9944c5012a34d574dd00ed7e2efd3e0b31b696fd0dc9b79abe99cff357"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_mourning_aix",
+      "path": "echoes/nightmare_mourning_aix/icon.png",
+      "wiki_file": "Nightmare Mourning Aix Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "81492133e875a276c9c864ee9318a71a5c8665493800cec23ad4448bb1aedd3f"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_tempest_mephis",
+      "path": "echoes/nightmare_tempest_mephis/icon.png",
+      "wiki_file": "Nightmare Tempest Mephis Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "651063beb7c715223a222dd387f9a53d74557ad11a2c721cd8087d3531551a00"
+    },
+    {
+      "kind": "echo",
+      "id": "nightmare_thundering_mephis",
+      "path": "echoes/nightmare_thundering_mephis/icon.png",
+      "wiki_file": "Nightmare Thundering Mephis Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "60e2b43ac324ebf5d04dd28637a594b01b327e624f385f22f3ef79f26970c40f"
+    },
+    {
+      "kind": "echo",
+      "id": "reactor_husk",
+      "path": "echoes/reactor_husk/icon.png",
+      "wiki_file": "Reactor Husk Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "b69200d57b4fe0675ebd7542136427a249852b1be6966270adb3c63c1954b2b0"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_denia",
+      "path": "echoes/reminiscence_denia/icon.png",
+      "wiki_file": "Reminiscence Denia Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "fa16aba07edb56784732ef7455a534acb4275aba32ce86f6e01d87f786d4fef0"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_fenrico",
+      "path": "echoes/reminiscence_fenrico/icon.png",
+      "wiki_file": "Reminiscence Fenrico Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "f0d49ca49f86e1033e008547c76478ab54039349e5b595e0d6ee661faeac5124"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_fleurdelys",
+      "path": "echoes/reminiscence_fleurdelys/icon.png",
+      "wiki_file": "Reminiscence Fleurdelys Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "c0c9addfd7419733b83b338477077477b67805dfa9835712913f0ec13194a83e"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_nightmare_adam_smasher",
+      "path": "echoes/reminiscence_nightmare_adam_smasher/icon.png",
+      "wiki_file": "Reminiscence - Nightmare Adam Smasher Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "e1ca614b50430f5be3fb5d0c7db8536b792c072fd4c953bbe0c53252088d5749"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_threnodian_leviathan",
+      "path": "echoes/reminiscence_threnodian_leviathan/icon.png",
+      "wiki_file": "Reminiscence Threnodian Leviathan Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "25758e6b754ebf881a74e408a57393ebee8fff08f63a980af5fd8614258b5458"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_threnodian_voidborne_construct",
+      "path": "echoes/reminiscence_threnodian_voidborne_construct/icon.png",
+      "wiki_file": "Reminiscence Threnodian - Voidborne Construct Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "69c28f338706b442b5646fd68518df834dab52fb087ae0b714e165090b588c1b"
+    },
+    {
+      "kind": "echo",
+      "id": "sentry_construct",
+      "path": "echoes/sentry_construct/icon.png",
+      "wiki_file": "Sentry Construct Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "3169efb2d593d4ffd9b9a56226df1623848e116d2997c13fe896b045b72acdc6"
+    },
+    {
+      "kind": "echo",
+      "id": "sigillum",
+      "path": "echoes/sigillum/icon.png",
+      "wiki_file": "Sigillum Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "500de43829332f426571e5e865d2201d6bd036319cbf39c8b587152b6dd2874b"
+    },
+    {
+      "kind": "echo",
+      "id": "the_false_sovereign",
+      "path": "echoes/the_false_sovereign/icon.png",
+      "wiki_file": "The False Sovereign Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "ef491166fb5f39828649786457d694ee107d03a6d11d4ff126af3107344bbf30"
+    },
+    {
+      "kind": "echo",
+      "id": "thousand_puppet_pavilion",
+      "path": "echoes/thousand_puppet_pavilion/icon.png",
+      "wiki_file": "Thousand-Puppet Pavilion Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "736b8374ce7029ce8d1d2b26cc3cde93b2db98be363205751ffa7167b320376a"
+    },
+    {
+      "kind": "echo",
+      "id": "twin_nova_nebulous_cannon",
+      "path": "echoes/twin_nova_nebulous_cannon/icon.png",
+      "wiki_file": "Twin Nova: Nebulous Cannon Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "a842b2076d73749742f58ff2e013be3d2415b0bc40a454ef6c941b53d9fd8db3"
+    },
+    {
+      "kind": "echo",
+      "id": "voidwing_moth",
+      "path": "echoes/voidwing_moth/icon.png",
+      "wiki_file": "Voidwing Moth Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "18d74eab32fdd4ebd95b718fbc148c6f26c3416dd16bdd93da180abce4cd7a5a"
     }
   ]
 }

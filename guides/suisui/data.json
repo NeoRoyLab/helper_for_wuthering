@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "suisui",
   "weapons": [
     {
@@ -19,12 +19,49 @@
       "rank": 5
     }
   ],
-  "echo_set_id": "song_of_feathered_trace",
-  "echo_set_source_name": "Song of Feathered Trace",
+  "echo_sets": [
+    {
+      "content_id": "song_of_feathered_trace",
+      "source_name": "Song of Feathered Trace",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "rejuvenating_glow",
+      "source_name": "Rejuvenating Glow",
+      "rank": 2,
+      "special": false
+    }
+  ],
+  "primary_echo_id": "forbidden_bastion",
+  "primary_echo_source_name": "Forbidden Bastion",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen / HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    }
+  ],
+  "substats": "Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/suisui",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

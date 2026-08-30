@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "dreamless",
+  "name": {
+    "en": "Dreamless"
+  },
+  "icon": "echoes/dreamless/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Dreamless",
+    "verified_at": "2026-08-30",
+    "revision_id": 137491
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_fenrico",
+  "name": {
+    "en": "Reminiscence: Fenrico"
+  },
+  "icon": "echoes/reminiscence_fenrico/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Fenrico",
+    "verified_at": "2026-08-30",
+    "revision_id": 85632
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "thread_of_severed_fate",
+  "name": {
+    "en": "Thread of Severed Fate"
+  },
+  "bonuses": [
+    {
+      "pieces": 3,
+      "text": "Inflicting Havoc Bane increases the Resonator's ATK by 20% and grants 30% Resonance Liberation DMG Bonus for 5s."
+    }
+  ],
+  "icon": "echo_sets/thread_of_severed_fate/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Thread_of_Severed_Fate",
+    "verified_at": "2026-08-30",
+    "revision_id": 90782
+  }
+}

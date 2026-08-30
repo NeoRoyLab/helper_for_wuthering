@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "fallacy_of_no_return",
+  "name": {
+    "en": "Fallacy of No Return"
+  },
+  "icon": "echoes/fallacy_of_no_return/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Fallacy_of_No_Return",
+    "verified_at": "2026-08-30",
+    "revision_id": 83425
+  }
+}

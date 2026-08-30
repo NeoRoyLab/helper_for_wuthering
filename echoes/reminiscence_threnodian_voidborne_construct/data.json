@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_threnodian_voidborne_construct",
+  "name": {
+    "en": "Reminiscence: Threnodian - Voidborne Construct"
+  },
+  "icon": "echoes/reminiscence_threnodian_voidborne_construct/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Threnodian_-_Voidborne_Construct",
+    "verified_at": "2026-08-30",
+    "revision_id": 97355
+  }
+}

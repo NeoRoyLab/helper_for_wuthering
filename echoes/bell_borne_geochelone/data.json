@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "bell_borne_geochelone",
+  "name": {
+    "en": "Bell-Borne Geochelone"
+  },
+  "icon": "echoes/bell_borne_geochelone/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Bell-Borne_Geochelone",
+    "verified_at": "2026-08-30",
+    "revision_id": 75410
+  }
+}

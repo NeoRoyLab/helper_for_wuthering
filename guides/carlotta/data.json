@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "carlotta",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 5
     }
   ],
-  "echo_set_id": "frosty_resolve",
-  "echo_set_source_name": "Frosty Resolve",
+  "echo_sets": [
+    {
+      "content_id": "frosty_resolve",
+      "source_name": "Frosty Resolve",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "sentry_construct",
+  "primary_echo_source_name": "Sentry Construct",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Glacio DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Glacio DMG ≥ ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Resonance Skill DMG > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/carlotta",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

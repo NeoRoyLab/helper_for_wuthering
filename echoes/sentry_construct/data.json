@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "sentry_construct",
+  "name": {
+    "en": "Sentry Construct"
+  },
+  "icon": "echoes/sentry_construct/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Sentry_Construct",
+    "verified_at": "2026-08-30",
+    "revision_id": 85931
+  }
+}

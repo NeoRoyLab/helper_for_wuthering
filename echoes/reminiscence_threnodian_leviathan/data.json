@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_threnodian_leviathan",
+  "name": {
+    "en": "Reminiscence: Threnodian - Leviathan"
+  },
+  "icon": "echoes/reminiscence_threnodian_leviathan/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Threnodian_-_Leviathan",
+    "verified_at": "2026-08-30",
+    "revision_id": 85634
+  }
+}

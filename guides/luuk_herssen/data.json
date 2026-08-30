@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "luuk_herssen",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "rite_of_gilded_revelation",
-  "echo_set_source_name": "Rite of Gilded Revelation",
+  "echo_sets": [
+    {
+      "content_id": "rite_of_gilded_revelation",
+      "source_name": "Rite of Gilded Revelation",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "twin_nova_nebulous_cannon",
+  "primary_echo_source_name": "Twin Nova: Nebulous Cannon",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% = Spectro DMG"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > ATK% = Basic DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/luuk-herssen",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

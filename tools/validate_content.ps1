@@ -16,14 +16,14 @@ if ($manifest.schema_version -ne 1) { throw 'Unexpected character manifest schem
 if ($manifest.characters.Count -ne 60) { throw "Expected 60 ids, got $($manifest.characters.Count)." }
 if (($manifest.characters | Sort-Object -Unique).Count -ne 60) { throw 'Duplicate manifest ids.' }
 $characterEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
-if ($null -eq $characterEntry -or $characterEntry.version -ne 3 -or $characterEntry.count -ne 60) {
+if ($null -eq $characterEntry -or $characterEntry.version -ne 4 -or $characterEntry.count -ne 60) {
     throw 'The master manifest characters entry is missing or invalid.'
 }
 
 $elements = @('aero', 'electro', 'fusion', 'glacio', 'havoc', 'spectro')
 $weapons = @('broadblade', 'gauntlets', 'pistols', 'rectifier', 'sword')
 $expectedImageCount = 53
-$expectedUnavailableCount = 7
+$expectedUnavailableCount = 3
 $imageById = @{}
 foreach ($image in $imageManifest.images) {
     if ($imageById.ContainsKey([string]$image.id)) { throw "Duplicate image id: $($image.id)" }
@@ -31,6 +31,16 @@ foreach ($image in $imageManifest.images) {
 }
 if ($imageById.Count -ne $expectedImageCount) { throw "Expected $expectedImageCount images, got $($imageById.Count)." }
 if ($imageManifest.unavailable.Count -ne $expectedUnavailableCount) { throw "Expected $expectedUnavailableCount unavailable entries." }
+$roverIds = @('rover_aero', 'rover_electro', 'rover_havoc', 'rover_spectro')
+$roverImageByPath = @{}
+foreach ($image in $imageManifest.rover_images) {
+    if ($image.role -notin @('list_icon', 'profile_full_sprite') -or
+        $roverImageByPath.ContainsKey([string]$image.path)) {
+        throw "Invalid or duplicate Rover image: $($image.path)"
+    }
+    $roverImageByPath[[string]$image.path] = $image
+}
+if ($roverImageByPath.Count -ne 8) { throw "Expected 8 Rover images, got $($roverImageByPath.Count)." }
 $expectedMissingDescriptions = @('jingran', 'suoming')
 $expectedMissingStats = @('buling', 'hsin', 'jingran', 'lucilla', 'lucy', 'rebecca', 'suoming')
 if ($profileManifest.schema_version -ne 1 -or
@@ -115,8 +125,48 @@ foreach ($id in $manifest.characters) {
         $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $imagePath).Hash.ToLowerInvariant()
         if ($hash -cne $image.sha256) { throw "PNG hash mismatch: $id" }
     }
+    elseif ($id -in $roverIds) {
+        $expectedIconPath = "characters/$id/icon.png"
+        $expectedFullSpritePath = "characters/$id/full_sprite.png"
+        if ($null -ne $record.convene_draw -or $record.icon -cne $expectedIconPath -or
+            $record.full_sprite -cne $expectedFullSpritePath) {
+            throw "Invalid Rover artwork paths: $id"
+        }
+
+        foreach ($expected in @(
+            @{ Path = $expectedIconPath; Role = 'list_icon'; Width = 256; Height = 256 },
+            @{ Path = $expectedFullSpritePath; Role = 'profile_full_sprite'; Width = 1079; Height = 1033 }
+        )) {
+            if (-not $roverImageByPath.ContainsKey($expected.Path)) {
+                throw "Rover artwork omitted from image manifest: $($expected.Path)"
+            }
+            $image = $roverImageByPath[$expected.Path]
+            if ($image.id -cne $id -or $image.role -cne $expected.Role) {
+                throw "Invalid Rover artwork metadata: $($expected.Path)"
+            }
+            $imagePath = Join-Path $root $expected.Path.Replace('/', '\')
+            if (-not (Test-Path -LiteralPath $imagePath)) { throw "Missing Rover PNG: $($expected.Path)" }
+            $bytes = [System.IO.File]::ReadAllBytes($imagePath)
+            if ($bytes.Length -lt 24 -or $bytes[0] -ne 137 -or $bytes[1] -ne 80 -or
+                $bytes[2] -ne 78 -or $bytes[3] -ne 71) {
+                throw "Invalid Rover PNG signature: $($expected.Path)"
+            }
+            $width = [System.Net.IPAddress]::NetworkToHostOrder([BitConverter]::ToInt32($bytes, 16))
+            $height = [System.Net.IPAddress]::NetworkToHostOrder([BitConverter]::ToInt32($bytes, 20))
+            $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $imagePath).Hash.ToLowerInvariant()
+            if ($width -ne $expected.Width -or $height -ne $expected.Height -or
+                $image.width -ne $expected.Width -or $image.height -ne $expected.Height -or
+                $image.sha256 -cne $hash) {
+                throw "Rover PNG metadata mismatch: $($expected.Path)"
+            }
+        }
+    }
     elseif ($null -ne $record.convene_draw) {
         throw "Unexpected Convene Draw path for unavailable entry: $id"
+    }
+
+    if ($id -notin $roverIds -and ($null -ne $record.icon -or $null -ne $record.full_sprite)) {
+        throw "Unexpected alternate character artwork path: $id"
     }
 }
 
@@ -132,7 +182,7 @@ $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter dat
 if ($files.Count -ne 60) { throw "Expected 60 records, got $($files.Count)." }
 
 $guideEntry = $master.manifests | Where-Object { $_.key -ceq 'guides' } | Select-Object -First 1
-if ($null -eq $guideEntry -or $guideEntry.version -ne 1 -or $guideEntry.count -ne 57) {
+if ($null -eq $guideEntry -or $guideEntry.version -ne 2 -or $guideEntry.count -ne 57) {
     throw 'The master manifest guides entry is missing or invalid.'
 }
 
@@ -141,12 +191,14 @@ $guideAssetManifest = Read-Json (Join-Path $root 'manifests\guide_assets.json')
 if ($guideManifest.schema_version -ne 1 -or $guideAssetManifest.schema_version -ne 1) {
     throw 'Unexpected guide manifest schema version.'
 }
-if ($guideManifest.guides.Count -ne 57 -or $guideManifest.weapons.Count -ne 72 -or $guideManifest.echo_sets.Count -ne 29) {
-    throw 'Unexpected guide, weapon, or Echo Set manifest count.'
+if ($guideManifest.guides.Count -ne 57 -or $guideManifest.weapons.Count -ne 72 -or
+    $guideManifest.echo_sets.Count -ne 33 -or $guideManifest.echoes.Count -ne 44) {
+    throw 'Unexpected guide, weapon, Echo Set, or Echo manifest count.'
 }
 if (($guideManifest.guides | Sort-Object -Unique).Count -ne 57 -or
     ($guideManifest.weapons | Sort-Object -Unique).Count -ne 72 -or
-    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 29) {
+    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 33 -or
+    ($guideManifest.echoes | Sort-Object -Unique).Count -ne 44) {
     throw 'Duplicate guide content identifier.'
 }
 $expectedGuideGaps = @('hsin', 'jingran', 'suoming')
@@ -169,7 +221,7 @@ foreach ($id in $guideManifest.weapons) {
     }
     $expectedPath = "weapons/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-08-29' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-08-30' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid weapon provenance or icon path: $id"
     }
@@ -196,11 +248,32 @@ foreach ($id in $guideManifest.echo_sets) {
     }
     $expectedPath = "echo_sets/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-08-29' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-08-30' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid Echo Set provenance or icon path: $id"
     }
     $echoSetById[$id] = $record
+}
+
+$echoById = @{}
+$expectedEchoIconGaps = @('calamity_effigy', 'jue')
+foreach ($id in $guideManifest.echoes) {
+    $recordPath = Join-Path $root "echoes\$id\data.json"
+    if (-not (Test-Path -LiteralPath $recordPath)) { throw "Missing Echo content record: $id" }
+    $record = Read-Json $recordPath
+    if ($record.schema_version -ne 1 -or $record.id -cne $id -or [string]::IsNullOrWhiteSpace($record.name.en) -or
+        $record.source.site -cne 'Wuthering Waves Wiki' -or $record.source.verified_at -cne '2026-08-30' -or
+        $record.source.revision_id -le 0 -or $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
+        throw "Invalid Echo content record: $id"
+    }
+    $expectedPath = "echoes/$id/icon.png"
+    if ($id -in $expectedEchoIconGaps) {
+        if ($null -ne $record.icon) { throw "Unexpected icon for documented Wiki file gap: $id" }
+    }
+    elseif ($record.icon -cne $expectedPath) {
+        throw "Invalid Echo icon path: $id"
+    }
+    $echoById[$id] = $record
 }
 
 foreach ($id in $guideManifest.guides) {
@@ -208,8 +281,10 @@ foreach ($id in $guideManifest.guides) {
     $recordPath = Join-Path $root "guides\$id\data.json"
     if (-not (Test-Path -LiteralPath $recordPath)) { throw "Missing guide record: $id" }
     $record = Read-Json $recordPath
-    if ($record.schema_version -ne 1 -or $record.character_id -cne $id -or
-        $record.weapons.Count -lt 1 -or $record.weapons.Count -gt 5) {
+    if ($record.schema_version -ne 2 -or $record.character_id -cne $id -or
+        $record.weapons.Count -lt 1 -or $record.weapons.Count -gt 5 -or
+        $record.echo_sets.Count -lt 1 -or $record.main_stats.Count -ne 5 -or
+        [string]::IsNullOrWhiteSpace($record.substats)) {
         throw "Invalid guide record: $id"
     }
     foreach ($weapon in $record.weapons) {
@@ -217,26 +292,39 @@ foreach ($id in $guideManifest.guides) {
             throw "Invalid guide weapon reference: $id"
         }
     }
-    if (-not $echoSetById.ContainsKey([string]$record.echo_set_id)) { throw "Invalid guide Echo Set reference: $id" }
-    $wikiEchoName = [string]$echoSetById[[string]$record.echo_set_id].name.en
-    if ($record.echo_set_source_name -cne $wikiEchoName -and
-        -not ($record.echo_set_source_name -ceq 'Endless Resonance' -and $wikiEchoName -ceq 'Lingering Tunes')) {
-        throw "Undocumented Prydwen/wiki Echo Set name mismatch: $id"
+    foreach ($echoSet in $record.echo_sets) {
+        if (-not $echoSetById.ContainsKey([string]$echoSet.content_id) -or $echoSet.rank -lt 0) {
+            throw "Invalid guide Echo Set reference: $id"
+        }
+        $wikiEchoName = [string]$echoSetById[[string]$echoSet.content_id].name.en
+        if ($echoSet.source_name -cne $wikiEchoName -and
+            -not ($echoSet.source_name -ceq 'Endless Resonance' -and $wikiEchoName -ceq 'Lingering Tunes')) {
+            throw "Undocumented Prydwen/wiki Echo Set name mismatch: $id"
+        }
+    }
+    if (-not $echoById.ContainsKey([string]$record.primary_echo_id) -or
+        $record.primary_echo_source_name -cne $echoById[[string]$record.primary_echo_id].name.en) {
+        throw "Invalid guide primary Echo reference: $id"
+    }
+    foreach ($stat in $record.main_stats) {
+        if ($stat.cost -notin @(1, 3, 4) -or [string]::IsNullOrWhiteSpace($stat.value)) {
+            throw "Invalid guide main stat: $id"
+        }
     }
     $expectedSourceUrl = 'https://www.prydwen.gg/wuthering-waves/characters/' + $id.Replace('_', '-')
     if ($record.source.site -cne 'Prydwen.gg' -or $record.source.page_url -cne $expectedSourceUrl -or
-        $record.source.verified_at -cne '2026-08-29' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
+        $record.source.verified_at -cne '2026-08-30' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
         throw "Invalid guide provenance: $id"
     }
 }
 
 if ($guideAssetManifest.source_site -cne 'Wuthering Waves Wiki' -or
-    $guideAssetManifest.verified_at -cne '2026-08-29' -or $guideAssetManifest.images.Count -ne 101) {
+    $guideAssetManifest.verified_at -cne '2026-08-30' -or $guideAssetManifest.images.Count -ne 147) {
     throw 'Invalid guide asset manifest metadata.'
 }
 $assetByPath = @{}
 foreach ($asset in $guideAssetManifest.images) {
-    if ($asset.kind -notin @('weapon', 'echo_set') -or $assetByPath.ContainsKey([string]$asset.path)) {
+    if ($asset.kind -notin @('weapon', 'echo_set', 'echo') -or $assetByPath.ContainsKey([string]$asset.path)) {
         throw "Invalid or duplicate guide asset: $($asset.path)"
     }
     $assetByPath[[string]$asset.path] = $asset
@@ -260,12 +348,18 @@ foreach ($record in $guideWeaponById.Values) {
 foreach ($record in $echoSetById.Values) {
     if (-not $assetByPath.ContainsKey([string]$record.icon)) { throw "Echo Set icon omitted from asset manifest: $($record.id)" }
 }
+foreach ($record in $echoById.Values) {
+    if ($null -ne $record.icon -and -not $assetByPath.ContainsKey([string]$record.icon)) {
+        throw "Echo icon omitted from asset manifest: $($record.id)"
+    }
+}
 
 $guideFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'guides') -Filter data.json -File -Recurse)
 $weaponFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'weapons') -Filter data.json -File -Recurse)
 $echoSetFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echo_sets') -Filter data.json -File -Recurse)
-if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 72 -or $echoSetFiles.Count -ne 29) {
+$echoFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echoes') -Filter data.json -File -Recurse)
+if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 72 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
     throw 'Unexpected generated guide content file count.'
 }
 
-"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $expectedImageCount character PNGs, 57 guides, 72 wiki weapon records, 29 wiki Echo Sets, 101 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."
+"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 57 complete guides, 72 wiki weapon records, 33 wiki Echo Sets, 44 wiki Echoes, 147 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."

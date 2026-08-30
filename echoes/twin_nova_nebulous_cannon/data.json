@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "twin_nova_nebulous_cannon",
+  "name": {
+    "en": "Twin Nova: Nebulous Cannon"
+  },
+  "icon": "echoes/twin_nova_nebulous_cannon/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Twin_Nova%3A_Nebulous_Cannon",
+    "verified_at": "2026-08-30",
+    "revision_id": 91781
+  }
+}

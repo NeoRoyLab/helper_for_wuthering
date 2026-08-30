@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "aalto",
   "weapons": [
     {
@@ -23,12 +23,55 @@
       "rank": 5
     }
   ],
-  "echo_set_id": "sierra_gale",
-  "echo_set_source_name": "Sierra Gale",
+  "echo_sets": [
+    {
+      "content_id": "sierra_gale",
+      "source_name": "Sierra Gale",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "windward_pilgrimage",
+      "source_name": "Windward Pilgrimage",
+      "rank": 2,
+      "special": false
+    },
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "nightmare_feilian_beringal",
+  "primary_echo_source_name": "Nightmare: Feilian Beringal",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Aero DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Aero DMG > Energy Regen"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK ≥ Basic Attack DMG% > Resonance Skill DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/aalto",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

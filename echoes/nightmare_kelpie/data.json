@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nightmare_kelpie",
+  "name": {
+    "en": "Nightmare: Kelpie"
+  },
+  "icon": "echoes/nightmare_kelpie/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Kelpie",
+    "verified_at": "2026-08-30",
+    "revision_id": 81709
+  }
+}

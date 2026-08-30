@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nightmare_impermanence_heron",
+  "name": {
+    "en": "Nightmare: Impermanence Heron"
+  },
+  "icon": "echoes/nightmare_impermanence_heron/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Impermanence_Heron",
+    "verified_at": "2026-08-30",
+    "revision_id": 80555
+  }
+}

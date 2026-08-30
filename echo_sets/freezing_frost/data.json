@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "freezing_frost",
+  "name": {
+    "en": "Freezing Frost"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Glacio DMG +10%."
+    },
+    {
+      "pieces": 5,
+      "text": "Glacio DMG +10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
+    }
+  ],
+  "icon": "echo_sets/freezing_frost/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Freezing_Frost",
+    "verified_at": "2026-08-30",
+    "revision_id": 85695
+  }
+}

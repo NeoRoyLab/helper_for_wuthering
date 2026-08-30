@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "aemeath",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "trailblazing_star",
-  "echo_set_source_name": "Trailblazing Star",
+  "echo_sets": [
+    {
+      "content_id": "trailblazing_star",
+      "source_name": "Trailblazing Star",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "sigillum",
+  "primary_echo_source_name": "Sigillum",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% = Fusion DMG"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate > ATK% > Liberation DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/aemeath",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

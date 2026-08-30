@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "lioness_of_glory",
+  "name": {
+    "en": "Lioness of Glory"
+  },
+  "icon": "echoes/lioness_of_glory/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lioness_of_Glory",
+    "verified_at": "2026-08-30",
+    "revision_id": 83465
+  }
+}

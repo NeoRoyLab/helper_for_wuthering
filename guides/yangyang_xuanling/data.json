@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "yangyang_xuanling",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "song_of_feathered_trace",
-  "echo_set_source_name": "Song of Feathered Trace",
+  "echo_sets": [
+    {
+      "content_id": "song_of_feathered_trace",
+      "source_name": "Song of Feathered Trace",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "thousand_puppet_pavilion",
+  "primary_echo_source_name": "Thousand-Puppet Pavilion",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Havoc DMG"
+    },
+    {
+      "cost": 3,
+      "value": "ATK% = Havoc DMG"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Heavy DMG% ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/yangyang-xuanling",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_nightmare_adam_smasher",
+  "name": {
+    "en": "Reminiscence - Nightmare: Adam Smasher"
+  },
+  "icon": "echoes/reminiscence_nightmare_adam_smasher/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Reminiscence_-_Nightmare%3A_Adam_Smasher",
+    "verified_at": "2026-08-30",
+    "revision_id": 97582
+  }
+}

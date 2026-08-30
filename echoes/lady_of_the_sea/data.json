@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "lady_of_the_sea",
+  "name": {
+    "en": "Lady of the Sea"
+  },
+  "icon": "echoes/lady_of_the_sea/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lady_of_the_Sea",
+    "verified_at": "2026-08-30",
+    "revision_id": 86323
+  }
+}

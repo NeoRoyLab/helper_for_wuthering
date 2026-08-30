@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "denia",
   "weapons": [
     {
@@ -23,12 +23,55 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "chromatic_foam",
-  "echo_set_source_name": "Chromatic Foam",
+  "echo_sets": [
+    {
+      "content_id": "chromatic_foam",
+      "source_name": "Chromatic Foam",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "reel_of_spliced_memories",
+      "source_name": "Reel of Spliced Memories",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "flaming_clawprint",
+      "source_name": "Flaming Clawprint",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "reminiscence_denia",
+  "primary_echo_source_name": "Reminiscence: Denia",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > Liberation DMG% ≥ ATK% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/denia",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

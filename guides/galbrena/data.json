@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "galbrena",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "flamewings_shadow",
-  "echo_set_source_name": "Flamewing's Shadow",
+  "echo_sets": [
+    {
+      "content_id": "flamewings_shadow",
+      "source_name": "Flamewing's Shadow",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "corrosaurus",
+  "primary_echo_source_name": "Corrosaurus",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Heavy Attack DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/galbrena",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

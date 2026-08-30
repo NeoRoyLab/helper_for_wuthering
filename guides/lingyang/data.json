@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "lingyang",
   "weapons": [
     {
@@ -23,12 +23,55 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "lingering_tunes",
-  "echo_set_source_name": "Endless Resonance",
+  "echo_sets": [
+    {
+      "content_id": "lingering_tunes",
+      "source_name": "Endless Resonance",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "frosty_resolve",
+      "source_name": "Frosty Resolve",
+      "rank": 0,
+      "special": true
+    },
+    {
+      "content_id": "freezing_frost",
+      "source_name": "Freezing Frost",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "mech_abomination",
+  "primary_echo_source_name": "Mech Abomination",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Glacio DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Glacio DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lingyang",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

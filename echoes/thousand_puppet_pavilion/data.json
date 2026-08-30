@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "thousand_puppet_pavilion",
+  "name": {
+    "en": "Thousand-Puppet Pavilion"
+  },
+  "icon": "echoes/thousand_puppet_pavilion/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Thousand-Puppet_Pavilion",
+    "verified_at": "2026-08-30",
+    "revision_id": 103783
+  }
+}

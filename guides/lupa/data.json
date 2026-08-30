@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "lupa",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "flaming_clawprint",
-  "echo_set_source_name": "Flaming Clawprint",
+  "echo_sets": [
+    {
+      "content_id": "flaming_clawprint",
+      "source_name": "Flaming Clawprint",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "lioness_of_glory",
+  "primary_echo_source_name": "Lioness of Glory",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Fusion DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK > Liberation ATK DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lupa",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

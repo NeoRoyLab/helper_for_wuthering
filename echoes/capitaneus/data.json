@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "capitaneus",
+  "name": {
+    "en": "Capitaneus"
+  },
+  "icon": "echoes/capitaneus/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Capitaneus",
+    "verified_at": "2026-08-30",
+    "revision_id": 80189
+  }
+}

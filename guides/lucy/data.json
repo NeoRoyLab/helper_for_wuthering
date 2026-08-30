@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "lucy",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "shadow_of_shattered_dreams",
-  "echo_set_source_name": "Shadow of Shattered Dreams",
+  "echo_sets": [
+    {
+      "content_id": "shadow_of_shattered_dreams",
+      "source_name": "Shadow of Shattered Dreams",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "reminiscence_nightmare_adam_smasher",
+  "primary_echo_source_name": "Reminiscence - Nightmare: Adam Smasher",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG ≥ ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Heavy DMG% > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lucy",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

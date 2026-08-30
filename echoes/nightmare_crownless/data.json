@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nightmare_crownless",
+  "name": {
+    "en": "Nightmare: Crownless"
+  },
+  "icon": "echoes/nightmare_crownless/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Crownless",
+    "verified_at": "2026-08-30",
+    "revision_id": 84424
+  }
+}

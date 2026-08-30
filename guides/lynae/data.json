@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "lynae",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "pact_of_neonlight_leap",
-  "echo_set_source_name": "Pact of Neonlight Leap",
+  "echo_sets": [
+    {
+      "content_id": "pact_of_neonlight_leap",
+      "source_name": "Pact of Neonlight Leap",
+      "rank": 1,
+      "special": false
+    }
+  ],
+  "primary_echo_id": "hyvatia",
+  "primary_echo_source_name": "Hyvatia",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Spectro DMG > ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > ATK = Basic Attack DMG%",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/lynae",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

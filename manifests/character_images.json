@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_site": "Wuthering Waves Wiki",
-  "verified_at": "2026-08-29",
+  "verified_at": "2026-08-30",
   "images": [
     {
       "id": "aalto",
@@ -438,24 +438,82 @@
       "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
     },
     {
+      "id": "suoming",
+      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
+    }
+  ],
+  "rover_images": [
+    {
       "id": "rover_aero",
-      "reason": "The wiki does not list a Rover character Convene Draw file."
+      "role": "list_icon",
+      "path": "characters/rover_aero/icon.png",
+      "wiki_file": "Resonator Outfit Perpetual Spark.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0b046e02feafd2e3a33f803f58e73e3ab0a2051db0ee5f796d5d9b56e42ce797"
+    },
+    {
+      "id": "rover_aero",
+      "role": "profile_full_sprite",
+      "path": "characters/rover_aero/full_sprite.png",
+      "wiki_file": "Rover 1.png",
+      "width": 1079,
+      "height": 1033,
+      "sha256": "303f96c2439fce8929873d5544ad9784edacf33279c07c21337f6c12f02f19f7"
     },
     {
       "id": "rover_electro",
-      "reason": "The wiki does not list a Rover character Convene Draw file."
+      "role": "list_icon",
+      "path": "characters/rover_electro/icon.png",
+      "wiki_file": "Resonator Outfit Perpetual Spark.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0b046e02feafd2e3a33f803f58e73e3ab0a2051db0ee5f796d5d9b56e42ce797"
+    },
+    {
+      "id": "rover_electro",
+      "role": "profile_full_sprite",
+      "path": "characters/rover_electro/full_sprite.png",
+      "wiki_file": "Rover 1.png",
+      "width": 1079,
+      "height": 1033,
+      "sha256": "303f96c2439fce8929873d5544ad9784edacf33279c07c21337f6c12f02f19f7"
     },
     {
       "id": "rover_havoc",
-      "reason": "The wiki does not list a Rover character Convene Draw file."
+      "role": "list_icon",
+      "path": "characters/rover_havoc/icon.png",
+      "wiki_file": "Resonator Outfit Perpetual Spark.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0b046e02feafd2e3a33f803f58e73e3ab0a2051db0ee5f796d5d9b56e42ce797"
+    },
+    {
+      "id": "rover_havoc",
+      "role": "profile_full_sprite",
+      "path": "characters/rover_havoc/full_sprite.png",
+      "wiki_file": "Rover 1.png",
+      "width": 1079,
+      "height": 1033,
+      "sha256": "303f96c2439fce8929873d5544ad9784edacf33279c07c21337f6c12f02f19f7"
     },
     {
       "id": "rover_spectro",
-      "reason": "The wiki does not list a Rover character Convene Draw file."
+      "role": "list_icon",
+      "path": "characters/rover_spectro/icon.png",
+      "wiki_file": "Resonator Outfit Perpetual Spark.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "0b046e02feafd2e3a33f803f58e73e3ab0a2051db0ee5f796d5d9b56e42ce797"
     },
     {
-      "id": "suoming",
-      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
+      "id": "rover_spectro",
+      "role": "profile_full_sprite",
+      "path": "characters/rover_spectro/full_sprite.png",
+      "wiki_file": "Rover 1.png",
+      "width": 1079,
+      "height": 1033,
+      "sha256": "303f96c2439fce8929873d5544ad9784edacf33279c07c21337f6c12f02f19f7"
     }
   ]
 }

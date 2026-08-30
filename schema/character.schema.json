@@ -200,6 +200,20 @@
           "format": "date"
         }
       }
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^characters/[a-z0-9]+(?:_[a-z0-9]+)*/icon\\.png$"
+    },
+    "full_sprite": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^characters/[a-z0-9]+(?:_[a-z0-9]+)*/full_sprite\\.png$"
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "feilian_beringal",
+  "name": {
+    "en": "Feilian Beringal"
+  },
+  "icon": "echoes/feilian_beringal/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Feilian_Beringal",
+    "verified_at": "2026-08-30",
+    "revision_id": 96629
+  }
+}

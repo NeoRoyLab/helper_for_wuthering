@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "mornye",
   "weapons": [
     {
@@ -15,12 +15,49 @@
       "rank": 5
     }
   ],
-  "echo_set_id": "halo_of_starry_radiance",
-  "echo_set_source_name": "Halo of Starry Radiance",
+  "echo_sets": [
+    {
+      "content_id": "halo_of_starry_radiance",
+      "source_name": "Halo of Starry Radiance",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "rejuvenating_glow",
+      "source_name": "Rejuvenating Glow",
+      "rank": 2,
+      "special": false
+    }
+  ],
+  "primary_echo_id": "reactor_husk",
+  "primary_echo_source_name": "Reactor Husk",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "DEF% > Healing Bonus"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen"
+    },
+    {
+      "cost": 3,
+      "value": "Energy Regen / Fusion DMG"
+    },
+    {
+      "cost": 1,
+      "value": "DEF%"
+    },
+    {
+      "cost": 1,
+      "value": "DEF%"
+    }
+  ],
+  "substats": "Energy Regen (Until 260%) >>> Liberation DMG% > CRIT DMG > DEF% > CRIT Rate (until 20%) > ATK% > DEF > ATK",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/mornye",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }

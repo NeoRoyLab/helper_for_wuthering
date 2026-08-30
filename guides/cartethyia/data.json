@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "character_id": "cartethyia",
   "weapons": [
     {
@@ -23,12 +23,43 @@
       "rank": 1
     }
   ],
-  "echo_set_id": "windward_pilgrimage",
-  "echo_set_source_name": "Windward Pilgrimage",
+  "echo_sets": [
+    {
+      "content_id": "windward_pilgrimage",
+      "source_name": "Windward Pilgrimage",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "reminiscence_fleurdelys",
+  "primary_echo_source_name": "Reminiscence: Fleurdelys",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate"
+    },
+    {
+      "cost": 4,
+      "value": "CRIT DMG"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > HP% > Basic Attack DMG% = Liberation DMG% > HP",
   "source": {
     "site": "Prydwen.gg",
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/cartethyia",
-    "verified_at": "2026-08-29",
+    "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
   }
 }
