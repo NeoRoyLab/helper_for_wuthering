@@ -31,5 +31,5 @@
     "verified_at": "2026-08-28",
     "page_last_updated": "2026-08-20"
   },
-  "convene_draw": null
+  "convene_draw": "characters/rover_electro/convene_draw.png"
 }
