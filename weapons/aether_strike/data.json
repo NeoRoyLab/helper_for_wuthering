@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "aether_strike",
+  "name": {
+    "en": "Aether Strike"
+  },
+  "rarity": 4,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/aether_strike/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Aether_Strike",
+    "verified_at": "2026-08-30",
+    "revision_id": 97941
+  }
+}

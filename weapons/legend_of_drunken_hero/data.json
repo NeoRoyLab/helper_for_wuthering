@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "legend_of_drunken_hero",
+  "name": {
+    "en": "Legend of Drunken Hero"
+  },
+  "rarity": 4,
+  "weapon_type": "gauntlets",
+  "icon": "weapons/legend_of_drunken_hero/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Legend_of_Drunken_Hero",
+    "verified_at": "2026-08-30",
+    "revision_id": 86906
+  }
+}

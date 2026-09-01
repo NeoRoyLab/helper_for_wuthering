@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "waltz_in_masquerade",
+  "name": {
+    "en": "Waltz in Masquerade"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/waltz_in_masquerade/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Waltz_in_Masquerade",
+    "verified_at": "2026-08-30",
+    "revision_id": 60115
+  }
+}

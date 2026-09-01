@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "celestial_spiral",
+      "rank": 5
+    },
+    {
       "content_id": "pulsation_bracer",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "moongazers_sigil",
-      "rank": 1
-    },
-    {
-      "content_id": "veritys_handle",
-      "rank": 1
+      "content_id": "aether_strike",
+      "rank": 5
     }
   ],
   "echo_sets": [

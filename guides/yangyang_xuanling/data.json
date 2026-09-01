@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "lumingloss",
+      "rank": 5
+    },
+    {
       "content_id": "emerald_sentence",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "everbright_polestar",
-      "rank": 1
-    },
-    {
-      "content_id": "frostburn",
-      "rank": 1
+      "content_id": "fables_of_wisdom",
+      "rank": 5
     }
   ],
   "echo_sets": [

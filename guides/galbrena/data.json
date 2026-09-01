@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "solar_flame",
+      "rank": 5
+    },
+    {
       "content_id": "phasic_homogenizer",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "spectrum_blaster",
-      "rank": 1
-    },
-    {
-      "content_id": "static_mist",
-      "rank": 1
+      "content_id": "relativistic_jet",
+      "rank": 5
     }
   ],
   "echo_sets": [

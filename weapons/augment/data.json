@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "augment",
+  "name": {
+    "en": "Augment"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/augment/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Augment",
+    "verified_at": "2026-08-30",
+    "revision_id": 31620
+  }
+}

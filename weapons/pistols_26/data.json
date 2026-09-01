@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "pistols_26",
+  "name": {
+    "en": "Pistols#26"
+  },
+  "rarity": 4,
+  "weapon_type": "pistols",
+  "icon": "weapons/pistols_26/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Pistols26",
+    "verified_at": "2026-08-30",
+    "revision_id": 31942
+  }
+}

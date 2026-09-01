@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "waning_redshift",
+      "rank": 5
+    },
+    {
       "content_id": "ages_of_harvest",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "verdant_summit",
-      "rank": 1
-    },
-    {
-      "content_id": "thunderflare_dominion",
-      "rank": 1
+      "content_id": "aureate_zenith",
+      "rank": 5
     }
   ],
   "echo_sets": [

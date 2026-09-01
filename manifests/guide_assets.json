@@ -14,6 +14,15 @@
     },
     {
       "kind": "weapon",
+      "id": "aether_strike",
+      "path": "weapons/aether_strike/icon.png",
+      "wiki_file": "Weapon Aether Strike.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "989e3d2bb3fd18a9227f9812a7cbc7e57dda41712d16d03d734daf573796afec"
+    },
+    {
+      "kind": "weapon",
       "id": "ages_of_harvest",
       "path": "weapons/ages_of_harvest/icon.png",
       "wiki_file": "Weapon Ages of Harvest.png",
@@ -29,6 +38,24 @@
       "width": 256,
       "height": 256,
       "sha256": "0b8920ff558ddb8a8a27abc2cfadedc801dcc612d966b51f4e0be281d3355bc8"
+    },
+    {
+      "kind": "weapon",
+      "id": "augment",
+      "path": "weapons/augment/icon.png",
+      "wiki_file": "Weapon Augment.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "209601e02c7c51b22782d69efdf22b6132789528a03e4ba5be5651e1fcf3bf04"
+    },
+    {
+      "kind": "weapon",
+      "id": "aureate_zenith",
+      "path": "weapons/aureate_zenith/icon.png",
+      "wiki_file": "Weapon Aureate Zenith.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "9a364824f231ca3129348b50f098a46e0abd6bedc17125f2ab58c7436d059169"
     },
     {
       "kind": "weapon",
@@ -113,15 +140,6 @@
     },
     {
       "kind": "weapon",
-      "id": "cosmic_ripples",
-      "path": "weapons/cosmic_ripples/icon.png",
-      "wiki_file": "Weapon Cosmic Ripples.png",
-      "width": 256,
-      "height": 256,
-      "sha256": "f13acc2821121cbad09a6d4136b13c72ee820c9c2876d622c842eb8464d52b51"
-    },
-    {
-      "kind": "weapon",
       "id": "dauntless_evernight",
       "path": "weapons/dauntless_evernight/icon.png",
       "wiki_file": "Weapon Dauntless Evernight.png",
@@ -191,6 +209,15 @@
       "width": 256,
       "height": 256,
       "sha256": "f875b7cd4115f1ec57d7f659da4042d9b038a8bf889cbece9eac11d51fe70c18"
+    },
+    {
+      "kind": "weapon",
+      "id": "fables_of_wisdom",
+      "path": "weapons/fables_of_wisdom/icon.png",
+      "wiki_file": "Weapon Fables of Wisdom.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "25fa26d9cd9a5752de58c30e7dc819e5a94ae6b883e7886f8e05a32e558b6298"
     },
     {
       "kind": "weapon",
@@ -284,6 +311,15 @@
     },
     {
       "kind": "weapon",
+      "id": "legend_of_drunken_hero",
+      "path": "weapons/legend_of_drunken_hero/icon.png",
+      "wiki_file": "Weapon Legend of Drunken Hero.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "033ca7c9ef2493adc712411ed20534c370a10e1871a6f9f5e0495748ef31aeb8"
+    },
+    {
+      "kind": "weapon",
       "id": "lethean_elegy",
       "path": "weapons/lethean_elegy/icon.png",
       "wiki_file": "Weapon Lethean Elegy.png",
@@ -347,6 +383,15 @@
     },
     {
       "kind": "weapon",
+      "id": "meditations_on_mercy",
+      "path": "weapons/meditations_on_mercy/icon.png",
+      "wiki_file": "Weapon Meditations on Mercy.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "57b4f67ef9a8f6a495bf0983be4a5267f754b4e8d9c9054b91672f65078a1074"
+    },
+    {
+      "kind": "weapon",
       "id": "moongazers_sigil",
       "path": "weapons/moongazers_sigil/icon.png",
       "wiki_file": "Weapon Moongazer's Sigil.png",
@@ -362,6 +407,15 @@
       "width": 256,
       "height": 256,
       "sha256": "a6418455af1d75bb130bda65d7a48c409343ade9ab5dc5d402b3bebabf8642e6"
+    },
+    {
+      "kind": "weapon",
+      "id": "oceans_gift",
+      "path": "weapons/oceans_gift/icon.png",
+      "wiki_file": "Weapon Ocean's Gift.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "51e703bfe81c3ed907c8eeac52ea9728e19b19425102f220457088bd82e0a9d8"
     },
     {
       "kind": "weapon",
@@ -383,6 +437,15 @@
     },
     {
       "kind": "weapon",
+      "id": "pistols_26",
+      "path": "weapons/pistols_26/icon.png",
+      "wiki_file": "Weapon Pistols26.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "03aa520ecfcf42ff13d527087d19178fde1c8aa549ddb9777237c75b27647f1f"
+    },
+    {
+      "kind": "weapon",
       "id": "pulsation_bracer",
       "path": "weapons/pulsation_bracer/icon.png",
       "wiki_file": "Weapon Pulsation Bracer.png",
@@ -392,12 +455,12 @@
     },
     {
       "kind": "weapon",
-      "id": "radiance_cleaver",
-      "path": "weapons/radiance_cleaver/icon.png",
-      "wiki_file": "Weapon Radiance Cleaver.png",
+      "id": "radiant_dawn",
+      "path": "weapons/radiant_dawn/icon.png",
+      "wiki_file": "Weapon Radiant Dawn.png",
       "width": 256,
       "height": 256,
-      "sha256": "2b5ee666b58574227277162c5b03e800a7fe7f1a7883e83f1611490a3a7cc2bc"
+      "sha256": "a6c850f2cc4022f30e0d9e71f6e3de639e68695b8a67aeae2c40bfee1ee0e0fc"
     },
     {
       "kind": "weapon",
@@ -446,12 +509,30 @@
     },
     {
       "kind": "weapon",
+      "id": "romance_in_farewell",
+      "path": "weapons/romance_in_farewell/icon.png",
+      "wiki_file": "Weapon Romance in Farewell.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "e9a0b4132242c456914147ba826e95abb9a65f0267f2100479187074de6e0e69"
+    },
+    {
+      "kind": "weapon",
       "id": "skull_thrasher",
       "path": "weapons/skull_thrasher/icon.png",
       "wiki_file": "Weapon Skull Thrasher.png",
       "width": 256,
       "height": 256,
       "sha256": "926c6176ce65f2224598ca976658fb2fd4b33f2dd41d46352a23f441a89c4418"
+    },
+    {
+      "kind": "weapon",
+      "id": "solar_flame",
+      "path": "weapons/solar_flame/icon.png",
+      "wiki_file": "Weapon Solar Flame.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "6a77f1d19848fd6de22955cdecbeb3938c6bf389a233574e3bb77ef4fea485db"
     },
     {
       "kind": "weapon",
@@ -614,6 +695,15 @@
       "width": 256,
       "height": 256,
       "sha256": "ee13f878a46c01accad7d67c2df03d5b2aaaf35d5d0d8e5e490f15be0386037b"
+    },
+    {
+      "kind": "weapon",
+      "id": "waltz_in_masquerade",
+      "path": "weapons/waltz_in_masquerade/icon.png",
+      "wiki_file": "Weapon Waltz in Masquerade.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "efb3474a037e3b25dbda22e20f559ef14122f1be04274e7462c9b0a484bc9f31"
     },
     {
       "kind": "weapon",
@@ -956,6 +1046,15 @@
       "width": 256,
       "height": 256,
       "sha256": "588baeb573d599d4f1eb318e155267ad368187d627284284b16cd8a121a933fc"
+    },
+    {
+      "kind": "echo",
+      "id": "calamity_effigy",
+      "path": "echoes/calamity_effigy/icon.png",
+      "wiki_file": "Calamity Effigy Icon.png",
+      "width": 100,
+      "height": 100,
+      "sha256": "d13d75ab3bf7b94a3040a5f7fc8d01bf454c85695cccbc5c8ea135315710854e"
     },
     {
       "kind": "echo",

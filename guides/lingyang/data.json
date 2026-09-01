@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "aether_strike",
+      "rank": 5
+    },
+    {
       "content_id": "blazing_justice",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "tragicomedy",
-      "rank": 1
-    },
-    {
-      "content_id": "abyss_surges",
-      "rank": 1
+      "content_id": "celestial_spiral",
+      "rank": 5
     }
   ],
   "echo_sets": [

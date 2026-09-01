@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "radiant_dawn",
+      "rank": 5
+    },
+    {
       "content_id": "rime_draped_sprouts",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "lethean_elegy",
-      "rank": 1
-    },
-    {
-      "content_id": "luminous_hymn",
-      "rank": 1
+      "content_id": "augment",
+      "rank": 5
     }
   ],
   "echo_sets": [

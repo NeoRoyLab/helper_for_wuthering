@@ -182,7 +182,7 @@ $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter dat
 if ($files.Count -ne 60) { throw "Expected 60 records, got $($files.Count)." }
 
 $guideEntry = $master.manifests | Where-Object { $_.key -ceq 'guides' } | Select-Object -First 1
-if ($null -eq $guideEntry -or $guideEntry.version -ne 2 -or $guideEntry.count -ne 57) {
+if ($null -eq $guideEntry -or $guideEntry.version -ne 4 -or $guideEntry.count -ne 57) {
     throw 'The master manifest guides entry is missing or invalid.'
 }
 
@@ -191,12 +191,12 @@ $guideAssetManifest = Read-Json (Join-Path $root 'manifests\guide_assets.json')
 if ($guideManifest.schema_version -ne 1 -or $guideAssetManifest.schema_version -ne 1) {
     throw 'Unexpected guide manifest schema version.'
 }
-if ($guideManifest.guides.Count -ne 57 -or $guideManifest.weapons.Count -ne 72 -or
+if ($guideManifest.guides.Count -ne 57 -or $guideManifest.weapons.Count -ne 82 -or
     $guideManifest.echo_sets.Count -ne 33 -or $guideManifest.echoes.Count -ne 44) {
     throw 'Unexpected guide, weapon, Echo Set, or Echo manifest count.'
 }
 if (($guideManifest.guides | Sort-Object -Unique).Count -ne 57 -or
-    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 72 -or
+    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 82 -or
     ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 33 -or
     ($guideManifest.echoes | Sort-Object -Unique).Count -ne 44) {
     throw 'Duplicate guide content identifier.'
@@ -256,7 +256,7 @@ foreach ($id in $guideManifest.echo_sets) {
 }
 
 $echoById = @{}
-$expectedEchoIconGaps = @('calamity_effigy', 'jue')
+$expectedEchoIconGaps = @('jue')
 foreach ($id in $guideManifest.echoes) {
     $recordPath = Join-Path $root "echoes\$id\data.json"
     if (-not (Test-Path -LiteralPath $recordPath)) { throw "Missing Echo content record: $id" }
@@ -319,7 +319,7 @@ foreach ($id in $guideManifest.guides) {
 }
 
 if ($guideAssetManifest.source_site -cne 'Wuthering Waves Wiki' -or
-    $guideAssetManifest.verified_at -cne '2026-08-30' -or $guideAssetManifest.images.Count -ne 147) {
+    $guideAssetManifest.verified_at -cne '2026-08-30' -or $guideAssetManifest.images.Count -ne 158) {
     throw 'Invalid guide asset manifest metadata.'
 }
 $assetByPath = @{}
@@ -358,8 +358,8 @@ $guideFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'guides') -Filter da
 $weaponFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'weapons') -Filter data.json -File -Recurse)
 $echoSetFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echo_sets') -Filter data.json -File -Recurse)
 $echoFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echoes') -Filter data.json -File -Recurse)
-if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 72 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
+if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 84 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
     throw 'Unexpected generated guide content file count.'
 }
 
-"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 57 complete guides, 72 wiki weapon records, 33 wiki Echo Sets, 44 wiki Echoes, 147 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."
+"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 57 complete guides, 82 referenced wiki weapon records, 33 wiki Echo Sets, 44 wiki Echoes, 158 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."

@@ -7,6 +7,10 @@
       "rank": 1
     },
     {
+      "content_id": "feather_edge",
+      "rank": 5
+    },
+    {
       "content_id": "emerald_sentence",
       "rank": 1
     },
@@ -15,12 +19,8 @@
       "rank": 1
     },
     {
-      "content_id": "everbright_polestar",
-      "rank": 1
-    },
-    {
-      "content_id": "emerald_of_genesis",
-      "rank": 1
+      "content_id": "lumingloss",
+      "rank": 5
     }
   ],
   "echo_sets": [

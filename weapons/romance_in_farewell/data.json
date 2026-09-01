@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "romance_in_farewell",
+  "name": {
+    "en": "Romance in Farewell"
+  },
+  "rarity": 4,
+  "weapon_type": "pistols",
+  "icon": "weapons/romance_in_farewell/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Romance_in_Farewell",
+    "verified_at": "2026-08-30",
+    "revision_id": 60114
+  }
+}

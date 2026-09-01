@@ -3,12 +3,12 @@
   "character_id": "verina",
   "weapons": [
     {
-      "content_id": "variation",
-      "rank": 5
-    },
-    {
       "content_id": "stellar_symphony",
       "rank": 1
+    },
+    {
+      "content_id": "variation",
+      "rank": 5
     },
     {
       "content_id": "call_of_the_abyss",

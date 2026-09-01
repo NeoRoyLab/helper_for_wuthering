@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "radiant_dawn",
+  "name": {
+    "en": "Radiant Dawn"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/radiant_dawn/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Radiant_Dawn",
+    "verified_at": "2026-08-30",
+    "revision_id": 97946
+  }
+}

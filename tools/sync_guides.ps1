@@ -147,7 +147,7 @@ foreach ($guide in $snapshot.guides) {
 $weaponNames = @($snapshot.guides | ForEach-Object { $_.weapons | ForEach-Object { [string]$_[0] } } | Sort-Object -Unique)
 $echoSetNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { [string]$_.name } } | Sort-Object -Unique)
 $echoNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { $_.main_echoes } } | Sort-Object -Unique)
-if ($weaponNames.Count -ne 72 -or $echoSetNames.Count -ne 33 -or $echoNames.Count -ne 44) {
+if ($weaponNames.Count -ne 82 -or $echoSetNames.Count -ne 33 -or $echoNames.Count -ne 44) {
     throw "Unexpected content counts: $($weaponNames.Count) weapons, $($echoSetNames.Count) Echo Sets."
 }
 
@@ -339,15 +339,18 @@ foreach ($echo in @($echoContent.Values | Sort-Object id)) {
     $relativeIconPath = "echoes/$($echo.id)/icon.png"
     $target = Join-Path $root ($relativeIconPath.Replace('/', '\'))
     $info = $imageInfo['File:' + $echo.image_file]
-    $hasIcon = $null -ne $info
-    if ($hasIcon -and $info.mime -cne 'image/png') { throw "Echo wiki asset is not PNG: $($echo.name)" }
+    $usesExistingFallback = $echo.name -ceq 'Calamity Effigy' -and $null -eq $info -and (Test-Path -LiteralPath $target)
+    $hasIcon = $null -ne $info -or $usesExistingFallback
+    if ($null -ne $info -and $info.mime -cne 'image/png') { throw "Echo wiki asset is not PNG: $($echo.name)" }
     if ($hasIcon) {
         [System.IO.Directory]::CreateDirectory([System.IO.Path]::GetDirectoryName($target)) | Out-Null
     }
     $downloadUrl = [string]$info.url + $(if ([string]$info.url -match '\?') { '&format=original' } else { '?format=original' })
-    if ($hasIcon) {
+    if ($hasIcon -and -not $usesExistingFallback) {
         & curl.exe -L --fail --silent --show-error --output $target $downloadUrl
         if ($LASTEXITCODE -ne 0) { throw "Echo icon download failed: $($echo.name)" }
+    }
+    if ($hasIcon) {
         $bytes = [System.IO.File]::ReadAllBytes($target)
         $dimensions = Get-PngDimensions $bytes
         $sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $target).Hash.ToLowerInvariant()
@@ -450,7 +453,7 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 2; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 4; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 

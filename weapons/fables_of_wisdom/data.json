@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "fables_of_wisdom",
+  "name": {
+    "en": "Fables of Wisdom"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/fables_of_wisdom/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Fables_of_Wisdom",
+    "verified_at": "2026-08-30",
+    "revision_id": 94288
+  }
+}

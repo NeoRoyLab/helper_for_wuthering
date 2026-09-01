@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "oceans_gift",
+  "name": {
+    "en": "Ocean's Gift"
+  },
+  "rarity": 4,
+  "weapon_type": "rectifier",
+  "icon": "weapons/oceans_gift/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Ocean%27s_Gift",
+    "verified_at": "2026-08-30",
+    "revision_id": 95489
+  }
+}
