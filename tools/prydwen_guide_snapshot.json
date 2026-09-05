@@ -266,13 +266,23 @@
     {
       "id": "brant",
       "page_last_updated": "2026-08-20",
+      "supplemental_sources": [
+        {
+          "scope": "upper_right_4_star_weapon",
+          "weapon": "Overture",
+          "site": "WutheringLab",
+          "page_url": "https://wutheringlab.com/character/brant-build/",
+          "verified_at": "2026-09-06",
+          "reason": "Prydwen did not provide a 4-star weapon recommendation for this slot."
+        }
+      ],
       "weapons": [
         [
           "Unflickering Valor",
           1
         ],
         [
-          "Laser Shearer",
+          "Overture",
           1
         ],
         [
@@ -2545,10 +2555,6 @@
         [
           "Bloodpact's Pledge",
           5
-        ],
-        [
-          "Bloodpact's Pledge",
-          1
         ]
       ],
       "echo_sets": [

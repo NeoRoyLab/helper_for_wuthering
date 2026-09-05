@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "overture",
+  "name": {
+    "en": "Overture"
+  },
+  "rarity": 4,
+  "weapon_type": "sword",
+  "icon": "weapons/overture/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Overture",
+    "verified_at": "2026-08-30",
+    "revision_id": 99054
+  }
+}

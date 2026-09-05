@@ -302,15 +302,6 @@
     },
     {
       "kind": "weapon",
-      "id": "laser_shearer",
-      "path": "weapons/laser_shearer/icon.png",
-      "wiki_file": "Weapon Laser Shearer.png",
-      "width": 256,
-      "height": 256,
-      "sha256": "05c5ea2946d1f26d211066cbcc660550b8d6a7718e091337ed530121274ef486"
-    },
-    {
-      "kind": "weapon",
       "id": "legend_of_drunken_hero",
       "path": "weapons/legend_of_drunken_hero/icon.png",
       "wiki_file": "Weapon Legend of Drunken Hero.png",
@@ -425,6 +416,15 @@
       "width": 256,
       "height": 256,
       "sha256": "51e7b9c216e7ec3d504ee1c2030a6415b0fb31238c5bd7b343074b5fe12b5e9b"
+    },
+    {
+      "kind": "weapon",
+      "id": "overture",
+      "path": "weapons/overture/icon.png",
+      "wiki_file": "Weapon Overture.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "2ecb53bb44a517ea49b40ec2aab429c4a58f7a23d52ae003d608ed01dc0b951c"
     },
     {
       "kind": "weapon",

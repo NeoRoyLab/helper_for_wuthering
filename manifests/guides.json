@@ -93,7 +93,6 @@
     "glint_of_clouds",
     "guardian_gauntlets",
     "kumokiri",
-    "laser_shearer",
     "legend_of_drunken_hero",
     "lethean_elegy",
     "lumingloss",
@@ -107,6 +106,7 @@
     "novaburst",
     "oceans_gift",
     "originite_type_iv",
+    "overture",
     "phasic_homogenizer",
     "pistols_26",
     "pulsation_bracer",
@@ -236,6 +236,20 @@
     {
       "id": "suoming",
       "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
+    }
+  ],
+  "non_prydwen_recommendations": [
+    {
+      "character_id": "brant",
+      "sources": [
+        {
+          "scope": "upper_right_4_star_weapon",
+          "content_id": "overture",
+          "site": "WutheringLab",
+          "page_url": "https://wutheringlab.com/character/brant-build/",
+          "verified_at": "2026-09-06"
+        }
+      ]
     }
   ]
 }

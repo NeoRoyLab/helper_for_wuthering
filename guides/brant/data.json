@@ -7,7 +7,7 @@
       "rank": 1
     },
     {
-      "content_id": "laser_shearer",
+      "content_id": "overture",
       "rank": 1
     },
     {
@@ -67,5 +67,15 @@
     "page_url": "https://www.prydwen.gg/wuthering-waves/characters/brant",
     "verified_at": "2026-08-30",
     "page_last_updated": "2026-08-20"
-  }
+  },
+  "supplemental_sources": [
+    {
+      "scope": "upper_right_4_star_weapon",
+      "content_id": "overture",
+      "site": "WutheringLab",
+      "page_url": "https://wutheringlab.com/character/brant-build/",
+      "verified_at": "2026-09-06",
+      "reason": "Prydwen did not provide a 4-star weapon recommendation for this slot."
+    }
+  ]
 }

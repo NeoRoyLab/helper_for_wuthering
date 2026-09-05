@@ -425,6 +425,16 @@ foreach ($guide in $snapshot.guides) {
             verified_at = [string]$snapshot.verified_at
             page_last_updated = [string]$guide.page_last_updated
         }
+        supplemental_sources = @($guide.supplemental_sources | Where-Object { $null -ne $_ } | ForEach-Object {
+            [PSCustomObject][ordered]@{
+                scope = [string]$_.scope
+                content_id = Get-StableId ([string]$_.weapon)
+                site = [string]$_.site
+                page_url = [string]$_.page_url
+                verified_at = [string]$_.verified_at
+                reason = [string]$_.reason
+            }
+        })
     }
     Write-Json (Join-Path $root "guides\$($guide.id)\data.json") $record
     $guideIds.Add([string]$guide.id)
@@ -437,6 +447,20 @@ $guideManifest = [PSCustomObject][ordered]@{
     echo_sets = @($echoSetContent.Keys | Sort-Object)
     echoes = @($echoContent.Keys | Sort-Object)
     unavailable = @($snapshot.unavailable)
+    non_prydwen_recommendations = @($snapshot.guides | Where-Object { @($_.supplemental_sources | Where-Object { $null -ne $_ }).Count -gt 0 } | ForEach-Object {
+        [PSCustomObject][ordered]@{
+            character_id = [string]$_.id
+            sources = @($_.supplemental_sources | ForEach-Object {
+                [PSCustomObject][ordered]@{
+                    scope = [string]$_.scope
+                    content_id = Get-StableId ([string]$_.weapon)
+                    site = [string]$_.site
+                    page_url = [string]$_.page_url
+                    verified_at = [string]$_.verified_at
+                }
+            })
+        }
+    })
 }
 Write-Json (Join-Path $root 'manifests\guides.json') $guideManifest
 
@@ -453,7 +477,7 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 4; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 5; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 

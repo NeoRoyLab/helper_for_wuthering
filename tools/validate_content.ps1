@@ -182,7 +182,7 @@ $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter dat
 if ($files.Count -ne 60) { throw "Expected 60 records, got $($files.Count)." }
 
 $guideEntry = $master.manifests | Where-Object { $_.key -ceq 'guides' } | Select-Object -First 1
-if ($null -eq $guideEntry -or $guideEntry.version -ne 4 -or $guideEntry.count -ne 57) {
+if ($null -eq $guideEntry -or $guideEntry.version -ne 5 -or $guideEntry.count -ne 57) {
     throw 'The master manifest guides entry is missing or invalid.'
 }
 
@@ -205,6 +205,11 @@ $expectedGuideGaps = @('hsin', 'jingran', 'suoming')
 if ($guideManifest.unavailable.Count -ne 3 -or
     @(Compare-Object $expectedGuideGaps @($guideManifest.unavailable.id)).Count -ne 0) {
     throw 'The Prydwen guide gaps are not documented exactly.'
+}
+$expectedSupplementedGuides = @('brant')
+if ($guideManifest.non_prydwen_recommendations.Count -ne 1 -or
+    @(Compare-Object $expectedSupplementedGuides @($guideManifest.non_prydwen_recommendations.character_id)).Count -ne 0) {
+    throw 'Non-Prydwen guide recommendations are not documented exactly.'
 }
 
 $guideWeaponById = @{}
@@ -292,6 +297,9 @@ foreach ($id in $guideManifest.guides) {
             throw "Invalid guide weapon reference: $id"
         }
     }
+    if ($record.weapons.Count -ge 2 -and $guideWeaponById[[string]$record.weapons[1].content_id].rarity -ne 4) {
+        throw "The upper-right weapon is not 4-star: $id"
+    }
     foreach ($echoSet in $record.echo_sets) {
         if (-not $echoSetById.ContainsKey([string]$echoSet.content_id) -or $echoSet.rank -lt 0) {
             throw "Invalid guide Echo Set reference: $id"
@@ -315,6 +323,18 @@ foreach ($id in $guideManifest.guides) {
     if ($record.source.site -cne 'Prydwen.gg' -or $record.source.page_url -cne $expectedSourceUrl -or
         $record.source.verified_at -cne '2026-08-30' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
         throw "Invalid guide provenance: $id"
+    }
+    $supplements = @($record.supplemental_sources | Where-Object { $null -ne $_ })
+    if ($id -in $expectedSupplementedGuides) {
+        if ($supplements.Count -ne 1 -or $supplements[0].scope -cne 'upper_right_4_star_weapon' -or
+            $supplements[0].content_id -cne [string]$record.weapons[1].content_id -or
+            $guideWeaponById[[string]$record.weapons[1].content_id].rarity -ne 4 -or
+            $supplements[0].verified_at -cne '2026-09-06') {
+            throw "Invalid supplemental guide provenance: $id"
+        }
+    }
+    elseif ($supplements.Count -ne 0) {
+        throw "Unexpected non-Prydwen guide supplement: $id"
     }
 }
 
@@ -358,7 +378,7 @@ $guideFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'guides') -Filter da
 $weaponFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'weapons') -Filter data.json -File -Recurse)
 $echoSetFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echo_sets') -Filter data.json -File -Recurse)
 $echoFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echoes') -Filter data.json -File -Recurse)
-if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 84 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
+if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 85 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
     throw 'Unexpected generated guide content file count.'
 }
 
