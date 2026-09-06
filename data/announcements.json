@@ -1,6 +1,33 @@
 {
   "messages": [
     {
+      "id": "update_available_3_0_10",
+      "enabled": true,
+      "priority": 300,
+      "show_on_startup": true,
+      "published_at": "2026-09-06T00:00:00Z",
+      "starts_at": "",
+      "ends_at": "",
+      "min_app_version": "3.0.00",
+      "max_app_version": "3.0.09",
+      "title": {
+        "en": "New version available",
+        "ru": "Доступна новая версия",
+        "uk": "Доступна нова версія"
+      },
+      "body": {
+        "en": "Version 3.0.10 is now available. Update the app to get cloud notifications, improved character descriptions, updated guides, better text readability, and smoother UI performance.",
+        "ru": "Версия 3.0.10 уже доступна. Обновите приложение, чтобы получить облачные уведомления, улучшенные описания персонажей, обновлённые гайды, более читаемый текст и более плавный интерфейс.",
+        "uk": "Версія 3.0.10 вже доступна. Оновіть застосунок, щоб отримати хмарні сповіщення, покращені описи персонажів, оновлені гайди, читабельніший текст і плавніший інтерфейс."
+      },
+      "action_label": {
+        "en": "Update on Google Play",
+        "ru": "Обновить в Google Play",
+        "uk": "Оновити в Google Play"
+      },
+      "action_url": "https://play.google.com/store/apps/details?id=com.NeoRoyLab.HelperforWuthering"
+    },
+    {
       "id": "rate_app_google_play_3_0_00",
       "enabled": true,
       "priority": 200,
