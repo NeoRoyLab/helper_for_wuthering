@@ -1,6 +1,33 @@
 {
   "messages": [
     {
+      "id": "update_available_3_0_12",
+      "enabled": true,
+      "priority": 312,
+      "show_on_startup": true,
+      "published_at": "2026-09-07T00:00:00Z",
+      "starts_at": "",
+      "ends_at": "",
+      "min_app_version": "3.0.00",
+      "max_app_version": "3.0.11",
+      "title": {
+        "en": "Version 3.0.12 is available",
+        "ru": "Доступна версия 3.0.12",
+        "uk": "Доступна версія 3.0.12"
+      },
+      "body": {
+        "en": "Update to version 3.0.12. This release improves compatibility with Android 16 and devices using 16 KB memory pages, and fixes a startup crash affecting some devices.",
+        "ru": "Обновитесь до версии 3.0.12. В этом выпуске улучшена совместимость с Android 16 и устройствами со страницами памяти 16 КБ, а также исправлен сбой при запуске на некоторых устройствах.",
+        "uk": "Оновіться до версії 3.0.12. У цьому випуску покращено сумісність з Android 16 і пристроями зі сторінками пам’яті 16 КБ, а також виправлено збій під час запуску на деяких пристроях."
+      },
+      "action_label": {
+        "en": "Update on Google Play",
+        "ru": "Обновить в Google Play",
+        "uk": "Оновити в Google Play"
+      },
+      "action_url": "https://play.google.com/store/apps/details?id=com.NeoRoyLab.HelperforWuthering"
+    },
+    {
       "id": "update_available_3_0_10",
       "enabled": true,
       "priority": 300,
