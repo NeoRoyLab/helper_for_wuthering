@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "thousandfold_deliverance",
+  "name": {
+    "en": "Thousandfold Deliverance"
+  },
+  "rarity": 5,
+  "weapon_type": "broadblade",
+  "icon": "weapons/thousandfold_deliverance/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Thousandfold_Deliverance",
+    "verified_at": "2026-09-10",
+    "revision_id": 142310
+  }
+}

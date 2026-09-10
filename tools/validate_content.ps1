@@ -182,7 +182,7 @@ $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter dat
 if ($files.Count -ne 60) { throw "Expected 60 records, got $($files.Count)." }
 
 $guideEntry = $master.manifests | Where-Object { $_.key -ceq 'guides' } | Select-Object -First 1
-if ($null -eq $guideEntry -or $guideEntry.version -ne 5 -or $guideEntry.count -ne 57) {
+if ($null -eq $guideEntry -or $guideEntry.version -ne 6 -or $guideEntry.count -ne 58) {
     throw 'The master manifest guides entry is missing or invalid.'
 }
 
@@ -191,18 +191,18 @@ $guideAssetManifest = Read-Json (Join-Path $root 'manifests\guide_assets.json')
 if ($guideManifest.schema_version -ne 1 -or $guideAssetManifest.schema_version -ne 1) {
     throw 'Unexpected guide manifest schema version.'
 }
-if ($guideManifest.guides.Count -ne 57 -or $guideManifest.weapons.Count -ne 82 -or
-    $guideManifest.echo_sets.Count -ne 33 -or $guideManifest.echoes.Count -ne 44) {
+if ($guideManifest.guides.Count -ne 58 -or $guideManifest.weapons.Count -ne 83 -or
+    $guideManifest.echo_sets.Count -ne 34 -or $guideManifest.echoes.Count -ne 45) {
     throw 'Unexpected guide, weapon, Echo Set, or Echo manifest count.'
 }
-if (($guideManifest.guides | Sort-Object -Unique).Count -ne 57 -or
-    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 82 -or
-    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 33 -or
-    ($guideManifest.echoes | Sort-Object -Unique).Count -ne 44) {
+if (($guideManifest.guides | Sort-Object -Unique).Count -ne 58 -or
+    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 83 -or
+    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 34 -or
+    ($guideManifest.echoes | Sort-Object -Unique).Count -ne 45) {
     throw 'Duplicate guide content identifier.'
 }
-$expectedGuideGaps = @('hsin', 'jingran', 'suoming')
-if ($guideManifest.unavailable.Count -ne 3 -or
+$expectedGuideGaps = @('hsin', 'suoming')
+if ($guideManifest.unavailable.Count -ne 2 -or
     @(Compare-Object $expectedGuideGaps @($guideManifest.unavailable.id)).Count -ne 0) {
     throw 'The Prydwen guide gaps are not documented exactly.'
 }
@@ -226,7 +226,7 @@ foreach ($id in $guideManifest.weapons) {
     }
     $expectedPath = "weapons/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-08-30' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-09-10' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid weapon provenance or icon path: $id"
     }
@@ -253,7 +253,7 @@ foreach ($id in $guideManifest.echo_sets) {
     }
     $expectedPath = "echo_sets/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-08-30' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-09-10' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid Echo Set provenance or icon path: $id"
     }
@@ -267,7 +267,7 @@ foreach ($id in $guideManifest.echoes) {
     if (-not (Test-Path -LiteralPath $recordPath)) { throw "Missing Echo content record: $id" }
     $record = Read-Json $recordPath
     if ($record.schema_version -ne 1 -or $record.id -cne $id -or [string]::IsNullOrWhiteSpace($record.name.en) -or
-        $record.source.site -cne 'Wuthering Waves Wiki' -or $record.source.verified_at -cne '2026-08-30' -or
+        $record.source.site -cne 'Wuthering Waves Wiki' -or $record.source.verified_at -cne '2026-09-10' -or
         $record.source.revision_id -le 0 -or $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid Echo content record: $id"
     }
@@ -321,7 +321,7 @@ foreach ($id in $guideManifest.guides) {
     }
     $expectedSourceUrl = 'https://www.prydwen.gg/wuthering-waves/characters/' + $id.Replace('_', '-')
     if ($record.source.site -cne 'Prydwen.gg' -or $record.source.page_url -cne $expectedSourceUrl -or
-        $record.source.verified_at -cne '2026-08-30' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
+        $record.source.verified_at -cne '2026-09-10' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
         throw "Invalid guide provenance: $id"
     }
     $supplements = @($record.supplemental_sources | Where-Object { $null -ne $_ })
@@ -339,7 +339,7 @@ foreach ($id in $guideManifest.guides) {
 }
 
 if ($guideAssetManifest.source_site -cne 'Wuthering Waves Wiki' -or
-    $guideAssetManifest.verified_at -cne '2026-08-30' -or $guideAssetManifest.images.Count -ne 158) {
+    $guideAssetManifest.verified_at -cne '2026-09-10' -or $guideAssetManifest.images.Count -ne 161) {
     throw 'Invalid guide asset manifest metadata.'
 }
 $assetByPath = @{}
@@ -378,8 +378,8 @@ $guideFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'guides') -Filter da
 $weaponFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'weapons') -Filter data.json -File -Recurse)
 $echoSetFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echo_sets') -Filter data.json -File -Recurse)
 $echoFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echoes') -Filter data.json -File -Recurse)
-if ($guideFiles.Count -ne 57 -or $weaponFiles.Count -ne 85 -or $echoSetFiles.Count -ne 33 -or $echoFiles.Count -ne 44) {
+if ($guideFiles.Count -ne 58 -or $weaponFiles.Count -ne 86 -or $echoSetFiles.Count -ne 34 -or $echoFiles.Count -ne 45) {
     throw 'Unexpected generated guide content file count.'
 }
 
-"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 57 complete guides, 82 referenced wiki weapon records, 33 wiki Echo Sets, 44 wiki Echoes, 158 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."
+"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 58 complete guides, 83 referenced wiki weapon records, 34 wiki Echo Sets, 45 wiki Echoes, 161 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."

@@ -131,7 +131,7 @@ function Get-EchoSetWikiName([string] $prydwenName) {
 }
 
 $snapshot = Read-Json $snapshotPath
-if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 57) {
+if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 58) {
     throw 'Unexpected Prydwen guide snapshot.'
 }
 
@@ -147,7 +147,7 @@ foreach ($guide in $snapshot.guides) {
 $weaponNames = @($snapshot.guides | ForEach-Object { $_.weapons | ForEach-Object { [string]$_[0] } } | Sort-Object -Unique)
 $echoSetNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { [string]$_.name } } | Sort-Object -Unique)
 $echoNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { $_.main_echoes } } | Sort-Object -Unique)
-if ($weaponNames.Count -ne 82 -or $echoSetNames.Count -ne 33 -or $echoNames.Count -ne 44) {
+if ($weaponNames.Count -ne 83 -or $echoSetNames.Count -ne 34 -or $echoNames.Count -ne 45) {
     throw "Unexpected content counts: $($weaponNames.Count) weapons, $($echoSetNames.Count) Echo Sets."
 }
 
@@ -477,7 +477,7 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 5; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 6; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 

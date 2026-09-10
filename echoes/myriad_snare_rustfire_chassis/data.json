@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "myriad_snare_rustfire_chassis",
+  "name": {
+    "en": "Myriad Snare: Rustfire Chassis"
+  },
+  "icon": "echoes/myriad_snare_rustfire_chassis/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Myriad_Snare%3A_Rustfire_Chassis",
+    "verified_at": "2026-09-10",
+    "revision_id": 139270
+  }
+}

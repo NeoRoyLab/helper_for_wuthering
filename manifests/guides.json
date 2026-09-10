@@ -24,6 +24,7 @@
     "iuno",
     "jianxin",
     "jinhsi",
+    "jingran",
     "jiyan",
     "lingyang",
     "lucilla",
@@ -129,6 +130,7 @@
     "stonard",
     "stringmaster",
     "the_last_dance",
+    "thousandfold_deliverance",
     "thunderbolt",
     "thunderflare_dominion",
     "tragicomedy",
@@ -158,6 +160,7 @@
     "halo_of_starry_radiance",
     "havoc_eclipse",
     "heart_of_evils_purge",
+    "lamp_of_nether_road",
     "law_of_harmony",
     "lingering_tunes",
     "midnight_veil",
@@ -199,6 +202,7 @@
     "lioness_of_glory",
     "lorelei",
     "mech_abomination",
+    "myriad_snare_rustfire_chassis",
     "nameless_explorer",
     "nightmare_crownless",
     "nightmare_feilian_beringal",
@@ -227,10 +231,6 @@
   "unavailable": [
     {
       "id": "hsin",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    },
-    {
-      "id": "jingran",
       "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_site": "Wuthering Waves Wiki",
-  "verified_at": "2026-08-30",
+  "verified_at": "2026-09-10",
   "images": [
     {
       "kind": "weapon",
@@ -626,6 +626,15 @@
     },
     {
       "kind": "weapon",
+      "id": "thousandfold_deliverance",
+      "path": "weapons/thousandfold_deliverance/icon.png",
+      "wiki_file": "Weapon Thousandfold Deliverance.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "b75712e146e91f8f8efd6fe8f3d800fd70cf428347068802d50c14fe79c3076f"
+    },
+    {
+      "kind": "weapon",
       "id": "thunderbolt",
       "path": "weapons/thunderbolt/icon.png",
       "wiki_file": "Weapon Thunderbolt.png",
@@ -866,6 +875,15 @@
       "width": 128,
       "height": 128,
       "sha256": "bd342da8c0a4554bdc5f6a8d385218f222e12b828f227ed60c83c8a9d4c37ed8"
+    },
+    {
+      "kind": "echo_set",
+      "id": "lamp_of_nether_road",
+      "path": "echo_sets/lamp_of_nether_road/icon.png",
+      "wiki_file": "Icon Lamp of Nether Road.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "60f1e766b5171fd2699a1762a4d2ec6eff4594716e827c01fbf93ae41521f321"
     },
     {
       "kind": "echo_set",
@@ -1208,6 +1226,15 @@
       "width": 256,
       "height": 256,
       "sha256": "bd95d05269ef3b3bcff8a0441c0b29946a32f420369d399ab315b1ac38c0f40a"
+    },
+    {
+      "kind": "echo",
+      "id": "myriad_snare_rustfire_chassis",
+      "path": "echoes/myriad_snare_rustfire_chassis/icon.png",
+      "wiki_file": "Myriad Snare Rustfire Chassis Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "77595a749ba140358b5496b5595ed7c549b03ef0652ced6955549d978f657806"
     },
     {
       "kind": "echo",

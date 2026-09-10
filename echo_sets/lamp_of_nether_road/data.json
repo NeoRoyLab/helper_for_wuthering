@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "lamp_of_nether_road",
+  "name": {
+    "en": "Lamp of Nether Road"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "HP +10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus."
+    }
+  ],
+  "icon": "echo_sets/lamp_of_nether_road/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Lamp_of_Nether_Road",
+    "verified_at": "2026-09-10",
+    "revision_id": 100818
+  }
+}

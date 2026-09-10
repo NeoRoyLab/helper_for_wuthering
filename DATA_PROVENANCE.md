@@ -80,9 +80,10 @@ Lucy, Rebecca, or Suoming. Those fields are omitted rather than estimated or cop
 Future enrichment must cite a source per added field group and must not silently fill missing
 values with guesses, generated prose, or unofficial translations.
 
-Prydwen displayed complete build recommendations for 57 of the 60 roster entries on 2026-08-30.
-Hsin, Jingran, and Suoming had no visible weapon or Echo Set recommendations, so no guide record was
-created for them. Other characters retain fewer than five weapon entries when Prydwen displayed fewer.
+Prydwen displayed complete build recommendations for 58 of the 60 roster entries as of 2026-09-10.
+Hsin and Suoming had no visible weapon or Echo Set recommendations, so no guide record was created
+for them. Jingran's guide uses Prydwen's Version 3.6 recommendations published on 2026-09-10. Other
+characters retain fewer than five weapon entries when Prydwen displayed fewer.
 
 The Wiki pages for Calamity Effigy and Jué reference icon filenames that the Wiki file API does not
 currently provide. Their Echo records and provenance are retained with `icon: null`; no Prydwen image,

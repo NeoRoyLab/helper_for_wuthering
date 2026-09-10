@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "verified_at": "2026-08-30",
+  "verified_at": "2026-09-10",
   "guides": [
     {
       "id": "aalto",
@@ -1502,6 +1502,65 @@
         }
       ],
       "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Resonance Skill DMG% > ATK"
+    },
+    {
+      "id": "jingran",
+      "page_last_updated": "2026-09-10",
+      "weapons": [
+        [
+          "Thousandfold Deliverance",
+          1
+        ],
+        [
+          "Aureate Zenith",
+          5
+        ],
+        [
+          "Thunderflare Dominion",
+          1
+        ],
+        [
+          "Verdant Summit",
+          1
+        ],
+        [
+          "Autumntrace",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Lamp of Nether Road",
+          "rank": null,
+          "special": true,
+          "main_echoes": [
+            "Myriad Snare: Rustfire Chassis"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT DMG / HP%"
+        },
+        {
+          "cost": 4,
+          "value": "CRIT DMG / HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        },
+        {
+          "cost": 1,
+          "value": "HP%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > HP% (Until 50000) > CRIT Rate = CRIT DMG > Heavy Attack DMG% > ATK% > ATK"
     },
     {
       "id": "jiyan",
@@ -3703,10 +3762,6 @@
   "unavailable": [
     {
       "id": "hsin",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    },
-    {
-      "id": "jingran",
       "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
     },
     {

@@ -1,0 +1,66 @@
+{
+  "schema_version": 2,
+  "character_id": "jingran",
+  "weapons": [
+    {
+      "content_id": "thousandfold_deliverance",
+      "rank": 1
+    },
+    {
+      "content_id": "aureate_zenith",
+      "rank": 5
+    },
+    {
+      "content_id": "thunderflare_dominion",
+      "rank": 1
+    },
+    {
+      "content_id": "verdant_summit",
+      "rank": 1
+    },
+    {
+      "content_id": "autumntrace",
+      "rank": 5
+    }
+  ],
+  "echo_sets": [
+    {
+      "content_id": "lamp_of_nether_road",
+      "source_name": "Lamp of Nether Road",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "myriad_snare_rustfire_chassis",
+  "primary_echo_source_name": "Myriad Snare: Rustfire Chassis",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT DMG / HP%"
+    },
+    {
+      "cost": 4,
+      "value": "CRIT DMG / HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    },
+    {
+      "cost": 1,
+      "value": "HP%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > HP% (Until 50000) > CRIT Rate = CRIT DMG > Heavy Attack DMG% > ATK% > ATK",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/jingran",
+    "verified_at": "2026-09-10",
+    "page_last_updated": "2026-09-10"
+  },
+  "supplemental_sources": []
+}
