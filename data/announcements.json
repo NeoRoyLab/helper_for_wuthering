@@ -1,6 +1,33 @@
 {
   "messages": [
     {
+      "id": "update_available_3_0_13",
+      "enabled": true,
+      "priority": 313,
+      "show_on_startup": true,
+      "published_at": "2026-09-13T00:00:00Z",
+      "starts_at": "",
+      "ends_at": "",
+      "min_app_version": "3.0.00",
+      "max_app_version": "3.0.12",
+      "title": {
+        "en": "Version 3.0.13 is available",
+        "ru": "Доступна версия 3.0.13",
+        "uk": "Доступна версія 3.0.13"
+      },
+      "body": {
+        "en": "Update to version 3.0.13. This release adds a guide for Jingran and fixes guide availability, so characters without a guide are hidden and newly added guides appear correctly.",
+        "ru": "Обновитесь до версии 3.0.13. В этом выпуске добавлен гайд на Jingran и исправлено отображение доступных гайдов: персонажи без гайда скрываются, а новые гайды появляются корректно.",
+        "uk": "Оновіться до версії 3.0.13. У цьому випуску додано гайд на Jingran і виправлено відображення доступних гайдів: персонажі без гайда приховуються, а нові гайди з’являються коректно."
+      },
+      "action_label": {
+        "en": "Update on Google Play",
+        "ru": "Обновить в Google Play",
+        "uk": "Оновити в Google Play"
+      },
+      "action_url": "https://play.google.com/store/apps/details?id=com.NeoRoyLab.HelperforWuthering"
+    },
+    {
       "id": "update_available_3_0_12",
       "enabled": true,
       "priority": 312,
