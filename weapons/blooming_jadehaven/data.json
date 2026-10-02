@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "blooming_jadehaven",
+  "name": {
+    "en": "Blooming Jadehaven"
+  },
+  "rarity": 5,
+  "weapon_type": "rectifier",
+  "icon": "weapons/blooming_jadehaven/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Blooming_Jadehaven",
+    "verified_at": "2026-10-02",
+    "revision_id": 145152
+  }
+}

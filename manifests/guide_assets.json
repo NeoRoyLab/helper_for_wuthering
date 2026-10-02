@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_site": "Wuthering Waves Wiki",
-  "verified_at": "2026-09-10",
+  "verified_at": "2026-10-02",
   "images": [
     {
       "kind": "weapon",
@@ -101,6 +101,15 @@
       "width": 256,
       "height": 256,
       "sha256": "97001238397c950159da31fb0b39d30d1eecebdbf6f437056c436434887324d1"
+    },
+    {
+      "kind": "weapon",
+      "id": "blooming_jadehaven",
+      "path": "weapons/blooming_jadehaven/icon.png",
+      "wiki_file": "Weapon Blooming Jadehaven.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "49c2fb02725514b0233ded2d910c3d43b2e9fe0671527551bcf934d6613485e1"
     },
     {
       "kind": "weapon",
@@ -878,6 +887,15 @@
     },
     {
       "kind": "echo_set",
+      "id": "heart_of_sworn_vigil",
+      "path": "echo_sets/heart_of_sworn_vigil/icon.png",
+      "wiki_file": "Icon Heart of Sworn Vigil.png",
+      "width": 128,
+      "height": 128,
+      "sha256": "984f17cf2702aab2320aa84daba4c09d3b3b7557cbb9e55ed268d525ed8fb714"
+    },
+    {
+      "kind": "echo_set",
       "id": "lamp_of_nether_road",
       "path": "echo_sets/lamp_of_nether_road/icon.png",
       "wiki_file": "Icon Lamp of Nether Road.png",
@@ -1070,9 +1088,9 @@
       "id": "calamity_effigy",
       "path": "echoes/calamity_effigy/icon.png",
       "wiki_file": "Calamity Effigy Icon.png",
-      "width": 100,
-      "height": 100,
-      "sha256": "d13d75ab3bf7b94a3040a5f7fc8d01bf454c85695cccbc5c8ea135315710854e"
+      "width": 256,
+      "height": 256,
+      "sha256": "42d9acfd10881887a05faafe06f902f2536f576b04a684a62e529baa8db4be94"
     },
     {
       "kind": "echo",
@@ -1379,6 +1397,15 @@
       "width": 256,
       "height": 256,
       "sha256": "e1ca614b50430f5be3fb5d0c7db8536b792c072fd4c953bbe0c53252088d5749"
+    },
+    {
+      "kind": "echo",
+      "id": "reminiscence_suhsin_the_inevitable",
+      "path": "echoes/reminiscence_suhsin_the_inevitable/icon.png",
+      "wiki_file": "Suhsin the Inevitable Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "dddac3d2a2959ef6805d877ebd39658c20c56f597fb1216e29092972d0a36ef9"
     },
     {
       "kind": "echo",

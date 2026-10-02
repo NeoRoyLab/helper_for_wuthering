@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "heart_of_sworn_vigil",
+  "name": {
+    "en": "Heart of Sworn Vigil"
+  },
+  "bonuses": [
+    {
+      "pieces": 2,
+      "text": "Electro DMG + 10%"
+    },
+    {
+      "pieces": 5,
+      "text": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by 15% and grants them 22.5% Electro DMG for 30s."
+    }
+  ],
+  "icon": "echo_sets/heart_of_sworn_vigil/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Heart_of_Sworn_Vigil",
+    "verified_at": "2026-10-02",
+    "revision_id": 145507
+  }
+}

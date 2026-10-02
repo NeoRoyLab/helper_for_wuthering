@@ -9,7 +9,7 @@
   "weapon_type": "sword",
   "profile": {
     "description": {
-      "en": "Once an Outrider for the Midnight Rangers, she\u0027s now an acting Xuan Watcher of Xuanfang Hold."
+      "en": "Once an Outrider for the Midnight Rangers, she's now an acting Xuan Watcher of Xuanfang Hold."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Yangyang%3A_Xuanling",
-      "verified_at": "2026-08-30",
+      "verified_at": "2026-10-02",
       "overview_revision_id": 135480,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

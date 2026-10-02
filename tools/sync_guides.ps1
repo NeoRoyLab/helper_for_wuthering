@@ -130,8 +130,13 @@ function Get-EchoSetWikiName([string] $prydwenName) {
     return $prydwenName
 }
 
+function Get-EchoWikiName([string] $prydwenName) {
+    if ($prydwenName -ceq 'Reminiscence: Suhsin the Inevitable') { return 'Suhsin the Inevitable' }
+    return $prydwenName
+}
+
 $snapshot = Read-Json $snapshotPath
-if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 58) {
+if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 59) {
     throw 'Unexpected Prydwen guide snapshot.'
 }
 
@@ -147,7 +152,7 @@ foreach ($guide in $snapshot.guides) {
 $weaponNames = @($snapshot.guides | ForEach-Object { $_.weapons | ForEach-Object { [string]$_[0] } } | Sort-Object -Unique)
 $echoSetNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { [string]$_.name } } | Sort-Object -Unique)
 $echoNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { $_.main_echoes } } | Sort-Object -Unique)
-if ($weaponNames.Count -ne 83 -or $echoSetNames.Count -ne 34 -or $echoNames.Count -ne 45) {
+if ($weaponNames.Count -ne 84 -or $echoSetNames.Count -ne 35 -or $echoNames.Count -ne 46) {
     throw "Unexpected content counts: $($weaponNames.Count) weapons, $($echoSetNames.Count) Echo Sets."
 }
 
@@ -156,7 +161,8 @@ $weaponPageTitles = @($weaponNames | ForEach-Object { $_.Replace('#', '') })
 $weaponPages = Get-WikiPages $weaponPageTitles
 $echoSetPageTitles = @($echoSetNames | ForEach-Object { Get-EchoSetWikiName $_ })
 $echoSetPages = Get-WikiPages $echoSetPageTitles
-$echoPages = Get-WikiPages $echoNames
+$echoPageTitles = @($echoNames | ForEach-Object { Get-EchoWikiName $_ })
+$echoPages = Get-WikiPages $echoPageTitles
 
 $weaponContent = @{}
 $echoSetContent = @{}
@@ -193,11 +199,13 @@ foreach ($requestedName in $weaponNames) {
 }
 
 foreach ($requestedName in $echoNames) {
-    $page = $echoPages[$requestedName]
+    $wikiLookupTitle = Get-EchoWikiName $requestedName
+    $page = $echoPages[$wikiLookupTitle]
     $wikitext = [string]$page.revisions[0].slots.main.content
     $canonicalName = Convert-WikiTextToPlain (Get-TemplateValue $wikitext 'name')
     $image = Get-TemplateValue $wikitext 'image'
-    if ([string]::IsNullOrWhiteSpace($canonicalName)) { $canonicalName = [string]$page.title }
+    if ($requestedName -ceq 'Reminiscence: Suhsin the Inevitable') { $canonicalName = $requestedName }
+    elseif ([string]::IsNullOrWhiteSpace($canonicalName)) { $canonicalName = [string]$page.title }
     if ($canonicalName -cne $requestedName -or [string]::IsNullOrWhiteSpace($image)) {
         throw "Incomplete or mismatched Echo infobox: '$requestedName' vs '$canonicalName'"
     }
@@ -477,7 +485,7 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 6; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 7; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 

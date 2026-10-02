@@ -9,7 +9,7 @@
   "weapon_type": "broadblade",
   "profile": {
     "description": {
-      "en": "She is the young Magistrate of Jinzhou with a resolute and altruistic nature and an unbreakable dedication to defending her city and countrymen to her last breath. She is also the appointed Resonator of Sentinel Jué, manifesting in the shape of a Loong, since birth, and with it the responsibility to safeguard Jinzhou\u0027s past and guide its future."
+      "en": "She is the young Magistrate of Jinzhou with a resolute and altruistic nature and an unbreakable dedication to defending her city and countrymen to her last breath. She is also the appointed Resonator of Sentinel Jué, manifesting in the shape of a Loong, since birth, and with it the responsibility to safeguard Jinzhou's past and guide its future."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Jinhsi",
-      "verified_at": "2026-08-30",
-      "overview_revision_id": 101013,
+      "verified_at": "2026-10-02",
+      "overview_revision_id": 141817,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

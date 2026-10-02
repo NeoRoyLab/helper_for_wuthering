@@ -9,7 +9,7 @@
   "weapon_type": "gauntlets",
   "profile": {
     "description": {
-      "en": "He is a member of the Liondance Troupe in Jinzhou and the last living Suan\u0027ni."
+      "en": "He is a member of the Liondance Troupe in Jinzhou and the last living Suan'ni."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Lingyang",
-      "verified_at": "2026-08-30",
+      "verified_at": "2026-10-02",
       "overview_revision_id": 92944,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

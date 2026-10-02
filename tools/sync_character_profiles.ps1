@@ -298,6 +298,8 @@ foreach ($entry in $entries) {
     if ($null -ne $profile) { $outputValues.profile = $profile }
     $outputValues.source = $entry.record.source
     $outputValues.convene_draw = $entry.record.convene_draw
+    if ($entry.record.PSObject.Properties.Name -contains 'icon') { $outputValues.icon = $entry.record.icon }
+    if ($entry.record.PSObject.Properties.Name -contains 'full_sprite') { $outputValues.full_sprite = $entry.record.full_sprite }
     Write-Json $entry.recordPath ([PSCustomObject]$outputValues)
 
     $profiles.Add([PSCustomObject][ordered]@{
@@ -330,7 +332,7 @@ Write-Json (Join-Path $root 'manifests\character_profiles.json') $profileManifes
 $master = Read-Json (Join-Path $root 'manifest.json')
 $charactersEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
 if ($null -eq $charactersEntry) { throw 'The master manifest has no characters entry.' }
-$charactersEntry.version = 3
+$charactersEntry.version = 5
 Write-Json (Join-Path $root 'manifest.json') $master
 
 $withDescriptions = @($profiles | Where-Object { $_.has_description }).Count

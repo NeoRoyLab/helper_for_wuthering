@@ -1,10 +1,9 @@
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $utf8 = [System.Text.UTF8Encoding]::new($false)
-$verifiedAt = '2026-08-29'
+$verifiedAt = '2026-10-02'
 
 $unavailable = [ordered]@{
-    hsin = 'No Convene Draw file was returned by the wiki API on 2026-08-29.'
     jingran = 'No Convene Draw file was returned by the wiki API on 2026-08-29.'
     rover_aero = 'The wiki does not list a Rover character Convene Draw file.'
     rover_electro = 'The wiki does not list a Rover character Convene Draw file.'
@@ -45,10 +44,13 @@ foreach ($id in $characterManifest.characters) {
 
     $displayName = [string]$record.name.en
     $wikiName = if ($id -eq 'the_shorekeeper') { 'Shorekeeper' } else { $displayName }
+    $isHsin = $id -ceq 'hsin'
     $expected.Add([PSCustomObject]@{
         id = $id
         record_path = $recordPath
-        wiki_file = "$wikiName Convene Draw.png"
+        wiki_file = $(if ($isHsin) { 'Hsin Full Sprite.png' } else { "$wikiName Convene Draw.png" })
+        width = $(if ($isHsin) { 1440 } else { 404 })
+        height = $(if ($isHsin) { 2016 } else { 560 })
     })
 }
 
@@ -75,7 +77,7 @@ foreach ($item in $expected) {
     $title = "File:$($item.wiki_file)"
     if (-not $wikiByTitle.ContainsKey($title)) { throw "Wiki response omitted $title" }
     $info = $wikiByTitle[$title]
-    if ($info.mime -cne 'image/png' -or $info.width -ne 404 -or $info.height -ne 560) {
+    if ($info.mime -cne 'image/png' -or $info.width -ne $item.width -or $info.height -ne $item.height) {
         throw "Unexpected wiki image metadata for $($item.id): $($info.mime), $($info.width)x$($info.height)"
     }
 
@@ -85,7 +87,7 @@ foreach ($item in $expected) {
     if (Test-Path -LiteralPath $target) {
         try {
             $existingDimensions = Get-PngDimensions ([System.IO.File]::ReadAllBytes($target))
-            $needsDownload = $existingDimensions.width -ne 404 -or $existingDimensions.height -ne 560
+            $needsDownload = $existingDimensions.width -ne $item.width -or $existingDimensions.height -ne $item.height
         }
         catch {
             $needsDownload = $true
@@ -99,7 +101,7 @@ foreach ($item in $expected) {
 
     $bytes = [System.IO.File]::ReadAllBytes($target)
     $dimensions = Get-PngDimensions $bytes
-    if ($dimensions.width -ne 404 -or $dimensions.height -ne 560) {
+    if ($dimensions.width -ne $item.width -or $dimensions.height -ne $item.height) {
         throw "Downloaded PNG dimensions do not match the wiki metadata for $($item.id)."
     }
 
@@ -125,11 +127,38 @@ foreach ($id in $characterManifest.characters) {
     else {
         $record | Add-Member -NotePropertyName convene_draw -NotePropertyValue $path
     }
+    if ($id -like 'rover_*') {
+        if ($record.PSObject.Properties.Name -contains 'icon') { $record.icon = "characters/$id/icon.png" }
+        else { $record | Add-Member -NotePropertyName icon -NotePropertyValue "characters/$id/icon.png" }
+        if ($record.PSObject.Properties.Name -contains 'full_sprite') { $record.full_sprite = "characters/$id/full_sprite.png" }
+        else { $record | Add-Member -NotePropertyName full_sprite -NotePropertyValue "characters/$id/full_sprite.png" }
+    }
     Write-Json $recordPath $record
 }
 
 $missing = foreach ($entry in $unavailable.GetEnumerator()) {
+    if ($entry.Key -like 'rover_*') { continue }
     [PSCustomObject][ordered]@{ id = $entry.Key; reason = $entry.Value }
+}
+$roverImages = New-Object System.Collections.Generic.List[object]
+foreach ($id in @('rover_aero', 'rover_electro', 'rover_havoc', 'rover_spectro')) {
+    foreach ($asset in @(
+        @{ role = 'list_icon'; path = "characters/$id/icon.png"; wiki_file = 'Resonator Outfit Perpetual Spark.png' },
+        @{ role = 'profile_full_sprite'; path = "characters/$id/full_sprite.png"; wiki_file = 'Rover 1.png' }
+    )) {
+        $assetPath = Join-Path $root $asset.path.Replace('/', '\')
+        $bytes = [System.IO.File]::ReadAllBytes($assetPath)
+        $dimensions = Get-PngDimensions $bytes
+        $roverImages.Add([PSCustomObject][ordered]@{
+            id = $id
+            role = $asset.role
+            path = $asset.path
+            wiki_file = $asset.wiki_file
+            width = $dimensions.width
+            height = $dimensions.height
+            sha256 = (Get-FileHash -Algorithm SHA256 -LiteralPath $assetPath).Hash.ToLowerInvariant()
+        })
+    }
 }
 $imageManifest = [PSCustomObject][ordered]@{
     schema_version = 1
@@ -137,13 +166,14 @@ $imageManifest = [PSCustomObject][ordered]@{
     verified_at = $verifiedAt
     images = $images.ToArray()
     unavailable = @($missing)
+    rover_images = $roverImages.ToArray()
 }
 Write-Json (Join-Path $root 'manifests\character_images.json') $imageManifest
 
 $master = Read-Json (Join-Path $root 'manifest.json')
 $charactersEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
 if ($null -eq $charactersEntry) { throw 'The master manifest has no characters entry.' }
-$charactersEntry.version = 2
+$charactersEntry.version = 5
 Write-Json (Join-Path $root 'manifest.json') $master
 
 "Downloaded and indexed $($images.Count) exact Convene Draw PNG files; recorded $($missing.Count) unavailable entries."

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source_site": "Wuthering Waves Wiki",
-  "verified_at": "2026-08-30",
+  "verified_at": "2026-10-02",
   "images": [
     {
       "id": "aalto",
@@ -162,6 +162,14 @@
       "width": 404,
       "height": 560,
       "sha256": "ef64685e8b0a4c2caf6dc419cfa7ea0613c1e594a09eab0e02c0dcd87438d8fc"
+    },
+    {
+      "id": "hsin",
+      "path": "characters/hsin/convene_draw.png",
+      "wiki_file": "Hsin Full Sprite.png",
+      "width": 1440,
+      "height": 2016,
+      "sha256": "2a1f54347cef4e168c1721a0a780837a8d2bccb538755da017aeec95025cee69"
     },
     {
       "id": "iuno",
@@ -429,10 +437,6 @@
     }
   ],
   "unavailable": [
-    {
-      "id": "hsin",
-      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
-    },
     {
       "id": "jingran",
       "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."

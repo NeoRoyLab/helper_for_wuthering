@@ -9,7 +9,7 @@
   "weapon_type": "rectifier",
   "profile": {
     "description": {
-      "en": "She is a commissioned painter, quiet and shy with a dedication to her craft. She\u0027s not very eloquent, but her persistence and love for painting speak volumes."
+      "en": "She is a commissioned painter, quiet and shy with a dedication to her craft. She's not very eloquent, but her persistence and love for painting speak volumes."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Zhezhi",
-      "verified_at": "2026-08-30",
+      "verified_at": "2026-10-02",
       "overview_revision_id": 99236,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

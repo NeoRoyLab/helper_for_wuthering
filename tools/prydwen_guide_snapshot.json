@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "verified_at": "2026-09-10",
+  "verified_at": "2026-10-02",
   "guides": [
     {
       "id": "aalto",
@@ -1317,6 +1317,65 @@
         }
       ],
       "substats": "Energy Regen (Until Satisfied) > CRIT DMG = CRIT Rate (until 75%) > ATK% > Liberation DMG% > ATK"
+    },
+    {
+      "id": "hsin",
+      "page_last_updated": "2026-10-01",
+      "weapons": [
+        [
+          "Blooming Jadehaven",
+          1
+        ],
+        [
+          "Augment",
+          5
+        ],
+        [
+          "Lethean Elegy",
+          1
+        ],
+        [
+          "Stringmaster",
+          1
+        ],
+        [
+          "Radiant Dawn",
+          5
+        ]
+      ],
+      "echo_sets": [
+        {
+          "name": "Heart of Sworn Vigil",
+          "rank": 1,
+          "special": false,
+          "main_echoes": [
+            "Reminiscence: Suhsin the Inevitable"
+          ]
+        }
+      ],
+      "main_stats": [
+        {
+          "cost": 4,
+          "value": "CRIT Rate / CRIT DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG"
+        },
+        {
+          "cost": 3,
+          "value": "Electro DMG ≥ ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        },
+        {
+          "cost": 1,
+          "value": "ATK%"
+        }
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% = Resonance Skill DMG% > ATK"
     },
     {
       "id": "iuno",
@@ -3760,10 +3819,6 @@
     }
   ],
   "unavailable": [
-    {
-      "id": "hsin",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    },
     {
       "id": "suoming",
       "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."

@@ -9,7 +9,7 @@
   "weapon_type": "gauntlets",
   "profile": {
     "description": {
-      "en": "She is a prodigious and renowned Priestess of Septimont\u0027s Tetragon Temple, charged with delivering prophecies that shape the lives of its citizens. While both blessed and cursed with the power to foretell the futures of others, her responsibilities are contrasted by her cocky, outspoken and rebellious attitude, embodying an eagerness to defy all of fate\u0027s cruelest machinations."
+      "en": "She is a prodigious and renowned Priestess of Septimont's Tetragon Temple, charged with delivering prophecies that shape the lives of its citizens. While both blessed and cursed with the power to foretell the futures of others, her responsibilities are contrasted by her cocky, outspoken and rebellious attitude, embodying an eagerness to defy all of fate's cruelest machinations."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Iuno",
-      "verified_at": "2026-08-30",
-      "overview_revision_id": 99397,
+      "verified_at": "2026-10-02",
+      "overview_revision_id": 141815,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

@@ -16,14 +16,14 @@ if ($manifest.schema_version -ne 1) { throw 'Unexpected character manifest schem
 if ($manifest.characters.Count -ne 60) { throw "Expected 60 ids, got $($manifest.characters.Count)." }
 if (($manifest.characters | Sort-Object -Unique).Count -ne 60) { throw 'Duplicate manifest ids.' }
 $characterEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
-if ($null -eq $characterEntry -or $characterEntry.version -ne 4 -or $characterEntry.count -ne 60) {
+if ($null -eq $characterEntry -or $characterEntry.version -ne 5 -or $characterEntry.count -ne 60) {
     throw 'The master manifest characters entry is missing or invalid.'
 }
 
 $elements = @('aero', 'electro', 'fusion', 'glacio', 'havoc', 'spectro')
 $weapons = @('broadblade', 'gauntlets', 'pistols', 'rectifier', 'sword')
-$expectedImageCount = 53
-$expectedUnavailableCount = 3
+$expectedImageCount = 54
+$expectedUnavailableCount = 2
 $imageById = @{}
 foreach ($image in $imageManifest.images) {
     if ($imageById.ContainsKey([string]$image.id)) { throw "Duplicate image id: $($image.id)" }
@@ -42,16 +42,17 @@ foreach ($image in $imageManifest.rover_images) {
 }
 if ($roverImageByPath.Count -ne 8) { throw "Expected 8 Rover images, got $($roverImageByPath.Count)." }
 $expectedMissingDescriptions = @('jingran', 'suoming')
-$expectedMissingStats = @('buling', 'hsin', 'jingran', 'lucilla', 'lucy', 'rebecca', 'suoming')
+$expectedMissingStats = @('buling', 'jingran', 'lucilla', 'lucy', 'rebecca')
 if ($profileManifest.schema_version -ne 1 -or
     $profileManifest.source_site -cne 'Wuthering Waves Wiki' -or
-    $profileManifest.verified_at -cne '2026-08-30' -or
+    $profileManifest.verified_at -cne '2026-10-02' -or
     $profileManifest.stats_module_revision_id -le 0 -or
     $profileManifest.profiles.Count -ne 60 -or
-    $profileManifest.unavailable.Count -ne 7) {
+    $profileManifest.unavailable.Count -ne 6) {
     throw 'Invalid character profile manifest metadata.'
 }
-if (@(Compare-Object $expectedMissingStats @($profileManifest.unavailable.id)).Count -ne 0) {
+$documentedMissingStats = @($profileManifest.unavailable | Where-Object { $_.missing -contains 'max_level_stats' } | ForEach-Object { $_.id })
+if (@(Compare-Object $expectedMissingStats $documentedMissingStats).Count -ne 0) {
     throw 'Character profile gaps are not documented exactly.'
 }
 $profileById = @{}
@@ -97,7 +98,7 @@ foreach ($id in $manifest.characters) {
         throw "Invalid Level 90 stats: $id"
     }
     if ($null -ne $record.profile -and ($record.profile.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.profile.source.verified_at -cne '2026-08-30' -or
+        $record.profile.source.verified_at -cne '2026-10-02' -or
         $record.profile.source.overview_revision_id -le 0 -or
         $record.profile.source.stats_module_revision_id -ne $profileManifest.stats_module_revision_id -or
         [string]::IsNullOrWhiteSpace([string]$record.profile.source.page_url) -or
@@ -119,7 +120,10 @@ foreach ($id in $manifest.characters) {
         }
         $width = [System.Net.IPAddress]::NetworkToHostOrder([BitConverter]::ToInt32($bytes, 16))
         $height = [System.Net.IPAddress]::NetworkToHostOrder([BitConverter]::ToInt32($bytes, 20))
-        if ($width -ne 404 -or $height -ne 560 -or $image.width -ne 404 -or $image.height -ne 560) {
+        $expectedWidth = if ($id -ceq 'hsin') { 1440 } else { 404 }
+        $expectedHeight = if ($id -ceq 'hsin') { 2016 } else { 560 }
+        if ($width -ne $expectedWidth -or $height -ne $expectedHeight -or
+            $image.width -ne $expectedWidth -or $image.height -ne $expectedHeight) {
             throw "Unexpected PNG dimensions: $id"
         }
         $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $imagePath).Hash.ToLowerInvariant()
@@ -182,7 +186,7 @@ $files = @(Get-ChildItem -LiteralPath (Join-Path $root 'characters') -Filter dat
 if ($files.Count -ne 60) { throw "Expected 60 records, got $($files.Count)." }
 
 $guideEntry = $master.manifests | Where-Object { $_.key -ceq 'guides' } | Select-Object -First 1
-if ($null -eq $guideEntry -or $guideEntry.version -ne 6 -or $guideEntry.count -ne 58) {
+if ($null -eq $guideEntry -or $guideEntry.version -ne 7 -or $guideEntry.count -ne 59) {
     throw 'The master manifest guides entry is missing or invalid.'
 }
 
@@ -191,18 +195,18 @@ $guideAssetManifest = Read-Json (Join-Path $root 'manifests\guide_assets.json')
 if ($guideManifest.schema_version -ne 1 -or $guideAssetManifest.schema_version -ne 1) {
     throw 'Unexpected guide manifest schema version.'
 }
-if ($guideManifest.guides.Count -ne 58 -or $guideManifest.weapons.Count -ne 83 -or
-    $guideManifest.echo_sets.Count -ne 34 -or $guideManifest.echoes.Count -ne 45) {
+if ($guideManifest.guides.Count -ne 59 -or $guideManifest.weapons.Count -ne 84 -or
+    $guideManifest.echo_sets.Count -ne 35 -or $guideManifest.echoes.Count -ne 46) {
     throw 'Unexpected guide, weapon, Echo Set, or Echo manifest count.'
 }
-if (($guideManifest.guides | Sort-Object -Unique).Count -ne 58 -or
-    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 83 -or
-    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 34 -or
-    ($guideManifest.echoes | Sort-Object -Unique).Count -ne 45) {
+if (($guideManifest.guides | Sort-Object -Unique).Count -ne 59 -or
+    ($guideManifest.weapons | Sort-Object -Unique).Count -ne 84 -or
+    ($guideManifest.echo_sets | Sort-Object -Unique).Count -ne 35 -or
+    ($guideManifest.echoes | Sort-Object -Unique).Count -ne 46) {
     throw 'Duplicate guide content identifier.'
 }
-$expectedGuideGaps = @('hsin', 'suoming')
-if ($guideManifest.unavailable.Count -ne 2 -or
+$expectedGuideGaps = @('suoming')
+if ($guideManifest.unavailable.Count -ne 1 -or
     @(Compare-Object $expectedGuideGaps @($guideManifest.unavailable.id)).Count -ne 0) {
     throw 'The Prydwen guide gaps are not documented exactly.'
 }
@@ -226,7 +230,7 @@ foreach ($id in $guideManifest.weapons) {
     }
     $expectedPath = "weapons/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-09-10' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-10-02' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid weapon provenance or icon path: $id"
     }
@@ -253,7 +257,7 @@ foreach ($id in $guideManifest.echo_sets) {
     }
     $expectedPath = "echo_sets/$id/icon.png"
     if ($record.icon -cne $expectedPath -or $record.source.site -cne 'Wuthering Waves Wiki' -or
-        $record.source.verified_at -cne '2026-09-10' -or $record.source.revision_id -le 0 -or
+        $record.source.verified_at -cne '2026-10-02' -or $record.source.revision_id -le 0 -or
         $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid Echo Set provenance or icon path: $id"
     }
@@ -267,7 +271,7 @@ foreach ($id in $guideManifest.echoes) {
     if (-not (Test-Path -LiteralPath $recordPath)) { throw "Missing Echo content record: $id" }
     $record = Read-Json $recordPath
     if ($record.schema_version -ne 1 -or $record.id -cne $id -or [string]::IsNullOrWhiteSpace($record.name.en) -or
-        $record.source.site -cne 'Wuthering Waves Wiki' -or $record.source.verified_at -cne '2026-09-10' -or
+        $record.source.site -cne 'Wuthering Waves Wiki' -or $record.source.verified_at -cne '2026-10-02' -or
         $record.source.revision_id -le 0 -or $record.source.page_url -notlike 'https://wutheringwaves.fandom.com/wiki/*') {
         throw "Invalid Echo content record: $id"
     }
@@ -321,7 +325,7 @@ foreach ($id in $guideManifest.guides) {
     }
     $expectedSourceUrl = 'https://www.prydwen.gg/wuthering-waves/characters/' + $id.Replace('_', '-')
     if ($record.source.site -cne 'Prydwen.gg' -or $record.source.page_url -cne $expectedSourceUrl -or
-        $record.source.verified_at -cne '2026-09-10' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
+        $record.source.verified_at -cne '2026-10-02' -or $record.source.page_last_updated -notmatch '^2026-\d{2}-\d{2}$') {
         throw "Invalid guide provenance: $id"
     }
     $supplements = @($record.supplemental_sources | Where-Object { $null -ne $_ })
@@ -339,7 +343,7 @@ foreach ($id in $guideManifest.guides) {
 }
 
 if ($guideAssetManifest.source_site -cne 'Wuthering Waves Wiki' -or
-    $guideAssetManifest.verified_at -cne '2026-09-10' -or $guideAssetManifest.images.Count -ne 161) {
+    $guideAssetManifest.verified_at -cne '2026-10-02' -or $guideAssetManifest.images.Count -ne 164) {
     throw 'Invalid guide asset manifest metadata.'
 }
 $assetByPath = @{}
@@ -378,8 +382,8 @@ $guideFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'guides') -Filter da
 $weaponFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'weapons') -Filter data.json -File -Recurse)
 $echoSetFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echo_sets') -Filter data.json -File -Recurse)
 $echoFiles = @(Get-ChildItem -LiteralPath (Join-Path $root 'echoes') -Filter data.json -File -Recurse)
-if ($guideFiles.Count -ne 58 -or $weaponFiles.Count -ne 86 -or $echoSetFiles.Count -ne 34 -or $echoFiles.Count -ne 45) {
+if ($guideFiles.Count -ne 59 -or $weaponFiles.Count -ne 87 -or $echoSetFiles.Count -ne 35 -or $echoFiles.Count -ne 46) {
     throw 'Unexpected generated guide content file count.'
 }
 
-"Validated 60 character records, 58 wiki descriptions, 53 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 58 complete guides, 83 referenced wiki weapon records, 34 wiki Echo Sets, 45 wiki Echoes, 161 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."
+"Validated 60 character records, 58 wiki descriptions, 55 wiki Level 90 stat blocks, $($expectedImageCount + $roverImageByPath.Count) character PNGs, 59 complete guides, 84 referenced wiki weapon records, 35 wiki Echo Sets, 46 wiki Echoes, 164 exact guide PNGs, documented gaps, provenance, references, hashes, and strict UTF-8."

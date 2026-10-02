@@ -9,7 +9,7 @@
   "weapon_type": "sword",
   "profile": {
     "description": {
-      "en": "He is the captain of the Troupe of Fools, exuding a carefree, easygoing charm and charisma, unbound by convention. However, beneath his flamboyant persona lies a kind heart deeply devoted to ensuring his crew\u0027s safety and freedom. He views the world as one of unlimited possibilities and encourages this same optimism in the public through his spectacular performances."
+      "en": "He is the captain of the Troupe of Fools, exuding a carefree, easygoing charm and charisma, unbound by convention. However, beneath his flamboyant persona lies a kind heart deeply devoted to ensuring his crew's safety and freedom. He views the world as one of unlimited possibilities and encourages this same optimism in the public through his spectacular performances."
     },
     "max_level_stats": {
       "level": 90,
@@ -20,10 +20,10 @@
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Brant",
-      "verified_at": "2026-08-30",
+      "verified_at": "2026-10-02",
       "overview_revision_id": 99400,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {

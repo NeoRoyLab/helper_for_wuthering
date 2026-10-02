@@ -21,6 +21,7 @@
     "encore",
     "galbrena",
     "hiyuki",
+    "hsin",
     "iuno",
     "jianxin",
     "jinhsi",
@@ -72,6 +73,7 @@
     "blazing_brilliance",
     "blazing_justice",
     "bloodpacts_pledge",
+    "blooming_jadehaven",
     "broadblade_41",
     "call_of_the_abyss",
     "celestial_spiral",
@@ -160,6 +162,7 @@
     "halo_of_starry_radiance",
     "havoc_eclipse",
     "heart_of_evils_purge",
+    "heart_of_sworn_vigil",
     "lamp_of_nether_road",
     "law_of_harmony",
     "lingering_tunes",
@@ -219,6 +222,7 @@
     "reminiscence_fenrico",
     "reminiscence_fleurdelys",
     "reminiscence_nightmare_adam_smasher",
+    "reminiscence_suhsin_the_inevitable",
     "reminiscence_threnodian_leviathan",
     "reminiscence_threnodian_voidborne_construct",
     "sentry_construct",
@@ -229,10 +233,6 @@
     "voidwing_moth"
   ],
   "unavailable": [
-    {
-      "id": "hsin",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    },
     {
       "id": "suoming",
       "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."

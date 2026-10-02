@@ -9,15 +9,21 @@
   "weapon_type": "rectifier",
   "profile": {
     "description": {
-      "en": "She is also known as \"The Moon Fox\" or Hsin (Heart), and is one of Huanglong\u0027s seven Sentinels who is located in Mengzhou. As per the tale of \"The Fox and the Moon\", one of the most popular origin stories of the Moon-Chasing Festival, Hsin is a merrymaker among the Sentinels known for her love of merriment and mischief, and once teased another Sentinel with a night of chasing during celebration. This joyous scene, as they were silhouetted against the mid-autumn moonlight, gave rise to the term \"Moon-Chasing.\""
+      "en": "She is also known as \"The Moon Fox\" or Hsin (Heart), and is one of Huanglong's seven Sentinels who is located in Mengzhou. As per the tale of \"The Fox and the Moon\", one of the most popular origin stories of the Moon-Chasing Festival, Hsin is a merrymaker among the Sentinels known for her love of merriment and mischief, and once teased another Sentinel with a night of chasing during celebration. This joyous scene, as they were silhouetted against the mid-autumn moonlight, gave rise to the term \"Moon-Chasing.\""
+    },
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10300.0,
+      "attack": 462.5,
+      "defense": 1112.2
     },
     "source": {
       "site": "Wuthering Waves Wiki",
       "page_url": "https://wutheringwaves.fandom.com/wiki/Hsin",
-      "verified_at": "2026-08-30",
-      "overview_revision_id": 139277,
+      "verified_at": "2026-10-02",
+      "overview_revision_id": 145510,
       "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
-      "stats_module_revision_id": 137192
+      "stats_module_revision_id": 145096
     }
   },
   "source": {
@@ -25,5 +31,5 @@
     "verified_at": "2026-08-28",
     "page_last_updated": "2026-08-28"
   },
-  "convene_draw": null
+  "convene_draw": "characters/hsin/convene_draw.png"
 }

@@ -5,18 +5,18 @@
 - Primary roster and per-character core metadata: [Prydwen.gg character roster](https://www.prydwen.gg/wuthering-waves/characters/).
 - Roster page verified on 2026-08-28 and displayed 60 character cards.
 - Character Convene Draw artwork: [Wuthering Waves Fandom wiki](https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Wiki),
-  verified through its MediaWiki API on 2026-08-29.
+  verified through its MediaWiki API on 2026-10-02.
 - Character profile descriptions: the introductory profile text on each Wuthering Waves Wiki
-  character page, verified through exact page revisions on 2026-08-30.
+  character page, verified through exact page revisions on 2026-10-02.
 - Character Level 90 HP, ATK, and DEF: the Wuthering Waves Wiki
   `Module:Resonator Ascensions and Stats/data` revision recorded in
-  `manifests/character_profiles.json`, verified on 2026-08-30.
+  `manifests/character_profiles.json`, verified on 2026-10-02.
 - Per-character build ordering: the visible Build tab of each
-  [Prydwen character guide](https://www.prydwen.gg/wuthering-waves/characters), verified on 2026-08-30.
+  [Prydwen character guide](https://www.prydwen.gg/wuthering-waves/characters), most recently verified on 2026-10-02.
 - Weapon names, rarity, type, and icon PNGs; Echo Set names, piece bonuses, and icon PNGs;
   primary Echo names and available icon PNGs:
   [Wuthering Waves Fandom wiki](https://wutheringwaves.fandom.com/wiki/Wuthering_Waves_Wiki),
-  verified through exact page revisions and file metadata on 2026-08-30.
+  verified through exact page revisions and file metadata on 2026-10-02.
 
 Character records contain source metadata for the original core fields, exact wiki page and module
 revisions for profile fields, and optional repository-relative `convene_draw`, `icon`, and
@@ -67,6 +67,12 @@ The following values are repository conventions created for the application, not
     edits. The Full Sprites file was copied as PNG.
 17. The primary Echo is the first Main Echo option displayed under Prydwen's first ranked Echo Set.
     This selection rule is application-authored; the name and order remain source data.
+18. The Wiki has not published a dedicated `Hsin Convene Draw.png`. Until it does, Hsin uses the
+    exact `Hsin Full Sprite.png` Wiki PNG at its original 1440x2016 resolution through the existing
+    `convene_draw` application field. The file is not cropped, generated, or retouched.
+19. The Wiki's Echo tab for `Reminiscence: Suhsin the Inevitable` is linked from the verified
+    `Suhsin the Inevitable` page but is not yet a separate page. The application record retains the
+    Prydwen Echo name and uses the exact Wiki boss page revision and `Suhsin the Inevitable Icon.png`.
 
 No machine translation, manually authored translation, generated description, or rewritten profile
 text is included.
@@ -74,15 +80,17 @@ text is included.
 ## Known source limitations
 
 The verified wiki pages did not publish a profile description for Jingran or Suoming. The verified
-wiki stats module did not publish complete base HP, ATK, and DEF for Buling, Hsin, Jingran, Lucilla,
-Lucy, Rebecca, or Suoming. Those fields are omitted rather than estimated or copied from another site.
+wiki stats module did not publish complete base HP, ATK, and DEF for Buling, Jingran, Lucilla, Lucy,
+or Rebecca. Those fields are omitted rather than estimated or copied from another site. Hsin and
+Suoming now have verified Level 90 stat blocks from the current module revision.
 
 Future enrichment must cite a source per added field group and must not silently fill missing
 values with guesses, generated prose, or unofficial translations.
 
-Prydwen displayed complete build recommendations for 58 of the 60 roster entries as of 2026-09-10.
-Hsin and Suoming had no visible weapon or Echo Set recommendations, so no guide record was created
-for them. Jingran's guide uses Prydwen's Version 3.6 recommendations published on 2026-09-10. Other
+Prydwen displayed complete build recommendations for 59 of the 60 roster entries as of 2026-10-02.
+Suoming still had no visible weapon or Echo Set recommendations, so no guide record was created for
+her. Hsin's guide uses Prydwen's Version 3.7 recommendations updated on 2026-10-01. Jingran's guide
+uses Prydwen's Version 3.6 recommendations published on 2026-09-10. Other
 characters retain fewer than five weapon entries when Prydwen displayed fewer.
 
 The Wiki pages for Calamity Effigy and Jué reference icon filenames that the Wiki file API does not
@@ -90,6 +98,7 @@ currently provide. Their Echo records and provenance are retained with `icon: nu
 generated image, or guessed substitute is used.
 
 The wiki API returned exact 404x560 PNG Convene Draw files for 53 roster entries. It did not return
-such a file for Hsin, Jingran, or Suoming. Rover is not represented by a character Convene Draw
-file, so the four element-specific records use the exact Wiki list icon and Full Sprites described
-above instead. No generated image or rewritten artwork is used.
+such a file for Hsin, Jingran, or Suoming. Hsin therefore uses the exact Full Sprite fallback
+described above. Rover is not represented by a character Convene Draw file, so the four
+element-specific records use the exact Wiki list icon and Full Sprites described above instead. No
+generated image or rewritten artwork is used.

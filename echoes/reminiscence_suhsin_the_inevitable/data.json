@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "reminiscence_suhsin_the_inevitable",
+  "name": {
+    "en": "Reminiscence: Suhsin the Inevitable"
+  },
+  "icon": "echoes/reminiscence_suhsin_the_inevitable/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Suhsin_the_Inevitable",
+    "verified_at": "2026-10-02",
+    "revision_id": 145552
+  }
+}

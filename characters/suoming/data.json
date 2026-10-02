@@ -7,6 +7,22 @@
   "rarity": 5,
   "element": "electro",
   "weapon_type": "sword",
+  "profile": {
+    "max_level_stats": {
+      "level": 90,
+      "hp": 10300.0,
+      "attack": 462.5,
+      "defense": 1112.2
+    },
+    "source": {
+      "site": "Wuthering Waves Wiki",
+      "page_url": "https://wutheringwaves.fandom.com/wiki/Suoming",
+      "verified_at": "2026-10-02",
+      "overview_revision_id": 145511,
+      "stats_module_url": "https://wutheringwaves.fandom.com/wiki/Module%3AResonator_Ascensions_and_Stats%2Fdata",
+      "stats_module_revision_id": 145096
+    }
+  },
   "source": {
     "site": "Prydwen.gg",
     "verified_at": "2026-08-28",
