@@ -3,13 +3,13 @@
   "manifests": [
     {
       "key": "characters",
-      "version": 5,
+      "version": 6,
       "count": 60
     },
     {
       "key": "guides",
-      "version": 7,
-      "count": 59
+      "version": 8,
+      "count": 60
     }
   ]
 }

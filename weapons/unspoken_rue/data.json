@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "id": "unspoken_rue",
+  "name": {
+    "en": "Unspoken Rue"
+  },
+  "rarity": 5,
+  "weapon_type": "sword",
+  "icon": "weapons/unspoken_rue/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Unspoken_Rue",
+    "verified_at": "2026-10-22",
+    "revision_id": 143110
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "soulfrayer",
+  "name": {
+    "en": "Soulfrayer"
+  },
+  "icon": "echoes/soulfrayer/icon.png",
+  "source": {
+    "site": "Wuthering Waves Wiki",
+    "page_url": "https://wutheringwaves.fandom.com/wiki/Soulfrayer%2FEcho",
+    "verified_at": "2026-10-22",
+    "revision_id": 146072
+  }
+}

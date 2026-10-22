@@ -9,7 +9,6 @@ $unavailable = [ordered]@{
     rover_electro = 'The wiki does not list a Rover character Convene Draw file.'
     rover_havoc = 'The wiki does not list a Rover character Convene Draw file.'
     rover_spectro = 'The wiki does not list a Rover character Convene Draw file.'
-    suoming = 'No Convene Draw file was returned by the wiki API on 2026-08-29.'
 }
 
 function Read-Json([string] $path) {
@@ -45,12 +44,13 @@ foreach ($id in $characterManifest.characters) {
     $displayName = [string]$record.name.en
     $wikiName = if ($id -eq 'the_shorekeeper') { 'Shorekeeper' } else { $displayName }
     $isHsin = $id -ceq 'hsin'
+    $isSuoming = $id -ceq 'suoming'
     $expected.Add([PSCustomObject]@{
         id = $id
         record_path = $recordPath
-        wiki_file = $(if ($isHsin) { 'Hsin Full Sprite.png' } else { "$wikiName Convene Draw.png" })
-        width = $(if ($isHsin) { 1440 } else { 404 })
-        height = $(if ($isHsin) { 2016 } else { 560 })
+        wiki_file = $(if ($isHsin) { 'Hsin Full Sprite.png' } elseif ($isSuoming) { 'Suoming Splash Art.png' } else { "$wikiName Convene Draw.png" })
+        width = $(if ($isHsin) { 1440 } elseif ($isSuoming) { 1936 } else { 404 })
+        height = $(if ($isHsin) { 2016 } elseif ($isSuoming) { 2048 } else { 560 })
     })
 }
 
@@ -173,7 +173,7 @@ Write-Json (Join-Path $root 'manifests\character_images.json') $imageManifest
 $master = Read-Json (Join-Path $root 'manifest.json')
 $charactersEntry = $master.manifests | Where-Object { $_.key -ceq 'characters' } | Select-Object -First 1
 if ($null -eq $charactersEntry) { throw 'The master manifest has no characters entry.' }
-$charactersEntry.version = 5
+$charactersEntry.version = 6
 Write-Json (Join-Path $root 'manifest.json') $master
 
 "Downloaded and indexed $($images.Count) exact Convene Draw PNG files; recorded $($missing.Count) unavailable entries."

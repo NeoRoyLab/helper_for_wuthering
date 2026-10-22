@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "character_id": "suoming",
+  "weapons": [
+    {
+      "content_id": "unspoken_rue",
+      "rank": 1
+    },
+    {
+      "content_id": "feather_edge",
+      "rank": 5
+    },
+    {
+      "content_id": "red_spring",
+      "rank": 1
+    },
+    {
+      "content_id": "emerald_sentence",
+      "rank": 1
+    },
+    {
+      "content_id": "lumingloss",
+      "rank": 5
+    }
+  ],
+  "echo_sets": [
+    {
+      "content_id": "heart_of_sworn_vigil",
+      "source_name": "Heart of Sworn Vigil",
+      "rank": 1,
+      "special": false
+    },
+    {
+      "content_id": "moonlit_clouds",
+      "source_name": "Moonlit Clouds",
+      "rank": 0,
+      "special": true
+    }
+  ],
+  "primary_echo_id": "soulfrayer",
+  "primary_echo_source_name": "Soulfrayer",
+  "main_stats": [
+    {
+      "cost": 4,
+      "value": "CRIT Rate / CRIT DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Electro DMG"
+    },
+    {
+      "cost": 3,
+      "value": "Electro DMG ≥ ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    },
+    {
+      "cost": 1,
+      "value": "ATK%"
+    }
+  ],
+  "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Basic DMG% > ATK",
+  "source": {
+    "site": "Prydwen.gg",
+    "page_url": "https://www.prydwen.gg/wuthering-waves/characters/suoming",
+    "verified_at": "2026-10-22",
+    "page_last_updated": "2026-10-22"
+  },
+  "supplemental_sources": []
+}

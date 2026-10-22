@@ -4,7 +4,7 @@ Versioned cloud content for the Helper for Wuthering application.
 
 ## Current scope
 
-The current local content set contains the version 4 character roster and version 2 guides:
+The current local content set contains the version 6 character roster and version 8 guides:
 
 - 60 character records;
 - English display name;
@@ -14,14 +14,19 @@ The current local content set contains the version 4 character roster and versio
 - exact 404x560 PNG Convene Draw artwork where that asset exists on the supplied wiki;
 - separate exact Wiki list icons and profile Full Sprites for the four Rover variants;
 - 58 English profile descriptions from exact wiki page revisions;
-- 53 Level 90 HP, ATK, and DEF stat blocks from the wiki stats module;
+- 55 Level 90 HP, ATK, and DEF stat blocks from the wiki stats module;
 - per-field-group source and verification metadata;
-- 57 complete character guide records with Prydwen weapon and Echo Set ordering, primary Echo,
+- 60 complete character guide records with Prydwen weapon and Echo Set recommendations, primary Echo,
   five main-stat slots, and substat priority;
-- 72 normalized weapon records and exact wiki PNG icons;
-- 33 normalized Echo Set records, exact wiki piece-bonus text, and exact wiki PNG icons;
-- 44 normalized primary Echo records and 42 exact wiki PNG icons;
-- explicit source URLs, source page dates/revisions, hashes, and three documented guide gaps.
+- 85 referenced weapon records and exact wiki PNG icons;
+- 35 normalized Echo Set records, exact wiki piece-bonus text, and exact wiki PNG icons;
+- 47 normalized Echo records and 46 exact wiki PNG icons;
+- exact Full Sprite and Splash Art fallbacks for Hsin and Suoming respectively;
+- explicit source URLs, source page dates/revisions, hashes, and documented source limitations.
+
+Suoming is included with Prydwen's 2026-10-22 guide. Her upper-right weapon is Feather Edge (4-star),
+with Lumingloss (4-star) among the alternatives. All 60 local characters have guides and are available
+to the application's guide-based visibility filter.
 
 The repository intentionally does not contain Unity project files. Skills, materials,
 recommendation prose, and translations are not part of this version.

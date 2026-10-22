@@ -24,8 +24,8 @@
     "hsin",
     "iuno",
     "jianxin",
-    "jinhsi",
     "jingran",
+    "jinhsi",
     "jiyan",
     "lingyang",
     "lucilla",
@@ -49,6 +49,7 @@
     "sanhua",
     "sigrika",
     "suisui",
+    "suoming",
     "taoqi",
     "the_shorekeeper",
     "verina",
@@ -138,6 +139,7 @@
     "tragicomedy",
     "undying_flame",
     "unflickering_valor",
+    "unspoken_rue",
     "variation",
     "verdant_summit",
     "veritys_handle",
@@ -227,17 +229,13 @@
     "reminiscence_threnodian_voidborne_construct",
     "sentry_construct",
     "sigillum",
+    "soulfrayer",
     "the_false_sovereign",
     "thousand_puppet_pavilion",
     "twin_nova_nebulous_cannon",
     "voidwing_moth"
   ],
-  "unavailable": [
-    {
-      "id": "suoming",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    }
-  ],
+  "unavailable": [],
   "non_prydwen_recommendations": [
     {
       "character_id": "brant",

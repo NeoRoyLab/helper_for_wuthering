@@ -131,12 +131,13 @@ function Get-EchoSetWikiName([string] $prydwenName) {
 }
 
 function Get-EchoWikiName([string] $prydwenName) {
+    if ($prydwenName -ceq 'Soulfrayer') { return 'Soulfrayer/Echo' }
     if ($prydwenName -ceq 'Reminiscence: Suhsin the Inevitable') { return 'Suhsin the Inevitable' }
     return $prydwenName
 }
 
 $snapshot = Read-Json $snapshotPath
-if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 59) {
+if ($snapshot.schema_version -ne 2 -or $snapshot.guides.Count -ne 60) {
     throw 'Unexpected Prydwen guide snapshot.'
 }
 
@@ -152,7 +153,7 @@ foreach ($guide in $snapshot.guides) {
 $weaponNames = @($snapshot.guides | ForEach-Object { $_.weapons | ForEach-Object { [string]$_[0] } } | Sort-Object -Unique)
 $echoSetNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { [string]$_.name } } | Sort-Object -Unique)
 $echoNames = @($snapshot.guides | ForEach-Object { $_.echo_sets | ForEach-Object { $_.main_echoes } } | Sort-Object -Unique)
-if ($weaponNames.Count -ne 84 -or $echoSetNames.Count -ne 35 -or $echoNames.Count -ne 46) {
+if ($weaponNames.Count -ne 85 -or $echoSetNames.Count -ne 35 -or $echoNames.Count -ne 47) {
     throw "Unexpected content counts: $($weaponNames.Count) weapons, $($echoSetNames.Count) Echo Sets."
 }
 
@@ -277,7 +278,7 @@ foreach ($weapon in @($weaponContent.Values | Sort-Object id)) {
     $source = [PSCustomObject][ordered]@{
         site = 'Wuthering Waves Wiki'
         page_url = Get-WikiPageUrl $weapon.page_title
-        verified_at = [string]$snapshot.verified_at
+        verified_at = $(if ($weapon.id -ceq 'unspoken_rue') { '2026-10-22' } else { [string]$snapshot.verified_at })
         revision_id = $weapon.revision_id
     }
     $record = [PSCustomObject][ordered]@{
@@ -371,7 +372,7 @@ foreach ($echo in @($echoContent.Values | Sort-Object id)) {
         source = [PSCustomObject][ordered]@{
             site = 'Wuthering Waves Wiki'
             page_url = Get-WikiPageUrl $echo.page_title
-            verified_at = [string]$snapshot.verified_at
+            verified_at = $(if ($echo.id -ceq 'soulfrayer') { '2026-10-22' } else { [string]$snapshot.verified_at })
             revision_id = $echo.revision_id
         }
     }
@@ -430,7 +431,7 @@ foreach ($guide in $snapshot.guides) {
         source = [PSCustomObject][ordered]@{
             site = 'Prydwen.gg'
             page_url = "https://www.prydwen.gg/wuthering-waves/characters/$sourceSlug"
-            verified_at = [string]$snapshot.verified_at
+            verified_at = $(if ($guide.verified_at) { [string]$guide.verified_at } else { [string]$snapshot.verified_at })
             page_last_updated = [string]$guide.page_last_updated
         }
         supplemental_sources = @($guide.supplemental_sources | Where-Object { $null -ne $_ } | ForEach-Object {
@@ -485,7 +486,7 @@ $entries = New-Object System.Collections.Generic.List[object]
 foreach ($entry in $master.manifests) {
     if ($entry.key -cne 'guides') { $entries.Add($entry) }
 }
-$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 7; count = $guideIds.Count })
+$entries.Add([PSCustomObject][ordered]@{ key = 'guides'; version = 8; count = $guideIds.Count })
 $master.manifests = $entries.ToArray()
 Write-Json (Join-Path $root 'manifest.json') $master
 

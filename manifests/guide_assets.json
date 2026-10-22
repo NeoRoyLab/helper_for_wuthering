@@ -1478,6 +1478,24 @@
       "width": 256,
       "height": 256,
       "sha256": "18d74eab32fdd4ebd95b718fbc148c6f26c3416dd16bdd93da180abce4cd7a5a"
+    },
+    {
+      "kind": "weapon",
+      "id": "unspoken_rue",
+      "path": "weapons/unspoken_rue/icon.png",
+      "wiki_file": "Weapon Unspoken Rue.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "198e0be18254d02e3d7a53c890c9b53896daa7a15a1cd242cf1e8bf281805d2a"
+    },
+    {
+      "kind": "echo",
+      "id": "soulfrayer",
+      "path": "echoes/soulfrayer/icon.png",
+      "wiki_file": "Soulfrayer Icon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "27b3986c60e0b70d222601a2a93b01af57634820bb6f35f5c2901e104961a65f"
     }
   ]
 }

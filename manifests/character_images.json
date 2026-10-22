@@ -348,6 +348,15 @@
       "sha256": "5a85436412a670772c922786a57ce2ac6794a89342a1f7b97f6792eb11344893"
     },
     {
+      "id": "suoming",
+      "path": "characters/suoming/convene_draw.png",
+      "wiki_file": "Suoming Splash Art.png",
+      "width": 1936,
+      "height": 2048,
+      "sha256": "e5a856168e5fec2b50abf8dedcbe30677a029ad309514a46cd1e6f89ce68ed49",
+      "verified_at": "2026-10-22"
+    },
+    {
       "id": "taoqi",
       "path": "characters/taoqi/convene_draw.png",
       "wiki_file": "Taoqi Convene Draw.png",
@@ -439,10 +448,6 @@
   "unavailable": [
     {
       "id": "jingran",
-      "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
-    },
-    {
-      "id": "suoming",
       "reason": "No Convene Draw file was returned by the wiki API on 2026-08-29."
     }
   ],

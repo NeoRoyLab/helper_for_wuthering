@@ -3093,6 +3093,40 @@
       "substats": "Energy Regen (Until 260%) > CRIT DMG > HP% > CRIT Rate > Basic DMG% > HP"
     },
     {
+      "id": "suoming",
+      "verified_at": "2026-10-22",
+      "page_last_updated": "2026-10-22",
+      "weapons": [
+        ["Unspoken Rue", 1],
+        ["Feather Edge", 5],
+        ["Red Spring", 1],
+        ["Emerald Sentence", 1],
+        ["Lumingloss", 5]
+      ],
+      "echo_sets": [
+        {
+          "name": "Heart of Sworn Vigil",
+          "rank": 1,
+          "special": false,
+          "main_echoes": ["Soulfrayer", "Reminiscence: Suhsin the Inevitable"]
+        },
+        {
+          "name": "Moonlit Clouds",
+          "rank": null,
+          "special": true,
+          "main_echoes": ["Impermanence Heron"]
+        }
+      ],
+      "main_stats": [
+        {"cost": 4, "value": "CRIT Rate / CRIT DMG"},
+        {"cost": 3, "value": "Electro DMG"},
+        {"cost": 3, "value": "Electro DMG ≥ ATK%"},
+        {"cost": 1, "value": "ATK%"},
+        {"cost": 1, "value": "ATK%"}
+      ],
+      "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Basic DMG% > ATK"
+    },
+    {
       "id": "taoqi",
       "page_last_updated": "2026-08-20",
       "weapons": [
@@ -3818,10 +3852,5 @@
       "substats": "Energy Regen (Until Satisfied) > CRIT Rate = CRIT DMG > ATK% > Basic DMG% > Flat ATK"
     }
   ],
-  "unavailable": [
-    {
-      "id": "suoming",
-      "reason": "No build recommendations were displayed on the Prydwen character page on 2026-08-29."
-    }
-  ]
+  "unavailable": []
 }

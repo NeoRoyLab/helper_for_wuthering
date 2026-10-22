@@ -35,10 +35,12 @@ The following values are repository conventions created for the application, not
 6. Convene Draw assets are renamed to the repository convention `convene_draw.png`; their image
    pixels are copied unchanged from the wiki PNG files.
 7. The image manifest and its unavailable-reason text are application-maintained provenance metadata.
-8. Guide records keep, in visible Prydwen order, at most the first five weapon recommendations, all
+8. Guide records keep at most five Prydwen weapon recommendations, all
    visible standard and special Echo Set recommendations, the first primary Echo option of the first
    ranked Echo Set, all five main-stat slots, and the displayed substat priority. Prydwen percentages
-   and recommendation prose are not copied.
+   and recommendation prose are not copied. To match the application layout, the best recommended
+   5-star weapon is first and a recommended 4-star is second; where available, another 4-star is
+   included among the three alternatives. Relative source order is retained within each rarity.
 9. Weapon, Echo Set, and Echo identifiers are lowercase snake_case application keys. Diacritics are
    removed, apostrophes are removed,
    `&` becomes `and`, and other punctuation becomes a separator. Wiki PNGs are renamed to `icon.png`;
@@ -73,6 +75,17 @@ The following values are repository conventions created for the application, not
 19. The Wiki's Echo tab for `Reminiscence: Suhsin the Inevitable` is linked from the verified
     `Suhsin the Inevitable` page but is not yet a separate page. The application record retains the
     Prydwen Echo name and uses the exact Wiki boss page revision and `Suhsin the Inevitable Icon.png`.
+20. Suoming uses the exact `Suoming Splash Art.png` Wiki PNG at its original 1936x2048 resolution
+    through the existing `convene_draw` application field. Neither `Suoming Convene Draw.png` nor
+    `Suoming Full Sprite.png` was available from the Wiki API on 2026-10-22. The fallback is not
+    cropped, generated, or retouched. Its verification date and SHA-256 are recorded in the image
+    manifest.
+21. Suoming's guide was verified against Prydwen's 2026-10-22 update. It retains the first three
+    5-star recommendations and the first two 4-star recommendations. Feather Edge R5 occupies the
+    upper-right slot; Lumingloss R5 is an alternative. Soulfrayer is the first Main Echo of the first
+    ranked set, following the same selection rule as other guides. Its data comes from the Wiki's
+    `Soulfrayer/Echo` revision 146072; Unspoken Rue comes from revision 143110. Their exact PNGs
+    were verified on 2026-10-22. Other records keep their original verification dates.
 
 No machine translation, manually authored translation, generated description, or rewritten profile
 text is included.
@@ -87,9 +100,9 @@ Suoming now have verified Level 90 stat blocks from the current module revision.
 Future enrichment must cite a source per added field group and must not silently fill missing
 values with guesses, generated prose, or unofficial translations.
 
-Prydwen displayed complete build recommendations for 59 of the 60 roster entries as of 2026-10-02.
-Suoming still had no visible weapon or Echo Set recommendations, so no guide record was created for
-her. Hsin's guide uses Prydwen's Version 3.7 recommendations updated on 2026-10-01. Jingran's guide
+All 60 local roster entries now have complete guide records. Suoming's Prydwen guide became
+available on 2026-10-22. Hsin's guide uses Prydwen's Version 3.7 recommendations updated on
+2026-10-01. Jingran's guide
 uses Prydwen's Version 3.6 recommendations published on 2026-09-10. Other
 characters retain fewer than five weapon entries when Prydwen displayed fewer.
 
@@ -98,7 +111,7 @@ currently provide. Their Echo records and provenance are retained with `icon: nu
 generated image, or guessed substitute is used.
 
 The wiki API returned exact 404x560 PNG Convene Draw files for 53 roster entries. It did not return
-such a file for Hsin, Jingran, or Suoming. Hsin therefore uses the exact Full Sprite fallback
-described above. Rover is not represented by a character Convene Draw file, so the four
+such a file for Hsin, Jingran, or Suoming. Hsin uses the exact Full Sprite fallback and Suoming uses
+the exact Splash Art fallback described above. Rover is not represented by a character Convene Draw file, so the four
 element-specific records use the exact Wiki list icon and Full Sprites described above instead. No
 generated image or rewritten artwork is used.
